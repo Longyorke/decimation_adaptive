@@ -1,0 +1,46 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/software/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 28f4a5457e9845cb9d4d2f78d9c22e78 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MDV_LMS_Algorithm_tb_behav xil_defaultlib.MDV_LMS_Algorithm_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Input_Control
+Compiling module xil_defaultlib.Data_Control
+Compiling module xil_defaultlib.Data_Type_Conversion_Inherited
+Compiling module xil_defaultlib.Data_Type_Conversion
+Compiling module xil_defaultlib.Controller_block
+Compiling module xil_defaultlib.DelayLine_Controller
+Compiling module xil_defaultlib.Address_Generator
+Compiling module xil_defaultlib.SimpleDualPortRAM_generic_block(...
+Compiling module xil_defaultlib.Tapped_Delay
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.Coeff_Controller
+Compiling module xil_defaultlib.SimpleDualPortRAM_generic(AddrWi...
+Compiling module xil_defaultlib.MATLAB_Function1
+Compiling module xil_defaultlib.Coefficient_Memory
+Compiling module xil_defaultlib.resetControl
+Compiling module xil_defaultlib.Reset_Control
+Compiling module xil_defaultlib.Reset_Data
+Compiling module xil_defaultlib.multiplier_block
+Compiling module xil_defaultlib.Multiplier_block1
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.Accumulator
+Compiling module xil_defaultlib.Filter
+Compiling module xil_defaultlib.Enb_Delay2
+Compiling module xil_defaultlib.DataType_Conversion
+Compiling module xil_defaultlib.Filter_Error
+Compiling module xil_defaultlib.Data_Conversion
+Compiling module xil_defaultlib.Multiplier1
+Compiling module xil_defaultlib.Data_Conversion_block
+Compiling module xil_defaultlib.Enb_Delay
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.Multiplier2
+Compiling module xil_defaultlib.Coefficient_Update
+Compiling module xil_defaultlib.MDV_LMS_Algorithm
+Compiling module xil_defaultlib.MDV_LMS_Algorithm_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MDV_LMS_Algorithm_tb_behav

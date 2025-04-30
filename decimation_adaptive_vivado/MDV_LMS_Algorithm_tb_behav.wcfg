@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MDV_LMS_Algorithm_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MDV_LMS_Algorithm_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="700320001fs"></ZoomEndTime>
+      <Cursor1Time time="377420000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="210"></NameColumnWidth>
+      <ValueColumnWidth column_width="76"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/MDV_LMS_Algorithm_tb/observedSignal" type="array">
+      <obj_property name="ElementShortName">observedSignal[15:0]</obj_property>
+      <obj_property name="ObjectShortName">observedSignal[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MDV_LMS_Algorithm_tb/desiredSignal" type="array">
+      <obj_property name="ElementShortName">desiredSignal[15:0]</obj_property>
+      <obj_property name="ObjectShortName">desiredSignal[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-91047.9</obj_property>
+      <obj_property name="AnalogYRRangeMax">90661.1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MDV_LMS_Algorithm_tb/filterError_signal1_expected" type="array">
+      <obj_property name="ElementShortName">filterError_signal1_expected[22:0]</obj_property>
+      <obj_property name="ObjectShortName">filterError_signal1_expected[22:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MDV_LMS_Algorithm_tb/filterOut_out1" type="array">
+      <obj_property name="ElementShortName">filterOut_out1[26:0]</obj_property>
+      <obj_property name="ObjectShortName">filterOut_out1[26:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-1.45672e+06</obj_property>
+      <obj_property name="AnalogYRRangeMax">2.85373e+06</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MDV_LMS_Algorithm_tb/filterWeights_oldCoeff" type="array">
+      <obj_property name="ElementShortName">filterWeights_oldCoeff[22:0]</obj_property>
+      <obj_property name="ObjectShortName">filterWeights_oldCoeff[22:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MDV_LMS_Algorithm_tb/filterError_signal1" type="array">
+      <obj_property name="ElementShortName">filterError_signal1[22:0]</obj_property>
+      <obj_property name="ObjectShortName">filterError_signal1[22:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-119170</obj_property>
+      <obj_property name="AnalogYRRangeMax">320405</obj_property>
+   </wvobject>
+</wave_config>

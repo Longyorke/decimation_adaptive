@@ -1,0 +1,42 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Accumulator.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Adder.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Address_Generator.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Coeff_Controller.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Coefficient_Memory.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Coefficient_Update.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Controller.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Controller_block.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/DataType_Conversion.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Data_Control.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Data_Conversion.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Data_Conversion_block.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Data_Type_Conversion.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Data_Type_Conversion_Inherited.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/DelayLine_Controller.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Enb_Delay.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Enb_Delay2.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Filter.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Filter_Error.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Input_Control.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/MATLAB_Function1.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/MDV_LMS_Algorithm.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Multiplier1.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Multiplier2.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Multiplier_block1.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Reset_Control.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Reset_Data.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/SimpleDualPortRAM_generic.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/SimpleDualPortRAM_generic_block.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/Tapped_Delay.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/multiplier.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/multiplier_block.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/resetControl.v" \
+"../../../../decimation_adaptive_vivado.srcs/sim_1/new/MDV_LMS_Algorithm_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

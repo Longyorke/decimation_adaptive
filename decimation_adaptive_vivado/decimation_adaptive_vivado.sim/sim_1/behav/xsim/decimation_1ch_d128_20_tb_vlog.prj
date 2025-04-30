@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../decimation_adaptive_vivado.srcs/sources_1/new" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/synth_reg_w_init.v" \
+"../../../../decimation_adaptive_vivado.srcs/sources_1/new/xlclockdriver_rd.v" \
+"../../../../decimation_adaptive_vivado.srcs/sim_1/new/decimation_1ch_d128_20_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

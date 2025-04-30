@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i6/sim/decimation_1ch_d128_20_fir_compiler_v7_2_i6.vhd" \
+"../../../../decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i5/sim/decimation_1ch_d128_20_fir_compiler_v7_2_i5.vhd" \
+"../../../../decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i4/sim/decimation_1ch_d128_20_fir_compiler_v7_2_i4.vhd" \
+"../../../../decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i3/sim/decimation_1ch_d128_20_fir_compiler_v7_2_i3.vhd" \
+"../../../../decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i2/sim/decimation_1ch_d128_20_fir_compiler_v7_2_i2.vhd" \
+"../../../../decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i1/sim/decimation_1ch_d128_20_fir_compiler_v7_2_i1.vhd" \
+"../../../../decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i0/sim/decimation_1ch_d128_20_fir_compiler_v7_2_i0.vhd" \
+
+# Do not sort compile order
+nosort

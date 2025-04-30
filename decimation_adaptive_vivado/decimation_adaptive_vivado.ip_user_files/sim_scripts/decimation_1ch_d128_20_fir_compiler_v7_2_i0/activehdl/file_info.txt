@@ -1,0 +1,4 @@
+xbip_utils_v3_0_vh_rfs.vhd,vhdl,xbip_utils_v3_0_10,../../../ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd,
+axi_utils_v2_0_vh_rfs.vhd,vhdl,axi_utils_v2_0_6,../../../ipstatic/hdl/axi_utils_v2_0_vh_rfs.vhd,
+fir_compiler_v7_2_vh_rfs.vhd,vhdl,fir_compiler_v7_2_15,../../../ipstatic/hdl/fir_compiler_v7_2_vh_rfs.vhd,
+decimation_1ch_d128_20_fir_compiler_v7_2_i0.vhd,vhdl,xil_defaultlib,../../../../decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i0/sim/decimation_1ch_d128_20_fir_compiler_v7_2_i0.vhd,

@@ -1,5 +1,5 @@
 # compile verilog/system verilog design source files
-verilog xil_defaultlib  \
+verilog xil_defaultlib  --include "../../../../decimation_adaptive_vivado.srcs/sources_1/new" \
 "../../../../decimation_adaptive_vivado.srcs/sources_1/new/Accumulator.v" \
 "../../../../decimation_adaptive_vivado.srcs/sources_1/new/Adder.v" \
 "../../../../decimation_adaptive_vivado.srcs/sources_1/new/Address_Generator.v" \

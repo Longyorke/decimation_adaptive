@@ -1,0 +1,1 @@
+decimation_1ch_d128_20_fir_compiler_v7_2_i2.vhd,vhdl,xil_defaultlib,../../../../decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i2/sim/decimation_1ch_d128_20_fir_compiler_v7_2_i2.vhd,

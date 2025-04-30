@@ -1,0 +1,156 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 24144
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Apr 30 21:12:42 CST 2025
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/software/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	D:/software/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	dell
+User home directory: C:/Users/dell
+User working directory: C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/software/Xilinx/Vivado
+HDI_APPROOT: D:/software/Xilinx/Vivado/2020.2
+RDI_DATADIR: D:/software/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: D:/software/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/dell/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/dell/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/dell/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	D:/software/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado/vivado.log
+Vivado journal file location: 	C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado/vivado.jou
+Engine tmp dir: 	C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado/.Xil/Vivado-24144-DESKTOP-98774D5
+
+Xilinx Environment Variables
+----------------------------
+INTELFPGAOCLSDKROOT: D:\software\intelFPGA\18.1\hld
+XILINX: D:/software/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: D:/software/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: D:/software/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: D:/software/Xilinx/Vivado/2020.2
+XILINX_SDK: D:/software/Xilinx/Vitis/2020.2
+XILINX_VITIS: D:/software/Xilinx/Vitis/2020.2
+XILINX_VIVADO: D:/software/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: D:/software/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,125 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 75 MB (+76643kb) [00:00:06]
+// [Engine Memory]: 1,125 MB (+1028213kb) [00:00:06]
+// Opening Vivado Project: C:\Users\dell\Desktop\xilinx_DLP\decimation_adaptive_vivado\decimation_adaptive_vivado.xpr. Version: Vivado v2020.2 
+// bz (cr):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado/decimation_adaptive_vivado.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 84 MB (+4620kb) [00:00:11]
+// [GUI Memory]: 101 MB (+14282kb) [00:00:13]
+// [GUI Memory]: 116 MB (+9864kb) [00:00:13]
+// WARNING: HEventQueue.dispatchEvent() is taking  3833 ms.
+// Tcl Message: open_project C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado/decimation_adaptive_vivado.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/software/Xilinx/Vivado/2020.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,125 MB. GUI used memory: 60 MB. Current time: 4/30/25, 9:12:46 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1121.789 ; gain = 0.000 
+// Project name: decimation_adaptive_vivado; location: C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado; part: xc7a200tfbg484-2
+dismissDialog("Open Project"); // bz
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 129 MB (+7488kb) [00:03:51]
+// [GUI Memory]: 138 MB (+3172kb) [00:04:39]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,125 MB. GUI used memory: 76 MB. Current time: 4/30/25, 9:42:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,125 MB. GUI used memory: 68 MB. Current time: 4/30/25, 10:12:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,125 MB. GUI used memory: 68 MB. Current time: 4/30/25, 10:42:48 PM CST
+// Elapsed time: 6881 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Top.v]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Top.v]", 3, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Top.v]", 3, false); // D
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near ?. [C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:80]. ]", 8, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\dell\Desktop\xilinx_DLP\decimation_adaptive_vivado\decimation_adaptive_vivado.srcs\sources_1\new\Top.v;-;;-;16;-;line;-;80;-;;-;16;-;"); // ah
+selectCodeEditor("Top.v", 36, 284); // bP
+selectCodeEditor("Top.v", 365, 342); // bP
+selectCodeEditor("Top.v", 299, 273); // bP
+selectCodeEditor("Top.v", 326, 353); // bP
+selectCodeEditor("Top.v", 326, 366); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Top.v", 267, 464); // bP
+selectCodeEditor("Top.v", 307, 411); // bP
+selectCodeEditor("Top.v", 235, 318); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1674 ms. Increasing delay to 5022 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,125 MB. GUI used memory: 72 MB. Current time: 4/30/25, 11:12:49 PM CST

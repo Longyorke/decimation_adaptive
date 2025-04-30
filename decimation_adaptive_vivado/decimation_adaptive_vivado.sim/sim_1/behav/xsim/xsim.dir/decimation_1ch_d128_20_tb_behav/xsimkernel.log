@@ -1,0 +1,7 @@
+Running: xsim.dir/decimation_1ch_d128_20_tb_behav/xsimk.exe -simmode gui -wdb decimation_1ch_d128_20_tb_behav.wdb -simrunnum 0 -socket 51150
+Design successfully loaded
+Design Loading Memory Usage: 21548 KB (Peak: 21548 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 32088 KB (Peak: 32088 KB)
+Simulation CPU Usage: 1402812 ms

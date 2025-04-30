@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 30 17:30:17 2025
+# Process ID: 35384
+# Current directory: C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado/decimation_adaptive_vivado.runs/decimation_1ch_d128_20_fir_compiler_v7_2_i3_synth_1
+# Command line: vivado.exe -log decimation_1ch_d128_20_fir_compiler_v7_2_i3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source decimation_1ch_d128_20_fir_compiler_v7_2_i3.tcl
+# Log file: C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado/decimation_adaptive_vivado.runs/decimation_1ch_d128_20_fir_compiler_v7_2_i3_synth_1/decimation_1ch_d128_20_fir_compiler_v7_2_i3.vds
+# Journal file: C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado/decimation_adaptive_vivado.runs/decimation_1ch_d128_20_fir_compiler_v7_2_i3_synth_1\vivado.jou
+#-----------------------------------------------------------
+source decimation_1ch_d128_20_fir_compiler_v7_2_i3.tcl -notrace

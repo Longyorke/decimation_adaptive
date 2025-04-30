@@ -13,13 +13,13 @@
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
       <ZoomEndTime time="700320001fs"></ZoomEndTime>
-      <Cursor1Time time="377420000fs"></Cursor1Time>
+      <Cursor1Time time="0fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="210"></NameColumnWidth>
-      <ValueColumnWidth column_width="76"></ValueColumnWidth>
+      <ValueColumnWidth column_width="68"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="6" />
+   <WVObjectSize size="10" />
    <wvobject fp_name="/MDV_LMS_Algorithm_tb/observedSignal" type="array">
       <obj_property name="ElementShortName">observedSignal[15:0]</obj_property>
       <obj_property name="ObjectShortName">observedSignal[15:0]</obj_property>
@@ -55,11 +55,10 @@
       <obj_property name="AnalogYRRangeMax">2.85373e+06</obj_property>
    </wvobject>
    <wvobject fp_name="/MDV_LMS_Algorithm_tb/filterWeights_oldCoeff" type="array">
-      <obj_property name="ElementShortName">filterWeights_oldCoeff[22:0]</obj_property>
-      <obj_property name="ObjectShortName">filterWeights_oldCoeff[22:0]</obj_property>
-      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
-      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="ElementShortName">filterWeights_oldCoeff[23:0]</obj_property>
+      <obj_property name="ObjectShortName">filterWeights_oldCoeff[23:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
    <wvobject fp_name="/MDV_LMS_Algorithm_tb/filterError_signal1" type="array">
       <obj_property name="ElementShortName">filterError_signal1[22:0]</obj_property>
@@ -68,7 +67,23 @@
       <obj_property name="CellHeight">100</obj_property>
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
-      <obj_property name="AnalogYRangeMin">-119170</obj_property>
-      <obj_property name="AnalogYRRangeMax">320405</obj_property>
+      <obj_property name="AnalogYRangeMin">-254783</obj_property>
+      <obj_property name="AnalogYRRangeMax">226879</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MDV_LMS_Algorithm_tb/reset_1_1" type="logic">
+      <obj_property name="ElementShortName">reset_1_1</obj_property>
+      <obj_property name="ObjectShortName">reset_1_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MDV_LMS_Algorithm_tb/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MDV_LMS_Algorithm_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MDV_LMS_Algorithm_tb/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
    </wvobject>
 </wave_config>

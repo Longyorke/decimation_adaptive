@@ -1,19 +1,18 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Yu Long
 // 
-// Create Date: 2025/04/30 10:33:35
-// Design Name: 
+// Create Date: 2023/12/27 12:13:14
 // Module Name: Top
-// Project Name: 
-// Target Devices: 
+// Project Name: decimation_adaptive_vivado
+// Target Devices: xc7a200tfbg484
 // Tool Versions: 
 // Description: 
 // 
 // Dependencies: 
 // 
 // Revision:
-// Revision 0.01 - File Created
+// Revision Date: 2025/04/30 10:33:35
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
@@ -69,10 +68,10 @@ module Top(
 
   decimation_1ch_d128_20 u_decimation_1ch_d128_20 (
     .rst_n(rst_n),
-    .sig_in1(adc_data_valid),//组装成16位数据后放入滤波器模块
-    .start_filtering(all_frame_valid),//组装成16位数据提醒滤波器模块信号 RestartReq
+    .sig_in1(adc_data),
+    .start_filtering(adc_data_valid),
     .clk(Clk_50MHz),
-    .data_tvalid2(data_tvalid),//波器模块完成滤波提醒信号
+    .data_tvalid2(data_tvalid),//The wave module completes the filtering reminder signal
     .sig_out7(data_decimation_out)//D128*20 
   );
   
@@ -82,7 +81,7 @@ module Top(
     .rst_n(rst_n),
     .in_digital(data_decimation_out),        // Input digital quantity
     .data_tvalid(data_tvalid),               // Trigger signal for valid input
-    .out_physical(physical_signal),           // sfix16_En13 
+    .out_physical(physical_signal),           // sfix24_En13 
     .conversion_valid(conversion_valid)      // Output conversion completion flag
     );
 
@@ -90,13 +89,13 @@ module Top(
     .clk(Clk_50MHz),
     .reset(!rst_n),
     .clk_enable(1),
-    .observedSignal(acc_data),  // sfix16_En13
-    .desiredSignal(physical_signal),  // sfix16_En13
+    .observedSignal(acc_data),  // sfix24_En13
+    .desiredSignal(physical_signal),  // sfix24_En13
     .valid(conversion_valid),
     .stepSize(stepSize),  // sfix18_En18 
     .adapt(1), // When should the coefficients be modified
     .reset_1(!rst_n),
-    .filterError_signal1(all_frame_data),  // sfix23_En16
+    .filterError_signal1(all_frame_data),  // sfix31_En16
     .ready(all_frame_valid)
   );
            

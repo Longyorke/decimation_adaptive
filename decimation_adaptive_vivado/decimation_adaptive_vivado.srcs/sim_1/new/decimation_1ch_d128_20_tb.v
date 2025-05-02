@@ -62,12 +62,12 @@
 `include "conv_pkg.v"
 `endif
 
-//-----------------------------------------------------------------
+ 
 // System Generator version 6.1 VHDL source file.
 // Copyright (c) 2003, Xilinx, Inc.  All rights reserved.
 // Reproduction or reuse, in any form, without the explicit written
 // consent of Xilinx, Inc., is strictly prohibited.
-//-----------------------------------------------------------------
+ 
 
 // synopsys translate_off
 `timescale 1 ns / 10 ps

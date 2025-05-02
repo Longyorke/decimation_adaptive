@@ -2,20 +2,21 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Wed Apr 30 21:12:28 2025
-# Process ID: 24144
-# Current directory: C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17812 C:\Users\dell\Desktop\xilinx_DLP\decimation_adaptive_vivado\decimation_adaptive_vivado.xpr
-# Log file: C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado/vivado.log
-# Journal file: C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado\vivado.jou
+# Start of session at: Sun May  4 20:56:12 2025
+# Process ID: 31420
+# Current directory: F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent36660 F:\EM_LAB\EM_Instrument\TEMR-3S\Num01_code\Filter\decimation_adaptive\decimation_adaptive_vivado\decimation_adaptive_vivado.xpr
+# Log file: F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/vivado.log
+# Journal file: F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado/decimation_adaptive_vivado.xpr
-WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado/decimation_adaptive_vivado.gen/sources_1'.
+open_project F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado'
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/software/Xilinx/Vivado/2020.2/data/ip'.
-open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1121.789 ; gain = 0.000
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1142.211 ; gain = 0.000
 update_compile_order -fileset sources_1

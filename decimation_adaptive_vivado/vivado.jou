@@ -2,13 +2,13 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Wed Apr 30 21:12:28 2025
-# Process ID: 24144
-# Current directory: C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17812 C:\Users\dell\Desktop\xilinx_DLP\decimation_adaptive_vivado\decimation_adaptive_vivado.xpr
-# Log file: C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado/vivado.log
-# Journal file: C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado\vivado.jou
+# Start of session at: Sun May  4 20:56:12 2025
+# Process ID: 31420
+# Current directory: F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent36660 F:\EM_LAB\EM_Instrument\TEMR-3S\Num01_code\Filter\decimation_adaptive\decimation_adaptive_vivado\decimation_adaptive_vivado.xpr
+# Log file: F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/vivado.log
+# Journal file: F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/dell/Desktop/xilinx_DLP/decimation_adaptive_vivado/decimation_adaptive_vivado.xpr
+open_project F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.xpr
 update_compile_order -fileset sources_1

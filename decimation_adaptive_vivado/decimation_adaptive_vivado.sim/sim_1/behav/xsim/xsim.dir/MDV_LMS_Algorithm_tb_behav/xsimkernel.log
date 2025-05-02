@@ -1,7 +1,4 @@
-Running: xsim.dir/MDV_LMS_Algorithm_tb_behav/xsimk.exe -simmode gui -wdb MDV_LMS_Algorithm_tb_behav.wdb -simrunnum 0 -socket 53278
+Running: xsim.dir/MDV_LMS_Algorithm_tb_behav/xsimk.exe -simmode gui -wdb MDV_LMS_Algorithm_tb_behav.wdb -simrunnum 0 -socket 51642
 Design successfully loaded
-Design Loading Memory Usage: 7200 KB (Peak: 7200 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 10324 KB (Peak: 10324 KB)
-Simulation CPU Usage: 3780 ms
+Design Loading Memory Usage: 7192 KB (Peak: 7192 KB)
+Design Loading CPU Usage: 31 ms

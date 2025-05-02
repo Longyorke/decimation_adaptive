@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 30 23:43:03 2025
+# Process ID: 47480
+# Current directory: F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent64892 F:\EM_LAB\EM_Instrument\TEMR-3S\Num01_code\Filter\decimation_adaptive\decimation_adaptive_vivado\decimation_adaptive_vivado.xpr
+# Log file: F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/vivado.log
+# Journal file: F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/MDV_LMS_Algorithm_tb_behav.wcfg
+source MDV_LMS_Algorithm_tb.tcl
+run all
+restart
+run all
+save_wave_config {F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/MDV_LMS_Algorithm_tb_behav.wcfg}
+close_sim

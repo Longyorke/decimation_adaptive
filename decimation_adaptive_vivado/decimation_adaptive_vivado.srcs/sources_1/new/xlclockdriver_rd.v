@@ -16,7 +16,6 @@
 //  Mod. Dates    : 6/29/2004
 //                : 12/14/2004
 //
- --
 
 `timescale 1 ns / 10 ps
 module xlclockdriver (sysclk, sysclr, sysce, clk, clr, ce, ce_logic);

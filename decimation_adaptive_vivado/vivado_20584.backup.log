@@ -1,0 +1,409 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jul 14 18:14:52 2025
+# Process ID: 20584
+# Current directory: G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16228 G:\EM_LAB\EM_Instrument\TomoTEMR\Num01_code\Filter\decimation_adaptive\decimation_adaptive_vivado\decimation_adaptive_vivado.xpr
+# Log file: G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/vivado.log
+# Journal file: G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado'
+INFO: [Project 1-313] Project file moved from 'F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/software/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1141.051 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a200tfbg484-2
+Top: MDV_LMS_Algorithm
+INFO: [Device 21-403] Loading part xc7a200tfbg484-2
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+2 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1426.270 ; gain = 285.219
+INFO: [Common 17-344] 'synth_design' was cancelled
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a200tfbg484-2
+Top: MDV_LMS_Algorithm
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1684.934 ; gain = 254.938
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'MDV_LMS_Algorithm' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/MDV_LMS_Algorithm.v:47]
+INFO: [Synth 8-6157] synthesizing module 'Data_Control' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Control.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Input_Control' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Input_Control.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Input_Control' (1#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Input_Control.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Control' (2#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Control.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Data_Type_Conversion' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Type_Conversion.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Data_Type_Conversion_Inherited' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Type_Conversion_Inherited.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Type_Conversion_Inherited' (3#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Type_Conversion_Inherited.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Type_Conversion' (4#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Type_Conversion.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Filter' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Filter.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Tapped_Delay' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Tapped_Delay.v:21]
+INFO: [Synth 8-6157] synthesizing module 'DelayLine_Controller' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/DelayLine_Controller.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Controller_block' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Controller_block.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Controller_block' (5#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Controller_block.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'DelayLine_Controller' (6#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/DelayLine_Controller.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Address_Generator' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Address_Generator.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Address_Generator' (7#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Address_Generator.v:21]
+INFO: [Synth 8-6157] synthesizing module 'SimpleDualPortRAM_generic_block' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/SimpleDualPortRAM_generic_block.v:21]
+	Parameter AddrWidth bound to: 5 - type: integer 
+	Parameter DataWidth bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SimpleDualPortRAM_generic_block' (8#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/SimpleDualPortRAM_generic_block.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Tapped_Delay' (9#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Tapped_Delay.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Coefficient_Memory' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Coefficient_Memory.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Coeff_Controller' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Coeff_Controller.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Controller' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Controller.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Controller' (10#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Controller.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Coeff_Controller' (11#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Coeff_Controller.v:21]
+INFO: [Synth 8-6157] synthesizing module 'SimpleDualPortRAM_generic' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/SimpleDualPortRAM_generic.v:21]
+	Parameter AddrWidth bound to: 5 - type: integer 
+	Parameter DataWidth bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SimpleDualPortRAM_generic' (12#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/SimpleDualPortRAM_generic.v:21]
+INFO: [Synth 8-6157] synthesizing module 'MATLAB_Function1' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/MATLAB_Function1.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'MATLAB_Function1' (13#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/MATLAB_Function1.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Coefficient_Memory' (14#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Coefficient_Memory.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Reset_Control' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Reset_Control.v:21]
+INFO: [Synth 8-6157] synthesizing module 'resetControl' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/resetControl.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'resetControl' (15#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/resetControl.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Reset_Control' (16#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Reset_Control.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Reset_Data' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Reset_Data.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Reset_Data' (17#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Reset_Data.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Multiplier_block1' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Multiplier_block1.v:21]
+INFO: [Synth 8-6157] synthesizing module 'multiplier_block' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/multiplier_block.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'multiplier_block' (18#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/multiplier_block.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Multiplier_block1' (19#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Multiplier_block1.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Accumulator' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Accumulator.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Adder.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (20#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Adder.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Accumulator' (21#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Accumulator.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Filter' (22#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Filter.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Coefficient_Update' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Coefficient_Update.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Enb_Delay2' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Enb_Delay2.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Enb_Delay2' (23#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Enb_Delay2.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Filter_Error' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Filter_Error.v:21]
+INFO: [Synth 8-6157] synthesizing module 'DataType_Conversion' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/DataType_Conversion.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'DataType_Conversion' (24#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/DataType_Conversion.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Filter_Error' (25#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Filter_Error.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Multiplier1' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Multiplier1.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Data_Conversion' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Conversion.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Conversion' (26#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Conversion.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Multiplier1' (27#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Multiplier1.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Multiplier2' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Multiplier2.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Data_Conversion_block' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Conversion_block.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Conversion_block' (28#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Conversion_block.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Enb_Delay' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Enb_Delay.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Enb_Delay' (29#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Enb_Delay.v:21]
+INFO: [Synth 8-6157] synthesizing module 'multiplier' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/multiplier.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'multiplier' (30#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/multiplier.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Multiplier2' (31#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Multiplier2.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Coefficient_Update' (32#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Coefficient_Update.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'MDV_LMS_Algorithm' (33#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/MDV_LMS_Algorithm.v:47]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1743.930 ; gain = 313.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1760.832 ; gain = 330.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1760.832 ; gain = 330.836
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1760.832 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1861.590 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2043.473 ; gain = 613.477
+68 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2043.473 ; gain = 613.477
+set_property top Top [current_fileset]
+update_compile_order -fileset sources_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2053.855 ; gain = 5.137
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:21]
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS' [D:/software/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:32998]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS' (1#1) [D:/software/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:32998]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (2#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'decimation_1ch_d128_20' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20.v:361]
+INFO: [Synth 8-6157] synthesizing module 'decimation_1ch_d128_20_default_clock_driver' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20.v:339]
+INFO: [Synth 8-6157] synthesizing module 'xlclockdriver' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/xlclockdriver_rd.v:21]
+	Parameter log_2_period bound to: 32'sb00000000000000000000000000000001 
+	Parameter period bound to: 32'sb00000000000000000000000000000001 
+	Parameter use_bufg bound to: 0 - type: integer 
+	Parameter pipeline_regs bound to: 32'sb00000000000000000000000000000101 
+	Parameter max_pipeline_regs bound to: 32'sb00000000000000000000000000001000 
+	Parameter num_pipeline_regs bound to: 32'sb00000000000000000000000000000101 
+	Parameter factor bound to: 32'sb00000000000000000000000000000101 
+	Parameter rem_pipeline_regs bound to: 32'sb00000000000000000000000000000001 
+	Parameter trunc_period bound to: 1'b1 
+	Parameter period_floor bound to: 32'sb00000000000000000000000000000010 
+	Parameter power_of_2_counter bound to: 32'sb00000000000000000000000000000001 
+	Parameter cnt_width bound to: 32'sb00000000000000000000000000000001 
+	Parameter clk_for_ce_pulse_minus1 bound to: 1'b0 
+	Parameter clk_for_ce_pulse_minus2 bound to: 1'b0 
+	Parameter clk_for_ce_pulse_minus_regs bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'synth_reg_w_init' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/synth_reg_w_init.v:3]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 1'b0 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'single_reg_w_init' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/synth_reg_w_init.v:45]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 1'b0 
+	Parameter init_index_val bound to: 1'b0 
+	Parameter result bound to: 1'b0 
+	Parameter init_const bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [D:/software/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:13724]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (3#1) [D:/software/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:13724]
+INFO: [Synth 8-6155] done synthesizing module 'single_reg_w_init' (4#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/synth_reg_w_init.v:45]
+INFO: [Synth 8-6155] done synthesizing module 'synth_reg_w_init' (5#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/synth_reg_w_init.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'xlclockdriver' (6#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/xlclockdriver_rd.v:21]
+WARNING: [Synth 8-7071] port 'clr' of module 'xlclockdriver' is unconnected for instance 'clockdriver' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20.v:350]
+WARNING: [Synth 8-7071] port 'ce_logic' of module 'xlclockdriver' is unconnected for instance 'clockdriver' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20.v:350]
+WARNING: [Synth 8-7023] instance 'clockdriver' of module 'xlclockdriver' has 7 connections declared, but only 5 given [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20.v:350]
+INFO: [Synth 8-6155] done synthesizing module 'decimation_1ch_d128_20_default_clock_driver' (7#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20.v:339]
+INFO: [Synth 8-6157] synthesizing module 'decimation_1ch_d128_20_struct' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20.v:7]
+INFO: [Synth 8-6157] synthesizing module 'xlfir_compiler_b4ec19fb0f6cccfd0f15540dfe602fc0' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:133]
+INFO: [Synth 8-6157] synthesizing module 'decimation_1ch_d128_20_fir_compiler_v7_2_i0' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/decimation_1ch_d128_20_fir_compiler_v7_2_i0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'decimation_1ch_d128_20_fir_compiler_v7_2_i0' (8#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/decimation_1ch_d128_20_fir_compiler_v7_2_i0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'xlfir_compiler_b4ec19fb0f6cccfd0f15540dfe602fc0' (9#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:133]
+INFO: [Synth 8-6157] synthesizing module 'xlfir_compiler_69d52bcc90e4f66bc097f76055eb2bf1' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:167]
+INFO: [Synth 8-6157] synthesizing module 'decimation_1ch_d128_20_fir_compiler_v7_2_i1' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/decimation_1ch_d128_20_fir_compiler_v7_2_i1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'decimation_1ch_d128_20_fir_compiler_v7_2_i1' (10#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/decimation_1ch_d128_20_fir_compiler_v7_2_i1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'xlfir_compiler_69d52bcc90e4f66bc097f76055eb2bf1' (11#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:167]
+INFO: [Synth 8-6157] synthesizing module 'xlfir_compiler_5b787ef10d5829f6352b09bed33793e0' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:201]
+INFO: [Synth 8-6157] synthesizing module 'decimation_1ch_d128_20_fir_compiler_v7_2_i2' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/decimation_1ch_d128_20_fir_compiler_v7_2_i2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'decimation_1ch_d128_20_fir_compiler_v7_2_i2' (12#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/decimation_1ch_d128_20_fir_compiler_v7_2_i2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'xlfir_compiler_5b787ef10d5829f6352b09bed33793e0' (13#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:201]
+INFO: [Synth 8-6157] synthesizing module 'xlfir_compiler_ef0ad349e76b1da79017eb3c96728cda' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:235]
+INFO: [Synth 8-6157] synthesizing module 'decimation_1ch_d128_20_fir_compiler_v7_2_i3' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/decimation_1ch_d128_20_fir_compiler_v7_2_i3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'decimation_1ch_d128_20_fir_compiler_v7_2_i3' (14#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/decimation_1ch_d128_20_fir_compiler_v7_2_i3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'xlfir_compiler_ef0ad349e76b1da79017eb3c96728cda' (15#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:235]
+INFO: [Synth 8-6157] synthesizing module 'xlfir_compiler_f9c9efd1e25e651aa152d05dface442a' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:269]
+INFO: [Synth 8-6157] synthesizing module 'decimation_1ch_d128_20_fir_compiler_v7_2_i4' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/decimation_1ch_d128_20_fir_compiler_v7_2_i4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'decimation_1ch_d128_20_fir_compiler_v7_2_i4' (16#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/decimation_1ch_d128_20_fir_compiler_v7_2_i4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'xlfir_compiler_f9c9efd1e25e651aa152d05dface442a' (17#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:269]
+INFO: [Synth 8-6157] synthesizing module 'xlfir_compiler_9a82e5e007703c8479d42398fa56fb88' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:303]
+INFO: [Synth 8-6157] synthesizing module 'decimation_1ch_d128_20_fir_compiler_v7_2_i5' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/decimation_1ch_d128_20_fir_compiler_v7_2_i5_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'decimation_1ch_d128_20_fir_compiler_v7_2_i5' (18#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/decimation_1ch_d128_20_fir_compiler_v7_2_i5_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'xlfir_compiler_9a82e5e007703c8479d42398fa56fb88' (19#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:303]
+INFO: [Synth 8-6157] synthesizing module 'xlfir_compiler_faf7e10399eafd1c17e9e92af92ac2a8' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:337]
+INFO: [Synth 8-6157] synthesizing module 'decimation_1ch_d128_20_fir_compiler_v7_2_i6' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/decimation_1ch_d128_20_fir_compiler_v7_2_i6_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'decimation_1ch_d128_20_fir_compiler_v7_2_i6' (20#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/.Xil/Vivado-20584-DESKTOP-98774D5/realtime/decimation_1ch_d128_20_fir_compiler_v7_2_i6_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'xlfir_compiler_faf7e10399eafd1c17e9e92af92ac2a8' (21#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:337]
+INFO: [Synth 8-6157] synthesizing module 'sysgen_reinterpret_d58924c018' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'sysgen_reinterpret_d58924c018' (22#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:3]
+INFO: [Synth 8-6157] synthesizing module 'sysgen_shift_605e31444b' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:16]
+	Parameter const_value bound to: 0 - type: integer 
+	Parameter const_value_x_000000 bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'sysgen_shift_605e31444b' (23#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:16]
+INFO: [Synth 8-6157] synthesizing module 'sysgen_shift_42c486086e' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:49]
+	Parameter const_value bound to: 34'sb0000000000000000000000000000000000 
+	Parameter const_value_x_000000 bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'sysgen_shift_42c486086e' (24#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:49]
+INFO: [Synth 8-6157] synthesizing module 'sysgen_shift_7b2dd710fc' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:82]
+	Parameter const_value bound to: 33'sb000000000000000000000000000000000 
+	Parameter const_value_x_000000 bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'sysgen_shift_7b2dd710fc' (25#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:82]
+INFO: [Synth 8-6157] synthesizing module 'decimation_1ch_d128_20_xlslice' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:116]
+	Parameter new_msb bound to: 15 - type: integer 
+	Parameter new_lsb bound to: 0 - type: integer 
+	Parameter x_width bound to: 32 - type: integer 
+	Parameter y_width bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'decimation_1ch_d128_20_xlslice' (26#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:116]
+INFO: [Synth 8-6157] synthesizing module 'decimation_1ch_d128_20_xlslice__parameterized0' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:116]
+	Parameter new_msb bound to: 15 - type: integer 
+	Parameter new_lsb bound to: 0 - type: integer 
+	Parameter x_width bound to: 34 - type: integer 
+	Parameter y_width bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'decimation_1ch_d128_20_xlslice__parameterized0' (26#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:116]
+INFO: [Synth 8-6157] synthesizing module 'decimation_1ch_d128_20_xlslice__parameterized1' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:116]
+	Parameter new_msb bound to: 15 - type: integer 
+	Parameter new_lsb bound to: 0 - type: integer 
+	Parameter x_width bound to: 33 - type: integer 
+	Parameter y_width bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'decimation_1ch_d128_20_xlslice__parameterized1' (26#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20_entity_declarations.v:116]
+INFO: [Synth 8-6155] done synthesizing module 'decimation_1ch_d128_20_struct' (27#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'decimation_1ch_d128_20' (28#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/decimation_1ch_d128_20.v:361]
+WARNING: [Synth 8-7071] port 'data_tvalid1' of module 'decimation_1ch_d128_20' is unconnected for instance 'u_decimation_1ch_d128_20' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:69]
+WARNING: [Synth 8-7071] port 'sig_out1' of module 'decimation_1ch_d128_20' is unconnected for instance 'u_decimation_1ch_d128_20' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:69]
+WARNING: [Synth 8-7071] port 'sig_out2' of module 'decimation_1ch_d128_20' is unconnected for instance 'u_decimation_1ch_d128_20' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:69]
+WARNING: [Synth 8-7071] port 'sig_out3' of module 'decimation_1ch_d128_20' is unconnected for instance 'u_decimation_1ch_d128_20' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:69]
+WARNING: [Synth 8-7071] port 'sig_out4' of module 'decimation_1ch_d128_20' is unconnected for instance 'u_decimation_1ch_d128_20' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:69]
+WARNING: [Synth 8-7071] port 'sig_out5' of module 'decimation_1ch_d128_20' is unconnected for instance 'u_decimation_1ch_d128_20' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:69]
+WARNING: [Synth 8-7071] port 'sig_out6' of module 'decimation_1ch_d128_20' is unconnected for instance 'u_decimation_1ch_d128_20' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:69]
+WARNING: [Synth 8-7023] instance 'u_decimation_1ch_d128_20' of module 'decimation_1ch_d128_20' has 13 connections declared, but only 6 given [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:69]
+INFO: [Synth 8-6157] synthesizing module 'Digital_To_Physical_Conversion' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Digital_To_Physical_Conversion.v:27]
+	Parameter SCALING_MULT bound to: 14'sb10100000000000 
+INFO: [Synth 8-6155] done synthesizing module 'Digital_To_Physical_Conversion' (29#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Digital_To_Physical_Conversion.v:27]
+WARNING: [Synth 8-689] width (16) of port connection 'out_physical' does not match port width (24) of module 'Digital_To_Physical_Conversion' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:84]
+INFO: [Synth 8-6157] synthesizing module 'MDV_LMS_Algorithm' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/MDV_LMS_Algorithm.v:47]
+INFO: [Synth 8-6157] synthesizing module 'Data_Control' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Control.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Input_Control' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Input_Control.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Input_Control' (30#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Input_Control.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Control' (31#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Control.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Data_Type_Conversion' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Type_Conversion.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Data_Type_Conversion_Inherited' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Type_Conversion_Inherited.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Type_Conversion_Inherited' (32#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Type_Conversion_Inherited.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Type_Conversion' (33#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Type_Conversion.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Filter' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Filter.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Tapped_Delay' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Tapped_Delay.v:21]
+INFO: [Synth 8-6157] synthesizing module 'DelayLine_Controller' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/DelayLine_Controller.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Controller_block' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Controller_block.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Controller_block' (34#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Controller_block.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'DelayLine_Controller' (35#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/DelayLine_Controller.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Address_Generator' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Address_Generator.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Address_Generator' (36#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Address_Generator.v:21]
+INFO: [Synth 8-6157] synthesizing module 'SimpleDualPortRAM_generic_block' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/SimpleDualPortRAM_generic_block.v:21]
+	Parameter AddrWidth bound to: 5 - type: integer 
+	Parameter DataWidth bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SimpleDualPortRAM_generic_block' (37#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/SimpleDualPortRAM_generic_block.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Tapped_Delay' (38#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Tapped_Delay.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Coefficient_Memory' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Coefficient_Memory.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Coeff_Controller' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Coeff_Controller.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Controller' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Controller.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Controller' (39#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Controller.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Coeff_Controller' (40#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Coeff_Controller.v:21]
+INFO: [Synth 8-6157] synthesizing module 'SimpleDualPortRAM_generic' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/SimpleDualPortRAM_generic.v:21]
+	Parameter AddrWidth bound to: 5 - type: integer 
+	Parameter DataWidth bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SimpleDualPortRAM_generic' (41#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/SimpleDualPortRAM_generic.v:21]
+INFO: [Synth 8-6157] synthesizing module 'MATLAB_Function1' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/MATLAB_Function1.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'MATLAB_Function1' (42#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/MATLAB_Function1.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Coefficient_Memory' (43#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Coefficient_Memory.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Reset_Control' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Reset_Control.v:21]
+INFO: [Synth 8-6157] synthesizing module 'resetControl' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/resetControl.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'resetControl' (44#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/resetControl.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Reset_Control' (45#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Reset_Control.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Reset_Data' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Reset_Data.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Reset_Data' (46#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Reset_Data.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Multiplier_block1' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Multiplier_block1.v:21]
+INFO: [Synth 8-6157] synthesizing module 'multiplier_block' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/multiplier_block.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'multiplier_block' (47#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/multiplier_block.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Multiplier_block1' (48#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Multiplier_block1.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Accumulator' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Accumulator.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Adder.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (49#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Adder.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Accumulator' (50#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Accumulator.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Filter' (51#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Filter.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Coefficient_Update' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Coefficient_Update.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Enb_Delay2' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Enb_Delay2.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Enb_Delay2' (52#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Enb_Delay2.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Filter_Error' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Filter_Error.v:21]
+INFO: [Synth 8-6157] synthesizing module 'DataType_Conversion' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/DataType_Conversion.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'DataType_Conversion' (53#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/DataType_Conversion.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Filter_Error' (54#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Filter_Error.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Multiplier1' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Multiplier1.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Data_Conversion' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Conversion.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Conversion' (55#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Conversion.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Multiplier1' (56#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Multiplier1.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Multiplier2' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Multiplier2.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Data_Conversion_block' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Conversion_block.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Conversion_block' (57#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Data_Conversion_block.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Enb_Delay' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Enb_Delay.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Enb_Delay' (58#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Enb_Delay.v:21]
+INFO: [Synth 8-6157] synthesizing module 'multiplier' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/multiplier.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'multiplier' (59#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/multiplier.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Multiplier2' (60#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Multiplier2.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Coefficient_Update' (61#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Coefficient_Update.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'MDV_LMS_Algorithm' (62#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/MDV_LMS_Algorithm.v:47]
+WARNING: [Synth 8-689] width (16) of port connection 'filterError_signal1' does not match port width (31) of module 'MDV_LMS_Algorithm' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:98]
+WARNING: [Synth 8-7071] port 'ce_out' of module 'MDV_LMS_Algorithm' is unconnected for instance 'u_MDV_LMS_Algorithm' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:88]
+WARNING: [Synth 8-7071] port 'filterOut_out1' of module 'MDV_LMS_Algorithm' is unconnected for instance 'u_MDV_LMS_Algorithm' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:88]
+WARNING: [Synth 8-7071] port 'filterOut_signal2' of module 'MDV_LMS_Algorithm' is unconnected for instance 'u_MDV_LMS_Algorithm' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:88]
+WARNING: [Synth 8-7071] port 'filterWeights_oldCoeff' of module 'MDV_LMS_Algorithm' is unconnected for instance 'u_MDV_LMS_Algorithm' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:88]
+WARNING: [Synth 8-7071] port 'filterWeights_signal2' of module 'MDV_LMS_Algorithm' is unconnected for instance 'u_MDV_LMS_Algorithm' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:88]
+WARNING: [Synth 8-7071] port 'filterError_signal2' of module 'MDV_LMS_Algorithm' is unconnected for instance 'u_MDV_LMS_Algorithm' [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:88]
+WARNING: [Synth 8-7023] instance 'u_MDV_LMS_Algorithm' of module 'MDV_LMS_Algorithm' has 17 connections declared, but only 11 given [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:88]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (63#1) [G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.srcs/sources_1/new/Top.v:21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2129.730 ; gain = 81.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2129.730 ; gain = 81.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2129.730 ; gain = 81.012
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'clk_200M_to_50M_and_100M'
+INFO: [Project 1-454] Reading design checkpoint 'g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i0/decimation_1ch_d128_20_fir_compiler_v7_2_i0.dcp' for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/ffir0/decimation_1ch_d128_20_fir_compiler_v7_2_i0_instance'
+INFO: [Project 1-454] Reading design checkpoint 'g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i1/decimation_1ch_d128_20_fir_compiler_v7_2_i1.dcp' for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/ffir1/decimation_1ch_d128_20_fir_compiler_v7_2_i1_instance'
+INFO: [Project 1-454] Reading design checkpoint 'g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i2/decimation_1ch_d128_20_fir_compiler_v7_2_i2.dcp' for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/ffir2/decimation_1ch_d128_20_fir_compiler_v7_2_i2_instance'
+INFO: [Project 1-454] Reading design checkpoint 'g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i3/decimation_1ch_d128_20_fir_compiler_v7_2_i3.dcp' for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/fir_d20/decimation_1ch_d128_20_fir_compiler_v7_2_i3_instance'
+INFO: [Project 1-454] Reading design checkpoint 'g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i4/decimation_1ch_d128_20_fir_compiler_v7_2_i4.dcp' for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/fir_hb0/decimation_1ch_d128_20_fir_compiler_v7_2_i4_instance'
+INFO: [Project 1-454] Reading design checkpoint 'g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i5/decimation_1ch_d128_20_fir_compiler_v7_2_i5.dcp' for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/fir_hb1/decimation_1ch_d128_20_fir_compiler_v7_2_i5_instance'
+INFO: [Project 1-454] Reading design checkpoint 'g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i6/decimation_1ch_d128_20_fir_compiler_v7_2_i6.dcp' for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/fir_hb2/decimation_1ch_d128_20_fir_compiler_v7_2_i6_instance'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.355 . Memory (MB): peak = 2160.984 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 247 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'clk_200M_to_50M_and_100M/clk_in_200M' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i6/constraints/fir_compiler_v7_2.xdc] for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/fir_hb2/decimation_1ch_d128_20_fir_compiler_v7_2_i6_instance/U0'
+Finished Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i6/constraints/fir_compiler_v7_2.xdc] for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/fir_hb2/decimation_1ch_d128_20_fir_compiler_v7_2_i6_instance/U0'
+Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i5/constraints/fir_compiler_v7_2.xdc] for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/fir_hb1/decimation_1ch_d128_20_fir_compiler_v7_2_i5_instance/U0'
+Finished Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i5/constraints/fir_compiler_v7_2.xdc] for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/fir_hb1/decimation_1ch_d128_20_fir_compiler_v7_2_i5_instance/U0'
+Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i4/constraints/fir_compiler_v7_2.xdc] for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/fir_hb0/decimation_1ch_d128_20_fir_compiler_v7_2_i4_instance/U0'
+Finished Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i4/constraints/fir_compiler_v7_2.xdc] for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/fir_hb0/decimation_1ch_d128_20_fir_compiler_v7_2_i4_instance/U0'
+Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i3/constraints/fir_compiler_v7_2.xdc] for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/fir_d20/decimation_1ch_d128_20_fir_compiler_v7_2_i3_instance/U0'
+Finished Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i3/constraints/fir_compiler_v7_2.xdc] for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/fir_d20/decimation_1ch_d128_20_fir_compiler_v7_2_i3_instance/U0'
+Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i2/constraints/fir_compiler_v7_2.xdc] for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/ffir2/decimation_1ch_d128_20_fir_compiler_v7_2_i2_instance/U0'
+Finished Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i2/constraints/fir_compiler_v7_2.xdc] for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/ffir2/decimation_1ch_d128_20_fir_compiler_v7_2_i2_instance/U0'
+Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i1/constraints/fir_compiler_v7_2.xdc] for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/ffir1/decimation_1ch_d128_20_fir_compiler_v7_2_i1_instance/U0'
+Finished Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i1/constraints/fir_compiler_v7_2.xdc] for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/ffir1/decimation_1ch_d128_20_fir_compiler_v7_2_i1_instance/U0'
+Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i0/constraints/fir_compiler_v7_2.xdc] for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/ffir0/decimation_1ch_d128_20_fir_compiler_v7_2_i0_instance/U0'
+Finished Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_1ch_d128_20.gen/sources_1/ip/decimation_1ch_d128_20_fir_compiler_v7_2_i0/constraints/fir_compiler_v7_2.xdc] for cell 'u_decimation_1ch_d128_20/decimation_1ch_d128_20_struct/ffir0/decimation_1ch_d128_20_fir_compiler_v7_2_i0_instance/U0'
+Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_200M_to_50M_and_100M/inst'
+Finished Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_200M_to_50M_and_100M/inst'
+Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_200M_to_50M_and_100M/inst'
+Finished Parsing XDC File [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_200M_to_50M_and_100M/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [g:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2160.984 ; gain = 112.266
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 14 18:46:14 2025...

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jul 14 18:14:52 2025
+# Process ID: 20584
+# Current directory: G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16228 G:\EM_LAB\EM_Instrument\TomoTEMR\Num01_code\Filter\decimation_adaptive\decimation_adaptive_vivado\decimation_adaptive_vivado.xpr
+# Log file: G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/vivado.log
+# Journal file: G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+refresh_design

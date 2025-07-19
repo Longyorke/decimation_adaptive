@@ -925,11 +925,12 @@ always @(posedge clk or posedge reset) begin
 end
 
 always @(posedge clk) begin
-    if (ready && !ready_prev) begin  // ready rising edge data is valid only
-        $fwrite(f, "time %t filterOut_out1: %h filterError_signal1: %h filterWeights_oldCoeff: %h\n", 
-                $time, filterOut_out1, filterError_signal1, filterWeights_oldCoeff);
+    if (ready && !ready_prev) begin  // Data is valid only on rising edge of ready
+        $fwrite(f, "time %t | observedSignal: %h | desiredSignal: %h | filterOut_out1: %h | filterError_signal1: %h | filterWeights_oldCoeff: %h | stepSize: %h\n", 
+                $time, observedSignal, desiredSignal, filterOut_out1, filterError_signal1, filterWeights_oldCoeff,stepSize);
     end
 end
+
 
 
 endmodule  // MDV_LMS_Algorithm_tb

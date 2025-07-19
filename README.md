@@ -112,9 +112,9 @@ The input data type is signed fixed-point (sfix24_13), and the output data type 
 
 In fact, the actual result corresponds to `filterError_signal1[30:0]` at each rising edge of `ready` when it is valid. The `filterError_signal1_buf[30:0]` is of `reg` type and is used to facilitate observation during simulation.
 
-`plotVivadoTb.m` is used to plot the output results of the testbench. As shown in the figure below, it illustrates the adaptive filtering result for a sine signal with superimposed noise:
+`plotVivadoTb.m` is used to plot the output results of the testbench. As shown in the figure below, it illustrates the adaptive filtering result for a sine signal with superimposed noise(The simulation materials are provided in .\Materials\pseudo.):
 
-![matlab_MDV-LMS](./assets/matlab_MDV-LMS.bmp)
+![image-20250719165238107](./assets/image-20250719165238107.png)
 
 As shown in the figure below, it illustrates the adaptive filtering result for an actual CSEM signal with superimposed noise:
 

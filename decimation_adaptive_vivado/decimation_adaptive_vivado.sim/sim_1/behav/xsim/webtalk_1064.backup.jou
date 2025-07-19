@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Jul 18 17:43:51 2025
+# Process ID: 1064
+# Current directory: G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.sim/sim_1/behav/xsim/xsim.dir/MDV_LMS_Algorithm_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source G:/EM_LAB/EM_Instrument/TomoTEMR/Num01_code/Filter/decimation_adaptive/decimation_adaptive_vivado/decimation_adaptive_vivado.sim/sim_1/behav/xsim/xsim.dir/MDV_LMS_Algorithm_tb_behav/webtalk/xsim_webtalk.tcl -notrace

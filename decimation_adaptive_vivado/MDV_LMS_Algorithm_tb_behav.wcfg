@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="16041566084fs"></ZoomStartTime>
-      <ZoomEndTime time="17792070784fs"></ZoomEndTime>
-      <Cursor1Time time="17500320000fs"></Cursor1Time>
+      <ZoomStartTime time="979291703fs"></ZoomStartTime>
+      <ZoomEndTime time="980423704fs"></ZoomEndTime>
+      <Cursor1Time time="979628703fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="204"></NameColumnWidth>
+      <NameColumnWidth column_width="177"></NameColumnWidth>
       <ValueColumnWidth column_width="58"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="10" />
+   <WVObjectSize size="11" />
    <wvobject fp_name="/MDV_LMS_Algorithm_tb/observedSignal" type="array">
       <obj_property name="ElementShortName">observedSignal[23:0]</obj_property>
       <obj_property name="ObjectShortName">observedSignal[23:0]</obj_property>
@@ -88,5 +88,9 @@
    <wvobject fp_name="/MDV_LMS_Algorithm_tb/reset_1_1" type="logic">
       <obj_property name="ElementShortName">reset_1_1</obj_property>
       <obj_property name="ObjectShortName">reset_1_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MDV_LMS_Algorithm_tb/u_MDV_LMS_Algorithm/u_Coefficient_Update/u_Filter_Error/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
    </wvobject>
 </wave_config>

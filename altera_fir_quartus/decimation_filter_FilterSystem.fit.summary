@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sat Feb 22 21:21:56 2025
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : decimation_filter_FilterSystem
+Top-level Entity Name : decimation_filter_FilterSystem
+Family : MAX 10
+Device : 10M40DCF256A7G
+Timing Models : Final
+Total logic elements : 1,254 / 40,368 ( 3 % )
+    Total combinational functions : 710 / 40,368 ( 2 % )
+    Dedicated logic registers : 1,084 / 40,368 ( 3 % )
+Total registers : 1084
+Total pins : 3 / 178 ( 2 % )
+Total virtual pins : 99
+Total memory bits : 1,792 / 1,290,240 ( < 1 % )
+Embedded Multiplier 9-bit elements : 12 / 250 ( 5 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0

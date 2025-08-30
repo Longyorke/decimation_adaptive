@@ -1,0 +1,10 @@
+# This is the QIP file for DSP Builder for Intel FPGAs system 'decimation_filter_FilterSystem'
+
+set_global_assignment -name SYSTEMVERILOG_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem.sv
+set_global_assignment -name SYSTEMVERILOG_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem.sv
+set_global_assignment -name SYSTEMVERILOG_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem.sv
+set_global_assignment -name SYSTEMVERILOG_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem.sv
+set_global_assignment -name QIP_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1.qip
+set_global_assignment -name QIP_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR2.qip
+set_global_assignment -name QIP_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_Scale2.qip
+set_global_assignment -name QIP_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_Scale3.qip

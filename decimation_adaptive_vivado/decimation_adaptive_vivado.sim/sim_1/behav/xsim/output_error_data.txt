@@ -1980,4 +1980,24 @@ time           1383300000 | observedSignal: 02f200 | desiredSignal: 04c2e9 | fil
 time           1384000000 | observedSignal: fe0f43 | desiredSignal: 01066e | filterOut_out1: 0012c5dbf | filterError_signal1: 0013516d | filterWeights_oldCoeff: 001f9908 | stepSize: 00006
 time           1384700000 | observedSignal: 01c356 | desiredSignal: 0397ba | filterOut_out1: 7ff39746e | filterError_signal1: 00149c2a | filterWeights_oldCoeff: 001fee5a | stepSize: 00006
 time           1385400000 | observedSignal: fe30c6 | desiredSignal: ff8965 | filterOut_out1: 000c82111 | filterError_signal1: 00103bbf | filterWeights_oldCoeff: 001fb261 | stepSize: 00005
-time           1386100000 | observedSignal: fedb13 | desiredSignal: fe9d59 | filterOut_out1: 7ff349e89 | filterError_sig
+time           1386100000 | observedSignal: fedb13 | desiredSignal: fe9d59 | filterOut_out1: 7ff349e89 | filterError_signal1: 00090140 | filterWeights_oldCoeff: 001fdd4c | stepSize: 00005
+time           1386800000 | observedSignal: 01dab3 | desiredSignal: 0028c8 | filterOut_out1: 7ff59dbf7 | filterError_signal1: 7fff4d09 | filterWeights_oldCoeff: 001fc8f0 | stepSize: 00005
+time           1387500000 | observedSignal: fdec71 | desiredSignal: fc7244 | filterOut_out1: 000a63ce8 | filterError_signal1: 7ff6e272 | filterWeights_oldCoeff: 001fc9f0 | stepSize: 00005
+time           1388200000 | observedSignal: 031678 | desiredSignal: ffffd9 | filterOut_out1: 7ff3e9b61 | filterError_signal1: 7fefa86a | filterWeights_oldCoeff: 001fb4c9 | stepSize: 00004
+time           1388900000 | observedSignal: fe77e2 | desiredSignal: fcb155 | filterOut_out1: 00141071a | filterError_signal1: 7febee57 | filterWeights_oldCoeff: 001fdf38 | stepSize: 00004
+time           1389600000 | observedSignal: ff7a5a | desiredSignal: fd8f8a | filterOut_out1: 7ff8d40e2 | filterError_signal1: 7fecb69a | filterWeights_oldCoeff: 001fa12c | stepSize: 00004
+time           1390300000 | observedSignal: 019cb5 | desiredSignal: 007c2b | filterOut_out1: 7ffb697f6 | filterError_signal1: 7ff112d1 | filterWeights_oldCoeff: 001fbec0 | stepSize: 00004
+time           1391000000 | observedSignal: fe7eb6 | desiredSignal: ff829c | filterOut_out1: 0009fb638 | filterError_signal1: 7ff9e5f5 | filterWeights_oldCoeff: 001fc68c | stepSize: 00004
+time           1391700000 | observedSignal: 016183 | desiredSignal: 027e3f | filterOut_out1: 7ff9696be | filterError_signal1: 0002ab75 | filterWeights_oldCoeff: 001fbcac | stepSize: 00005
+time           1392400000 | observedSignal: 00d11b | desiredSignal: 0348c7 | filterOut_out1: 0007f26f9 | filterError_signal1: 000bff89 | filterWeights_oldCoeff: 001fb8ac | stepSize: 00006
+time           1393100000 | observedSignal: fd49f2 | desiredSignal: 003b4d | filterOut_out1: 0008740a0 | filterError_signal1: 0011d22e | filterWeights_oldCoeff: 001fcd57 | stepSize: 00006
+time           1393800000 | observedSignal: 01191e | desiredSignal: 028e9a | filterOut_out1: 7feda86e9 | filterError_signal1: 001431fa | filterWeights_oldCoeff: 001fe32a | stepSize: 00007
+time           1394500000 | observedSignal: ffa06a | desiredSignal: 014c1c | filterOut_out1: 00029a80e | filterError_signal1: 0011da50 | filterWeights_oldCoeff: 001f9111 | stepSize: 00008
+time           1395200000 | observedSignal: ffa1fa | desiredSignal: 0013ee | filterOut_out1: 7ffe1c420 | filterError_signal1: 000c449e | filterWeights_oldCoeff: 001fb359 | stepSize: 00008
+time           1395900000 | observedSignal: 002d34 | desiredSignal: ff154e | filterOut_out1: 7ffcd461e | filterError_signal1: 0003cb0f | filterWeights_oldCoeff: 001faa30 | stepSize: 00009
+time           1396600000 | observedSignal: ff06d0 | desiredSignal: fd3fa0 | filterOut_out1: 7ffe77ae5 | filterError_signal1: 7ffa32c2 | filterWeights_oldCoeff: 001fa768 | stepSize: 00009
+time           1397300000 | observedSignal: fff847 | desiredSignal: fd47a5 | filterOut_out1: 7ff7e2286 | filterError_signal1: 7ff21ad8 | filterWeights_oldCoeff: 001fa519 | stepSize: 0000a
+time           1398000000 | observedSignal: fe9743 | desiredSignal: fbfcd2 | filterOut_out1: 7ffd4d77d | filterError_signal1: 7fecefb1 | filterWeights_oldCoeff: 001fc38b | stepSize: 0000b
+time           1398700000 | observedSignal: 01415c | desiredSignal: fec162 | filterOut_out1: 7ff39015e | filterError_signal1: 7fec567b | filterWeights_oldCoeff: 001fc4fb | stepSize: 0000f
+time           1399400000 | observedSignal: fdeb41 | desiredSignal: fceb44 | filterOut_out1: 000686f26 | filterError_signal1: 7fef841e | filterWeights_oldCoeff: 00201134 | stepSize: 0000e
+time           1400100000 | observedSignal: 000000 | desiredSignal: 000000 | filterOut_out1: 7ff082d17 | filterError_signal1: 7ff6d74f | filterWeights_oldCoeff: 001fc391 | stepSize: 0000e

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="file:///E:/software/intelFPGA/18.1/quartus/dspba/Blocksets/BaseBlocks/modelip.xsl"?>
+<MODEL>
+<NAME>decimation_filter/Control</NAME>
+<BUILD_YEAR>2018</BUILD_YEAR>
+<DOCPATH>file:///E:/software/intelFPGA/18.1/quartus/dspba/Docs/Help/</DOCPATH>
+<DESCRIPTION>
+This help page relates to the specific instance 'Control' of the CONTROL block
+</DESCRIPTION>
+<HELP>file:///E:/software/intelFPGA/18.1/quartus/dspba/Docs/Help/CONTROL_help.html</HELP>
+<BLOCKTYPE>CONTROL</BLOCKTYPE>
+<MEMORYMAPS path="decimation_filter">
+  <REGS numregs="6" desc="FIR Coefficient Registers" origin="decimation_filter_FilterSystem_DecimatingFIR1" clashes="false" rwmode="Read/Write" bitwidth="16" fracwidth="15" privatespace="false">
+    <REG numregparts="1" desc="FIR Coefficient Register 0" clashes="false" double_init="0.006134" sint_init="201">
+      <REGPART part_init="201" part_double_init="0.006134" clashes="false" width="16" msb="15" lsb="0" addr="0"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 1" clashes="false" double_init="0.000000" sint_init="0">
+      <REGPART part_init="0" part_double_init="0.000000" clashes="false" width="16" msb="15" lsb="0" addr="1"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 2" clashes="false" double_init="-0.049683" sint_init="-1628">
+      <REGPART part_init="-1628" part_double_init="-0.049683" clashes="false" width="16" msb="15" lsb="0" addr="2"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 3" clashes="false" double_init="0.000000" sint_init="0">
+      <REGPART part_init="0" part_double_init="0.000000" clashes="false" width="16" msb="15" lsb="0" addr="3"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 4" clashes="false" double_init="0.293518" sint_init="9618">
+      <REGPART part_init="9618" part_double_init="0.293518" clashes="false" width="16" msb="15" lsb="0" addr="4"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 5" clashes="false" double_init="0.500000" sint_init="16384">
+      <REGPART part_init="16384" part_double_init="0.500000" clashes="false" width="16" msb="15" lsb="0" addr="5"/>
+    </REG>
+  </REGS>
+  <REGS numregs="14" desc="FIR Coefficient Registers" origin="decimation_filter_FilterSystem_DecimatingFIR2" clashes="false" rwmode="Read/Write" bitwidth="16" fracwidth="15" privatespace="false">
+    <REG numregparts="1" desc="FIR Coefficient Register 0" clashes="false" double_init="0.000122" sint_init="4">
+      <REGPART part_init="4" part_double_init="0.000122" clashes="false" width="16" msb="15" lsb="0" addr="6"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 1" clashes="false" double_init="0.000000" sint_init="0">
+      <REGPART part_init="0" part_double_init="0.000000" clashes="false" width="16" msb="15" lsb="0" addr="7"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 2" clashes="false" double_init="-0.000885" sint_init="-29">
+      <REGPART part_init="-29" part_double_init="-0.000885" clashes="false" width="16" msb="15" lsb="0" addr="8"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 3" clashes="false" double_init="0.000000" sint_init="0">
+      <REGPART part_init="0" part_double_init="0.000000" clashes="false" width="16" msb="15" lsb="0" addr="9"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 4" clashes="false" double_init="0.003998" sint_init="131">
+      <REGPART part_init="131" part_double_init="0.003998" clashes="false" width="16" msb="15" lsb="0" addr="10"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 5" clashes="false" double_init="0.000000" sint_init="0">
+      <REGPART part_init="0" part_double_init="0.000000" clashes="false" width="16" msb="15" lsb="0" addr="11"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 6" clashes="false" double_init="-0.012848" sint_init="-421">
+      <REGPART part_init="-421" part_double_init="-0.012848" clashes="false" width="16" msb="15" lsb="0" addr="12"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 7" clashes="false" double_init="0.000000" sint_init="0">
+      <REGPART part_init="0" part_double_init="0.000000" clashes="false" width="16" msb="15" lsb="0" addr="13"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 8" clashes="false" double_init="0.033997" sint_init="1114">
+      <REGPART part_init="1114" part_double_init="0.033997" clashes="false" width="16" msb="15" lsb="0" addr="14"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 9" clashes="false" double_init="0.000000" sint_init="0">
+      <REGPART part_init="0" part_double_init="0.000000" clashes="false" width="16" msb="15" lsb="0" addr="15"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 10" clashes="false" double_init="-0.084991" sint_init="-2785">
+      <REGPART part_init="-2785" part_double_init="-0.084991" clashes="false" width="16" msb="15" lsb="0" addr="16"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 11" clashes="false" double_init="0.000000" sint_init="0">
+      <REGPART part_init="0" part_double_init="0.000000" clashes="false" width="16" msb="15" lsb="0" addr="17"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 12" clashes="false" double_init="0.310638" sint_init="10179">
+      <REGPART part_init="10179" part_double_init="0.310638" clashes="false" width="16" msb="15" lsb="0" addr="18"/>
+    </REG>
+    <REG numregparts="1" desc="FIR Coefficient Register 13" clashes="false" double_init="0.500000" sint_init="16384">
+      <REGPART part_init="16384" part_double_init="0.500000" clashes="false" width="16" msb="15" lsb="0" addr="19"/>
+    </REG>
+  </REGS>
+</MEMORYMAPS>
+<RESOURCES>
+<FUNIT>
+ <FUNAME>decimation_filter/FilterSystem</FUNAME>
+ <FUTYPE>SYNTH</FUTYPE>
+ <LUT4>36</LUT4>
+ <MULT>0</MULT>
+ <BITS>0</BITS>
+ <BLOCKS>0</BLOCKS>
+</FUNIT>
+<FUNIT>
+ <FUNAME>decimation_filter/FilterSystem/DecimatingFIR1</FUNAME>
+ <FUTYPE>FIRD</FUTYPE>
+ <LUT4>291</LUT4>
+ <MULT>2</MULT>
+ <BITS>904</BITS>
+ <BLOCKS>7</BLOCKS>
+</FUNIT>
+<FUNIT>
+ <FUNAME>decimation_filter/FilterSystem/DecimatingFIR2</FUNAME>
+ <FUTYPE>FIRD</FUTYPE>
+ <LUT4>786</LUT4>
+ <MULT>4</MULT>
+ <BITS>888</BITS>
+ <BLOCKS>7</BLOCKS>
+</FUNIT>
+<FUNIT>
+ <FUNAME>decimation_filter/FilterSystem/Scale2</FUNAME>
+ <FUTYPE>SCALE</FUTYPE>
+ <LUT4>124</LUT4>
+ <MULT>0</MULT>
+ <BITS>0</BITS>
+ <BLOCKS>0</BLOCKS>
+</FUNIT>
+<FUNIT>
+ <FUNAME>decimation_filter/FilterSystem/Scale3</FUNAME>
+ <FUTYPE>SCALE</FUTYPE>
+ <LUT4>127</LUT4>
+ <MULT>0</MULT>
+ <BITS>0</BITS>
+ <BLOCKS>0</BLOCKS>
+</FUNIT>
+<FUNIT>
+ <FUNAME>decimation_filter/InChanView</FUNAME>
+ <FUTYPE>CHANVIEW</FUTYPE>
+ <LUT4>42</LUT4>
+ <MULT>0</MULT>
+ <BITS>0</BITS>
+ <BLOCKS>0</BLOCKS>
+</FUNIT>
+<FUNIT>
+ <FUNAME>decimation_filter/OutChanView</FUNAME>
+ <FUTYPE>CHANVIEW</FUTYPE>
+ <LUT4>42</LUT4>
+ <MULT>0</MULT>
+ <BITS>0</BITS>
+ <BLOCKS>0</BLOCKS>
+</FUNIT>
+</RESOURCES>
+</MODEL>

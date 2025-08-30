@@ -1,0 +1,243 @@
+----------------
+; Command Info ;
+----------------
+Report Timing: Found 1 setup paths (0 violated).  Worst case slack is 62489.801 
+
+Tcl Command:
+    report_timing -setup -show_routing -file cpath0.fit -from [get_keepers {decimation_filter_FilterSystem_DecimatingFIR2:theDecimatingFIR2|u0_m0_wo0_accum_o[11]}] -to [get_keepers {decimation_filter_FilterSystem_Scale3:theScale3|u0_mux_q[0]}] -from_clock [get_clocks {clk}] -to_clock [get_clocks {clk}] -npaths 1 -detail full_path
+
+Options:
+    -from [get_keepers {decimation_filter_FilterSystem_DecimatingFIR2:theDecimatingFIR2|u0_m0_wo0_accum_o[11]}] 
+    -to [get_keepers {decimation_filter_FilterSystem_Scale3:theScale3|u0_mux_q[0]}] 
+    -from_clock [get_clocks {clk}] 
+    -to_clock [get_clocks {clk}] 
+    -setup 
+    -npaths 1 
+    -show_routing 
+    -detail full_path 
+    -file {cpath0.fit} 
+
+Delay Model:
+    Slow 1200mV 125C Model
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Summary of Paths                                                                                                                                                                                                                      ;
++-----------+---------------------------------------------------------------------------------------+-------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack     ; From Node                                                                             ; To Node                                                     ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-----------+---------------------------------------------------------------------------------------+-------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; 62489.801 ; decimation_filter_FilterSystem_DecimatingFIR2:theDecimatingFIR2|u0_m0_wo0_accum_o[11] ; decimation_filter_FilterSystem_Scale3:theScale3|u0_mux_q[0] ; clk          ; clk         ; 62500.000    ; -0.078     ; 10.133     ;
++-----------+---------------------------------------------------------------------------------------+-------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+Path #1: Setup slack is 62489.801 
+===============================================================================
++------------------------------------------------------------------------------------------------------------+
+; Path Summary                                                                                               ;
++--------------------+---------------------------------------------------------------------------------------+
+; Property           ; Value                                                                                 ;
++--------------------+---------------------------------------------------------------------------------------+
+; From Node          ; decimation_filter_FilterSystem_DecimatingFIR2:theDecimatingFIR2|u0_m0_wo0_accum_o[11] ;
+; To Node            ; decimation_filter_FilterSystem_Scale3:theScale3|u0_mux_q[0]                           ;
+; Launch Clock       ; clk                                                                                   ;
+; Latch Clock        ; clk                                                                                   ;
+; Data Arrival Time  ; 14.018                                                                                ;
+; Data Required Time ; 62503.819                                                                             ;
+; Slack              ; 62489.801                                                                             ;
++--------------------+---------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------+
+; Statistics                                                                             ;
++------------------------+-----------+-------+-------------+------------+--------+-------+
+; Property               ; Value     ; Count ; Total Delay ; % of Total ; Min    ; Max   ;
++------------------------+-----------+-------+-------------+------------+--------+-------+
+; Setup Relationship     ; 62500.000 ;       ;             ;            ;        ;       ;
+; Clock Skew             ; -0.078    ;       ;             ;            ;        ;       ;
+; Data Delay             ; 10.133    ;       ;             ;            ;        ;       ;
+; Number of Logic Levels ;           ; 6     ;             ;            ;        ;       ;
+; Physical Delays        ;           ;       ;             ;            ;        ;       ;
+;  Arrival Path          ;           ;       ;             ;            ;        ;       ;
+;   Clock                ;           ;       ;             ;            ;        ;       ;
+;    IC                  ;           ; 3     ; 0.001       ; 0          ; 0.000  ; 0.001 ;
+;    Cell                ;           ; 3     ; 1.254       ; 32         ; 0.000  ; 0.737 ;
+;    Routing Element     ;           ; 11    ; 2.630       ; 68         ; 0.000  ; 0.920 ;
+;   Data                 ;           ;       ;             ;            ;        ;       ;
+;    IC                  ;           ; 31    ; 0.002       ; 0          ; 0.000  ; 0.001 ;
+;    Cell                ;           ; 32    ; 5.467       ; 54         ; 0.000  ; 0.646 ;
+;    uTco                ;           ; 1     ; 0.207       ; 2          ; 0.207  ; 0.207 ;
+;    Routing Element     ;           ; 45    ; 4.457       ; 44         ; 0.000  ; 0.595 ;
+;  Required Path         ;           ;       ;             ;            ;        ;       ;
+;   Clock                ;           ;       ;             ;            ;        ;       ;
+;    IC                  ;           ; 3     ; -0.001      ; 0          ; -0.001 ; 0.000 ;
+;    Cell                ;           ; 3     ; 1.217       ; 33         ; 0.000  ; 0.737 ;
+;    Routing Element     ;           ; 11    ; 2.526       ; 67         ; 0.000  ; 0.883 ;
++------------------------+-----------+-------+-------------+------------+--------+-------+
+Note: Negative delays are omitted from totals when calculating percentages
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Data Arrival Path                                                                                                                                                   ;
++----------+---------+----+------+--------+-----------------------------------+---------------------------------------------------------------------------------------+
+; Total    ; Incr    ; RF ; Type ; Fanout ; Location                          ; Element                                                                               ;
++----------+---------+----+------+--------+-----------------------------------+---------------------------------------------------------------------------------------+
+; 0.000    ; 0.000   ;    ;      ;        ;                                   ; launch edge time                                                                      ;
+; 3.885    ; 3.885   ;    ;      ;        ;                                   ; clock path                                                                            ;
+;   0.000  ;   0.000 ;    ;      ;        ;                                   ; source latency                                                                        ;
+;   0.000  ;   0.000 ;    ;      ; 1      ; PIN_J6                            ; clk                                                                                   ;
+;   0.000  ;   0.000 ;    ; RE   ; 1      ; IOPAD_X0_Y18_N14                  ; CUDA_IO_PAD                                                                           ;
+;   0.000  ;   0.000 ; RR ; IC   ; 1      ; IOIBUF_X0_Y18_N15                 ; clk~input|i                                                                           ;
+;   0.737  ;   0.737 ; RR ; CELL ; 1      ; IOIBUF_X0_Y18_N15                 ; clk~input|o                                                                           ;
+;   0.737  ;   0.000 ;    ; RE   ; 1      ; IOIBUF_X0_Y18_N15                 ; ZIPPLEBACK_IO_IBUF                                                                    ;
+;   1.657  ;   0.920 ;    ; RE   ; 1      ; CLK_BUFFER_X0_Y18_N2_I0           ; CLK_BUFFER                                                                            ;
+;   1.657  ;   0.000 ;    ; RE   ; 1      ; CLKBUF_IN_X0_Y38_N31_I1           ; CLKBUF_IN                                                                             ;
+;   1.657  ;   0.000 ; RR ; IC   ; 1      ; CLKCTRL_G3                        ; clk~inputclkctrl|inclk[0]                                                             ;
+;   1.657  ;   0.000 ; RR ; CELL ; 1122   ; CLKCTRL_G3                        ; clk~inputclkctrl|outclk                                                               ;
+;   1.657  ;   0.000 ;    ; RE   ; 1      ; CLKCTRL_G3                        ; CUDA_CLKBUF                                                                           ;
+;   1.685  ;   0.028 ;    ; RE   ; 1      ; CLKBUF_OUT_X0_Y38_N31_I0          ; CLKBUF_OUT                                                                            ;
+;   2.364  ;   0.679 ;    ; RE   ; 2      ; GLOBAL_CLK_H_X0_Y38_N0_I3         ; GLOBAL_CLK_H                                                                          ;
+;   2.586  ;   0.222 ;    ; RE   ; 14     ; GLOBAL_CLK_V_X59_Y0_N0_I3         ; GLOBAL_CLK_V                                                                          ;
+;   2.804  ;   0.218 ;    ; RE   ; 1      ; SCLK_TO_ROWCLK_BUF_X59_Y22_N0_I11 ; SCLK_TO_ROWCLK_BUF                                                                    ;
+;   3.276  ;   0.472 ;    ; RE   ; 11     ; LAB_CLK_X44_Y22_N0_I4             ; LAB_CLK                                                                               ;
+;   3.367  ;   0.091 ;    ; RE   ; 16     ; BLK_CLK_BUF_X45_Y22_N0_I4         ; BLK_CLK_BUF                                                                           ;
+;   3.368  ;   0.001 ; RR ; IC   ; 1      ; FF_X45_Y22_N1                     ; theDecimatingFIR2|u0_m0_wo0_accum_o[11]|clk                                           ;
+;   3.885  ;   0.517 ; RR ; CELL ; 1      ; FF_X45_Y22_N1                     ; decimation_filter_FilterSystem_DecimatingFIR2:theDecimatingFIR2|u0_m0_wo0_accum_o[11] ;
+; 14.018   ; 10.133  ;    ;      ;        ;                                   ; data path                                                                             ;
+;   4.092  ;   0.207 ;    ; uTco ; 1      ; FF_X45_Y22_N1                     ; decimation_filter_FilterSystem_DecimatingFIR2:theDecimatingFIR2|u0_m0_wo0_accum_o[11] ;
+;   4.092  ;   0.000 ; FF ; CELL ; 2      ; FF_X45_Y22_N1                     ; theDecimatingFIR2|u0_m0_wo0_accum_o[11]|q                                             ;
+;   4.182  ;   0.090 ;    ; RE   ; 1      ; FF_X45_Y22_N1                     ; CUDA_FF                                                                               ;
+;   4.280  ;   0.098 ;    ; RE   ; 2      ; LE_BUFFER_X45_Y22_N0_I1           ; LE_BUFFER                                                                             ;
+;   4.666  ;   0.386 ;    ; RE   ; 1      ; LOCAL_INTERCONNECT_X45_Y23_N0_I29 ; LAB_LINE                                                                              ;
+;   4.667  ;   0.001 ; FF ; IC   ; 1      ; LCCOMB_X45_Y23_N4                 ; theScale3|u0_rnd_replace_mux_q[0]~2|datab                                             ;
+;   5.105  ;   0.438 ; FF ; CELL ; 1      ; LCCOMB_X45_Y23_N4                 ; theScale3|u0_rnd_replace_mux_q[0]~2|combout                                           ;
+;   5.124  ;   0.019 ;    ; RE   ; 1      ; LCCOMB_X45_Y23_N4                 ; CUDA_LCELL_COMB                                                                       ;
+;   5.372  ;   0.248 ;    ; RE   ; 1      ; LOCAL_LINE_X45_Y23_N0_I2          ; LOCAL_LINE                                                                            ;
+;   5.372  ;   0.000 ; FF ; IC   ; 1      ; LCCOMB_X45_Y23_N6                 ; theScale3|u0_rnd_replace_mux_q[0]~3|datac                                             ;
+;   5.673  ;   0.301 ; FF ; CELL ; 1      ; LCCOMB_X45_Y23_N6                 ; theScale3|u0_rnd_replace_mux_q[0]~3|combout                                           ;
+;   5.692  ;   0.019 ;    ; RE   ; 1      ; LCCOMB_X45_Y23_N6                 ; CUDA_LCELL_COMB                                                                       ;
+;   5.993  ;   0.301 ;    ; RE   ; 1      ; LOCAL_LINE_X45_Y23_N0_I3          ; LOCAL_LINE                                                                            ;
+;   5.993  ;   0.000 ; FF ; IC   ; 1      ; LCCOMB_X45_Y23_N0                 ; theScale3|u0_rnd_replace_mux_q[0]~4|dataa                                             ;
+;   6.447  ;   0.454 ; FF ; CELL ; 1      ; LCCOMB_X45_Y23_N0                 ; theScale3|u0_rnd_replace_mux_q[0]~4|combout                                           ;
+;   6.464  ;   0.017 ;    ; RE   ; 1      ; LCCOMB_X45_Y23_N0                 ; CUDA_LCELL_COMB                                                                       ;
+;   6.550  ;   0.086 ;    ; RE   ; 1      ; LE_BUFFER_X45_Y23_N0_I1           ; LE_BUFFER                                                                             ;
+;   6.815  ;   0.265 ;    ; RE   ; 1      ; C4_X44_Y19_N0_I12                 ; V_SEG4                                                                                ;
+;   7.325  ;   0.510 ;    ; RE   ; 1      ; LOCAL_INTERCONNECT_X44_Y22_N0_I14 ; LAB_LINE                                                                              ;
+;   7.325  ;   0.000 ; FF ; IC   ; 2      ; LCCOMB_X44_Y22_N8                 ; theScale3|Add0~0|dataa                                                                ;
+;   7.845  ;   0.520 ; FF ; CELL ; 1      ; LCCOMB_X44_Y22_N8                 ; theScale3|Add0~0|cout                                                                 ;
+;   7.845  ;   0.000 ;    ; RE   ; 3      ; LCCOMB_X44_Y22_N8                 ; CUDA_LCELL_COMB                                                                       ;
+;   7.845  ;   0.000 ; FF ; IC   ; 2      ; LCCOMB_X44_Y22_N10                ; theScale3|Add0~2|cin                                                                  ;
+;   7.906  ;   0.061 ; FR ; CELL ; 1      ; LCCOMB_X44_Y22_N10                ; theScale3|Add0~2|cout                                                                 ;
+;   7.906  ;   0.000 ;    ; RE   ; 2      ; LCCOMB_X44_Y22_N10                ; CUDA_LCELL_COMB                                                                       ;
+;   7.906  ;   0.000 ; RR ; IC   ; 2      ; LCCOMB_X44_Y22_N12                ; theScale3|Add0~4|cin                                                                  ;
+;   7.967  ;   0.061 ; RF ; CELL ; 1      ; LCCOMB_X44_Y22_N12                ; theScale3|Add0~4|cout                                                                 ;
+;   7.967  ;   0.000 ;    ; RE   ; 3      ; LCCOMB_X44_Y22_N12                ; CUDA_LCELL_COMB                                                                       ;
+;   7.967  ;   0.000 ; FF ; IC   ; 2      ; LCCOMB_X44_Y22_N14                ; theScale3|Add0~6|cin                                                                  ;
+;   8.028  ;   0.061 ; FR ; CELL ; 1      ; LCCOMB_X44_Y22_N14                ; theScale3|Add0~6|cout                                                                 ;
+;   8.028  ;   0.000 ;    ; RE   ; 3      ; LCCOMB_X44_Y22_N14                ; CUDA_LCELL_COMB                                                                       ;
+;   8.028  ;   0.000 ; RR ; IC   ; 2      ; LCCOMB_X44_Y22_N16                ; theScale3|Add0~8|cin                                                                  ;
+;   8.089  ;   0.061 ; RF ; CELL ; 1      ; LCCOMB_X44_Y22_N16                ; theScale3|Add0~8|cout                                                                 ;
+;   8.089  ;   0.000 ;    ; RE   ; 2      ; LCCOMB_X44_Y22_N16                ; CUDA_LCELL_COMB                                                                       ;
+;   8.089  ;   0.000 ; FF ; IC   ; 2      ; LCCOMB_X44_Y22_N18                ; theScale3|Add0~10|cin                                                                 ;
+;   8.150  ;   0.061 ; FR ; CELL ; 1      ; LCCOMB_X44_Y22_N18                ; theScale3|Add0~10|cout                                                                ;
+;   8.150  ;   0.000 ;    ; RE   ; 2      ; LCCOMB_X44_Y22_N18                ; CUDA_LCELL_COMB                                                                       ;
+;   8.150  ;   0.000 ; RR ; IC   ; 2      ; LCCOMB_X44_Y22_N20                ; theScale3|Add0~12|cin                                                                 ;
+;   8.211  ;   0.061 ; RF ; CELL ; 1      ; LCCOMB_X44_Y22_N20                ; theScale3|Add0~12|cout                                                                ;
+;   8.211  ;   0.000 ;    ; RE   ; 2      ; LCCOMB_X44_Y22_N20                ; CUDA_LCELL_COMB                                                                       ;
+;   8.211  ;   0.000 ; FF ; IC   ; 2      ; LCCOMB_X44_Y22_N22                ; theScale3|Add0~14|cin                                                                 ;
+;   8.272  ;   0.061 ; FR ; CELL ; 1      ; LCCOMB_X44_Y22_N22                ; theScale3|Add0~14|cout                                                                ;
+;   8.272  ;   0.000 ;    ; RE   ; 2      ; LCCOMB_X44_Y22_N22                ; CUDA_LCELL_COMB                                                                       ;
+;   8.272  ;   0.000 ; RR ; IC   ; 2      ; LCCOMB_X44_Y22_N24                ; theScale3|Add0~16|cin                                                                 ;
+;   8.333  ;   0.061 ; RF ; CELL ; 1      ; LCCOMB_X44_Y22_N24                ; theScale3|Add0~16|cout                                                                ;
+;   8.333  ;   0.000 ;    ; RE   ; 2      ; LCCOMB_X44_Y22_N24                ; CUDA_LCELL_COMB                                                                       ;
+;   8.333  ;   0.000 ; FF ; IC   ; 2      ; LCCOMB_X44_Y22_N26                ; theScale3|Add0~18|cin                                                                 ;
+;   8.394  ;   0.061 ; FR ; CELL ; 1      ; LCCOMB_X44_Y22_N26                ; theScale3|Add0~18|cout                                                                ;
+;   8.394  ;   0.000 ;    ; RE   ; 2      ; LCCOMB_X44_Y22_N26                ; CUDA_LCELL_COMB                                                                       ;
+;   8.394  ;   0.000 ; RR ; IC   ; 2      ; LCCOMB_X44_Y22_N28                ; theScale3|Add0~20|cin                                                                 ;
+;   8.455  ;   0.061 ; RF ; CELL ; 1      ; LCCOMB_X44_Y22_N28                ; theScale3|Add0~20|cout                                                                ;
+;   8.455  ;   0.000 ;    ; RE   ; 3      ; LCCOMB_X44_Y22_N28                ; CUDA_LCELL_COMB                                                                       ;
+;   8.455  ;   0.000 ; FF ; IC   ; 2      ; LCCOMB_X44_Y22_N30                ; theScale3|Add0~22|cin                                                                 ;
+;   8.516  ;   0.061 ; FR ; CELL ; 1      ; LCCOMB_X44_Y22_N30                ; theScale3|Add0~22|cout                                                                ;
+;   8.516  ;   0.000 ;    ; RE   ; 2      ; LCCOMB_X44_Y22_N30                ; CUDA_LCELL_COMB                                                                       ;
+;   8.516  ;   0.000 ; RR ; IC   ; 2      ; LCCOMB_X44_Y21_N0                 ; theScale3|Add0~24|cin                                                                 ;
+;   8.577  ;   0.061 ; RF ; CELL ; 1      ; LCCOMB_X44_Y21_N0                 ; theScale3|Add0~24|cout                                                                ;
+;   8.577  ;   0.000 ;    ; RE   ; 2      ; LCCOMB_X44_Y21_N0                 ; CUDA_LCELL_COMB                                                                       ;
+;   8.577  ;   0.000 ; FF ; IC   ; 2      ; LCCOMB_X44_Y21_N2                 ; theScale3|Add0~26|cin                                                                 ;
+;   8.638  ;   0.061 ; FR ; CELL ; 1      ; LCCOMB_X44_Y21_N2                 ; theScale3|Add0~26|cout                                                                ;
+;   8.638  ;   0.000 ;    ; RE   ; 2      ; LCCOMB_X44_Y21_N2                 ; CUDA_LCELL_COMB                                                                       ;
+;   8.638  ;   0.000 ; RR ; IC   ; 2      ; LCCOMB_X44_Y21_N4                 ; theScale3|Add0~28|cin                                                                 ;
+;   8.699  ;   0.061 ; RF ; CELL ; 1      ; LCCOMB_X44_Y21_N4                 ; theScale3|Add0~28|cout                                                                ;
+;   8.699  ;   0.000 ;    ; RE   ; 3      ; LCCOMB_X44_Y21_N4                 ; CUDA_LCELL_COMB                                                                       ;
+;   8.699  ;   0.000 ; FF ; IC   ; 2      ; LCCOMB_X44_Y21_N6                 ; theScale3|Add0~30|cin                                                                 ;
+;   8.760  ;   0.061 ; FR ; CELL ; 1      ; LCCOMB_X44_Y21_N6                 ; theScale3|Add0~30|cout                                                                ;
+;   8.760  ;   0.000 ;    ; RE   ; 2      ; LCCOMB_X44_Y21_N6                 ; CUDA_LCELL_COMB                                                                       ;
+;   8.760  ;   0.000 ; RR ; IC   ; 2      ; LCCOMB_X44_Y21_N8                 ; theScale3|Add0~32|cin                                                                 ;
+;   8.821  ;   0.061 ; RF ; CELL ; 1      ; LCCOMB_X44_Y21_N8                 ; theScale3|Add0~32|cout                                                                ;
+;   8.821  ;   0.000 ;    ; RE   ; 2      ; LCCOMB_X44_Y21_N8                 ; CUDA_LCELL_COMB                                                                       ;
+;   8.821  ;   0.000 ; FF ; IC   ; 2      ; LCCOMB_X44_Y21_N10                ; theScale3|Add0~34|cin                                                                 ;
+;   8.882  ;   0.061 ; FR ; CELL ; 1      ; LCCOMB_X44_Y21_N10                ; theScale3|Add0~34|cout                                                                ;
+;   8.882  ;   0.000 ;    ; RE   ; 2      ; LCCOMB_X44_Y21_N10                ; CUDA_LCELL_COMB                                                                       ;
+;   8.882  ;   0.000 ; RR ; IC   ; 2      ; LCCOMB_X44_Y21_N12                ; theScale3|Add0~36|cin                                                                 ;
+;   8.943  ;   0.061 ; RF ; CELL ; 1      ; LCCOMB_X44_Y21_N12                ; theScale3|Add0~36|cout                                                                ;
+;   8.943  ;   0.000 ;    ; RE   ; 2      ; LCCOMB_X44_Y21_N12                ; CUDA_LCELL_COMB                                                                       ;
+;   8.943  ;   0.000 ; FF ; IC   ; 2      ; LCCOMB_X44_Y21_N14                ; theScale3|Add0~38|cin                                                                 ;
+;   9.004  ;   0.061 ; FR ; CELL ; 1      ; LCCOMB_X44_Y21_N14                ; theScale3|Add0~38|cout                                                                ;
+;   9.004  ;   0.000 ;    ; RE   ; 2      ; LCCOMB_X44_Y21_N14                ; CUDA_LCELL_COMB                                                                       ;
+;   9.004  ;   0.000 ; RR ; IC   ; 2      ; LCCOMB_X44_Y21_N16                ; theScale3|Add0~40|cin                                                                 ;
+;   9.650  ;   0.646 ; RR ; CELL ; 2      ; LCCOMB_X44_Y21_N16                ; theScale3|Add0~40|combout                                                             ;
+;   9.672  ;   0.022 ;    ; RE   ; 2      ; LCCOMB_X44_Y21_N16                ; CUDA_LCELL_COMB                                                                       ;
+;   9.744  ;   0.072 ;    ; RE   ; 1      ; LE_BUFFER_X44_Y21_N0_I17          ; LE_BUFFER                                                                             ;
+;   10.069 ;   0.325 ;    ; RE   ; 2      ; R4_X41_Y21_N0_I26                 ; H_SEG4                                                                                ;
+;   10.524 ;   0.455 ;    ; RE   ; 1      ; LOCAL_INTERCONNECT_X42_Y21_N0_I10 ; LAB_LINE                                                                              ;
+;   10.524 ;   0.000 ; RR ; IC   ; 1      ; LCCOMB_X42_Y21_N18                ; theScale3|Add1~9|dataa                                                                ;
+;   11.075 ;   0.551 ; RF ; CELL ; 1      ; LCCOMB_X42_Y21_N18                ; theScale3|Add1~9|cout                                                                 ;
+;   11.075 ;   0.000 ;    ; RE   ; 1      ; LCCOMB_X42_Y21_N18                ; CUDA_LCELL_COMB                                                                       ;
+;   11.075 ;   0.000 ; FF ; IC   ; 1      ; LCCOMB_X42_Y21_N20                ; theScale3|Add1~11|cin                                                                 ;
+;   11.136 ;   0.061 ; FR ; CELL ; 1      ; LCCOMB_X42_Y21_N20                ; theScale3|Add1~11|cout                                                                ;
+;   11.136 ;   0.000 ;    ; RE   ; 1      ; LCCOMB_X42_Y21_N20                ; CUDA_LCELL_COMB                                                                       ;
+;   11.136 ;   0.000 ; RR ; IC   ; 1      ; LCCOMB_X42_Y21_N22                ; theScale3|Add1~13|cin                                                                 ;
+;   11.197 ;   0.061 ; RF ; CELL ; 1      ; LCCOMB_X42_Y21_N22                ; theScale3|Add1~13|cout                                                                ;
+;   11.197 ;   0.000 ;    ; RE   ; 1      ; LCCOMB_X42_Y21_N22                ; CUDA_LCELL_COMB                                                                       ;
+;   11.197 ;   0.000 ; FF ; IC   ; 1      ; LCCOMB_X42_Y21_N24                ; theScale3|Add1~15|cin                                                                 ;
+;   11.258 ;   0.061 ; FR ; CELL ; 1      ; LCCOMB_X42_Y21_N24                ; theScale3|Add1~15|cout                                                                ;
+;   11.258 ;   0.000 ;    ; RE   ; 1      ; LCCOMB_X42_Y21_N24                ; CUDA_LCELL_COMB                                                                       ;
+;   11.258 ;   0.000 ; RR ; IC   ; 1      ; LCCOMB_X42_Y21_N26                ; theScale3|Add1~16|cin                                                                 ;
+;   11.904 ;   0.646 ; RR ; CELL ; 17     ; LCCOMB_X42_Y21_N26                ; theScale3|Add1~16|combout                                                             ;
+;   11.935 ;   0.031 ;    ; RE   ; 2      ; LCCOMB_X42_Y21_N26                ; CUDA_LCELL_COMB                                                                       ;
+;   12.023 ;   0.088 ;    ; RE   ; 2      ; LE_BUFFER_X42_Y21_N0_I26          ; LE_BUFFER                                                                             ;
+;   12.327 ;   0.304 ;    ; RE   ; 2      ; R4_X42_Y21_N0_I13                 ; H_SEG4                                                                                ;
+;   12.922 ;   0.595 ;    ; RE   ; 2      ; C4_X43_Y22_N0_I10                 ; V_SEG4                                                                                ;
+;   13.448 ;   0.526 ;    ; RE   ; 4      ; LOCAL_INTERCONNECT_X44_Y22_N0_I20 ; LAB_LINE                                                                              ;
+;   13.449 ;   0.001 ; RR ; IC   ; 1      ; LCCOMB_X44_Y22_N0                 ; theScale3|u0_mux_q~0|dataa                                                            ;
+;   13.922 ;   0.473 ; RF ; CELL ; 1      ; LCCOMB_X44_Y22_N0                 ; theScale3|u0_mux_q~0|combout                                                          ;
+;   13.922 ;   0.000 ;    ; RE   ; 1      ; LCCOMB_X44_Y22_N0                 ; CUDA_LCELL_COMB                                                                       ;
+;   13.922 ;   0.000 ; FF ; IC   ; 1      ; FF_X44_Y22_N1                     ; theScale3|u0_mux_q[0]|d                                                               ;
+;   14.018 ;   0.096 ; FF ; CELL ; 1      ; FF_X44_Y22_N1                     ; decimation_filter_FilterSystem_Scale3:theScale3|u0_mux_q[0]                           ;
++----------+---------+----+------+--------+-----------------------------------+---------------------------------------------------------------------------------------+
+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Data Required Path                                                                                                                             ;
++-------------+-----------+----+------+--------+-----------------------------------+-------------------------------------------------------------+
+; Total       ; Incr      ; RF ; Type ; Fanout ; Location                          ; Element                                                     ;
++-------------+-----------+----+------+--------+-----------------------------------+-------------------------------------------------------------+
+; 62500.000   ; 62500.000 ;    ;      ;        ;                                   ; latch edge time                                             ;
+; 62503.807   ; 3.807     ;    ;      ;        ;                                   ; clock path                                                  ;
+;   62500.000 ;   0.000   ;    ;      ;        ;                                   ; source latency                                              ;
+;   62500.000 ;   0.000   ;    ;      ; 1      ; PIN_J6                            ; clk                                                         ;
+;   62500.000 ;   0.000   ;    ; RE   ; 1      ; IOPAD_X0_Y18_N14                  ; CUDA_IO_PAD                                                 ;
+;   62500.000 ;   0.000   ; RR ; IC   ; 1      ; IOIBUF_X0_Y18_N15                 ; clk~input|i                                                 ;
+;   62500.737 ;   0.737   ; RR ; CELL ; 1      ; IOIBUF_X0_Y18_N15                 ; clk~input|o                                                 ;
+;   62500.737 ;   0.000   ;    ; RE   ; 1      ; IOIBUF_X0_Y18_N15                 ; ZIPPLEBACK_IO_IBUF                                          ;
+;   62501.620 ;   0.883   ;    ; RE   ; 1      ; CLK_BUFFER_X0_Y18_N2_I0           ; CLK_BUFFER                                                  ;
+;   62501.620 ;   0.000   ;    ; RE   ; 1      ; CLKBUF_IN_X0_Y38_N31_I1           ; CLKBUF_IN                                                   ;
+;   62501.620 ;   0.000   ; RR ; IC   ; 1      ; CLKCTRL_G3                        ; clk~inputclkctrl|inclk[0]                                   ;
+;   62501.620 ;   0.000   ; RR ; CELL ; 1122   ; CLKCTRL_G3                        ; clk~inputclkctrl|outclk                                     ;
+;   62501.620 ;   0.000   ;    ; RE   ; 1      ; CLKCTRL_G3                        ; CUDA_CLKBUF                                                 ;
+;   62501.647 ;   0.027   ;    ; RE   ; 1      ; CLKBUF_OUT_X0_Y38_N31_I0          ; CLKBUF_OUT                                                  ;
+;   62502.299 ;   0.652   ;    ; RE   ; 2      ; GLOBAL_CLK_H_X0_Y38_N0_I3         ; GLOBAL_CLK_H                                                ;
+;   62502.513 ;   0.214   ;    ; RE   ; 14     ; GLOBAL_CLK_V_X59_Y0_N0_I3         ; GLOBAL_CLK_V                                                ;
+;   62502.722 ;   0.209   ;    ; RE   ; 1      ; SCLK_TO_ROWCLK_BUF_X59_Y22_N0_I11 ; SCLK_TO_ROWCLK_BUF                                          ;
+;   62503.175 ;   0.453   ;    ; RE   ; 11     ; LAB_CLK_X44_Y22_N0_I4             ; LAB_CLK                                                     ;
+;   62503.263 ;   0.088   ;    ; RE   ; 4      ; BLK_CLK_BUF_X44_Y22_N0_I4         ; BLK_CLK_BUF                                                 ;
+;   62503.262 ;   -0.001  ; RR ; IC   ; 1      ; FF_X44_Y22_N1                     ; theScale3|u0_mux_q[0]|clk                                   ;
+;   62503.742 ;   0.480   ; RR ; CELL ; 1      ; FF_X44_Y22_N1                     ; decimation_filter_FilterSystem_Scale3:theScale3|u0_mux_q[0] ;
+;   62503.807 ;   0.065   ;    ;      ;        ;                                   ; clock pessimism removed                                     ;
+; 62503.819   ; 0.012     ;    ; uTsu ; 1      ; FF_X44_Y22_N1                     ; decimation_filter_FilterSystem_Scale3:theScale3|u0_mux_q[0] ;
++-------------+-----------+----+------+--------+-----------------------------------+-------------------------------------------------------------+
+
+

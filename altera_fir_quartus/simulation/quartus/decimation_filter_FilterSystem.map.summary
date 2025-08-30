@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sun Feb 23 15:22:48 2025
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : decimation_filter_FilterSystem
+Top-level Entity Name : decimation_filter_FilterSystem
+Family : MAX 10
+Total logic elements : 1,279
+    Total combinational functions : 709
+    Dedicated logic registers : 1,084
+Total registers : 1084
+Total pins : 3
+Total virtual pins : 99
+Total memory bits : 1,792
+Embedded Multiplier 9-bit elements : 12
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

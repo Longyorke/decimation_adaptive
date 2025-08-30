@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<design>
+		<device id="dspba">
+			<param name="deviceMember" value="" />
+			<param name="family" value="MAX 10" />
+			<param name="speedGrade" value="7" />
+			<param name="max10NoMemInit" value="true" />
+			<param name="part" value="10M40DCF256A7G" />
+		</device>
+		<avalonmmslave id="dspba">
+			<param name="dataWidth" value="16" />
+			<param name="addressWidth" value="11" />
+			<param name="interfaceName" value="bus" />
+			<param name="separateBusClock" value="false" />
+			<param name="busClockFreq" value="240" />
+			<param name="busClockSynchronous" value="true" />
+			<param name="busEndian" value="Big Endian" />
+		</avalonmmslave>
+		<param name="generateHardware" value="true" />
+		<param name="reinterpretCastMult" value="false" />
+		<param name="quartusWorkDirectory" value="./rtl" />
+		<param name="verificationFunction" value="" />
+		<param name="resetActive" value="High" />
+		<param name="errorOnChanMismatch" value="true" />
+		<param name="errorOnGPIOMismatch" value="false" />
+		<param name="hardwareDescriptionLanguage" value="SystemVerilog" />
+		<param name="reset" value="areset" />
+		<param name="multiplierLogicDSPThreshold" value="-1" />
+		<param name="cycleAccurate" value="false" />
+		<param name="floatMismatchTolerance" value="0.0" />
+		<param name="createTrace" value="false" />
+		<param name="clock" value="clk" />
+		<param name="floatMismatchZeroTolerance" value="0.0" />
+		<param name="clockFrequency" value="0.016" />
+		<param name="registerRAMBlockThreshold" value="-1" />
+		<param name="deviceOutputVariable" value="" />
+		<param name="validMapVariable" value="" />
+		<param name="createATBs" value="true" />
+		<param name="dualMemSmallMediumThreshold" value="-1" />
+		<param name="useSeparateQuartusDirectory" value="true" />
+		<param name="dualMemMediumLargeThreshold" value="-1" />
+		<param name="hardwareDestinationDirectory" value="./rtl" />
+		<param name="clockMargin" value="0" />
+		<param name="importModelSimResults" value="false" />
+	</design>
+</parameters>

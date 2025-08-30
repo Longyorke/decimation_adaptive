@@ -1,0 +1,21 @@
+# This is the QIP file for DSP Builder for Intel FPGAs system 'decimation_filter_FilterSystem_DecimatingFIR1'
+
+set_global_assignment -name SYSTEMVERILOG_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1.sv
+set_global_assignment -name SYSTEMVERILOG_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1.sv
+set_global_assignment -name SYSTEMVERILOG_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1.sv
+set_global_assignment -name SYSTEMVERILOG_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1.sv
+set_global_assignment -name HEX_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1_rm.hex
+set_global_assignment -name HEX_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1_u0_m0_wo0_cm0.hex
+set_global_assignment -name HEX_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1_u0_m0_wo0_cm1.hex
+set_global_assignment -name HEX_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1_rm.hex
+set_global_assignment -name HEX_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1_u0_m0_wo0_cm0.hex
+set_global_assignment -name HEX_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1_u0_m0_wo0_cm1.hex
+set_global_assignment -name HEX_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1_rm.hex
+set_global_assignment -name HEX_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1_u0_m0_wo0_cm0.hex
+set_global_assignment -name HEX_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1_u0_m0_wo0_cm1.hex
+set_global_assignment -name HEX_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1_rm.hex
+set_global_assignment -name HEX_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1_u0_m0_wo0_cm0.hex
+set_global_assignment -name HEX_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1_u0_m0_wo0_cm1.hex
+set_global_assignment -name HEX_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1_rm.hex
+set_global_assignment -name HEX_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1_u0_m0_wo0_cm0.hex
+set_global_assignment -name HEX_FILE F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1_u0_m0_wo0_cm1.hex

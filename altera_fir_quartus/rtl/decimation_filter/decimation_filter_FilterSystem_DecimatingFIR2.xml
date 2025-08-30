@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/software/intelFPGA/18.1/quartus/dspba/Blocksets/BaseBlocks/modelip.xsl"?>
+<MODEL>
+<NAME>decimation_filter/FilterSystem/DecimatingFIR2</NAME>
+<BUILD_YEAR>2018</BUILD_YEAR>
+<LATENCY block='lastTStep'>15</LATENCY>
+<DOCPATH>file:///D:/software/intelFPGA/18.1/quartus/dspba/Docs/Help/</DOCPATH>
+<DESCRIPTION>
+This help page relates to the specific instance 'decimation_filter_FilterSystem_DecimatingFIR2' of the FIRD block
+</DESCRIPTION>
+<HELP>file:///D:/software/intelFPGA/18.1/quartus/dspba/Docs/Help/FIRD_help.html</HELP>
+<BLOCKTYPE>FIRD</BLOCKTYPE>
+<INFO>
+ <TEXT>Created using DSP Builder for Intel(R) FPGAs - Advanced Blockset software</TEXT>
+</INFO>
+<INFO>
+ <TEXT>Written on Sun Feb 23 15:26:34 2025
+</TEXT>
+</INFO>
+<INFO>
+ <TEXT>Name: decimation_filter_FilterSystem_DecimatingFIR2</TEXT>
+</INFO>
+<INFO>
+ <TEXT>Number of physical input buses: 1</TEXT>
+</INFO>
+<INFO>
+ <TEXT>Number of physical output buses: 1</TEXT>
+</INFO>
+<INFO>
+ <TEXT>Calculated Bitwidth of output stage: 38</TEXT>
+</INFO>
+<INFO>
+ <TEXT>Number of different phases: 1</TEXT>
+</INFO>
+<INFO>
+ <TEXT>Implementation Folding : 4 </TEXT>
+</INFO>
+<INFO>
+ <TEXT>Filter Utilization : 1/1 (100.00%) </TEXT>
+</INFO>
+<INFO>
+ <TEXT>Tap Utilization : 14/16 (87.50%) </TEXT>
+</INFO>
+<PARAMETER>
+ <NAME>System Clock </NAME>
+ <VALUE>   0.02MHz </VALUE>
+ <DESCRIPTION> The frequency of the clock when running in hardware</DESCRIPTION>
+</PARAMETER>
+<PARAMETER>
+ <NAME>Clock Margin </NAME>
+ <VALUE>   0.00MHz </VALUE>
+ <DESCRIPTION> Additional Clock Margin</DESCRIPTION>
+</PARAMETER>
+<PARAMETER>
+ <NAME>Input Rate </NAME>
+ <VALUE>   0.02MHz </VALUE>
+ <DESCRIPTION> The sample rate of each channel</DESCRIPTION>
+</PARAMETER>
+<PARAMETER>
+ <NAME>Filter Length </NAME>
+ <VALUE> 27 </VALUE>
+ <DESCRIPTION> Number of coefficients</DESCRIPTION>
+</PARAMETER>
+<PARAMETER>
+ <NAME>Decimation </NAME>
+ <VALUE> 4 </VALUE>
+ <DESCRIPTION> Decimation Rate</DESCRIPTION>
+</PARAMETER>
+<PARAMETER>
+ <NAME>Channel Count </NAME>
+ <VALUE> 1 </VALUE>
+ <DESCRIPTION> Number of channels</DESCRIPTION>
+</PARAMETER>
+<PARAMETER>
+ <NAME>Symmetry </NAME>
+ <VALUE> YES </VALUE>
+ <DESCRIPTION> Symmetry is used to reduce the hardware resources</DESCRIPTION>
+</PARAMETER>
+<PORTS>
+<PORT>
+ <NAME>xIn_v</NAME>
+ <WIDTH>1</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Qualifying signal to indicate validity of data signals</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>xIn_c</NAME>
+ <WIDTH>8</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Qualifying signal to indicate channel of data signals</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>xIn_0</NAME>
+ <WIDTH>17</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Data signal</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>busIn_writedata</NAME>
+ <WIDTH>16</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Bus Data Signal</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>busIn_address</NAME>
+ <WIDTH>11</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Bus Address Signal</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>busIn_write</NAME>
+ <WIDTH>1</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Bus Write Enable Signal</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>busIn_read</NAME>
+ <WIDTH>1</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Bus Read Enable Signal</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>xOut_v</NAME>
+ <WIDTH>1</WIDTH>
+ <DIRECTION>out</DIRECTION>
+ <DESCRIPTION>Qualifying signal to indicate validity of data signals</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>xOut_c</NAME>
+ <WIDTH>8</WIDTH>
+ <DIRECTION>out</DIRECTION>
+ <DESCRIPTION>Qualifying signal to indicate channel of data signals</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>xOut_0</NAME>
+ <WIDTH>38</WIDTH>
+ <DIRECTION>out</DIRECTION>
+ <DESCRIPTION>Data signal</DESCRIPTION>
+</PORT>
+</PORTS>
+
+<format name="Input" length="1" width="2">
+	<wire>
+		<!-- channel numbers on each wire -->
+		<chan num="0"/>
+	</wire>
+</format>
+<format name="Output" length="4" width="2">
+	<wire>
+		<!-- channel numbers on each wire -->
+		<chan num="0"/>
+	</wire>
+</format>
+<TIMING>
+ <WAVEFORM>
+  <NAME>Overview</NAME>
+  <PATH>./cic.svg</PATH>
+ </WAVEFORM>
+</TIMING>
+<RESOURCES>
+<TOTAL>
+ <LUT4>786</LUT4>
+ <MULT>4</MULT>
+ <BITS>888</BITS>
+ <BLOCKS>7</BLOCKS>
+</TOTAL>
+</RESOURCES>
+
+</MODEL>

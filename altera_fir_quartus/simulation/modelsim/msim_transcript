@@ -1,0 +1,106 @@
+# Reading E:/software/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do decimation_filter_FilterSystem_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying E:/software/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter {G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:27:51 on Feb 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter" G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem.sv 
+# -- Compiling module decimation_filter_FilterSystem
+# 
+# Top level modules:
+# 	decimation_filter_FilterSystem
+# End time: 23:27:51 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter {G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:27:51 on Feb 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter" G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR1.sv 
+# -- Compiling module decimation_filter_FilterSystem_DecimatingFIR1
+# 
+# Top level modules:
+# 	decimation_filter_FilterSystem_DecimatingFIR1
+# End time: 23:27:51 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter {G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:27:51 on Feb 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter" G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem_DecimatingFIR2.sv 
+# -- Compiling module decimation_filter_FilterSystem_DecimatingFIR2
+# 
+# Top level modules:
+# 	decimation_filter_FilterSystem_DecimatingFIR2
+# End time: 23:27:51 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter {G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem_Scale2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:27:51 on Feb 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter" G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem_Scale2.sv 
+# -- Compiling module decimation_filter_FilterSystem_Scale2
+# 
+# Top level modules:
+# 	decimation_filter_FilterSystem_Scale2
+# End time: 23:27:51 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter {G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem_Scale3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:27:52 on Feb 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter" G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem_Scale3.sv 
+# -- Compiling module decimation_filter_FilterSystem_Scale3
+# 
+# Top level modules:
+# 	decimation_filter_FilterSystem_Scale3
+# End time: 23:27:52 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+e:/software/intelfpga/18.1/quartus/dspba/backend/Libraries/sv/base {e:/software/intelfpga/18.1/quartus/dspba/backend/Libraries/sv/base/dspba_library_ver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:27:52 on Feb 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+e:/software/intelfpga/18.1/quartus/dspba/backend/Libraries/sv/base" e:/software/intelfpga/18.1/quartus/dspba/backend/Libraries/sv/base/dspba_library_ver.sv 
+# -- Compiling module dspba_delay_ver
+# -- Compiling module dspba_sync_reg_ver
+# -- Compiling module dspba_pipe
+# 
+# Top level modules:
+# 	dspba_delay_ver
+# 	dspba_sync_reg_ver
+# 	dspba_pipe
+# End time: 23:27:52 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem_atb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:27:52 on Feb 22,2025
+# vcom -reportprogress 300 -93 -work work G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem_atb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find work.dspba_sim_library_package.
+# ** Error (suppressible): G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem_atb.vhd(25): (vcom-1195) Cannot find expanded name "work.dspba_sim_library_package".
+# ** Error: G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem_atb.vhd(25): Unknown expanded name.
+# ** Error: G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem_atb.vhd(26): VHDL Compiler exiting
+# End time: 23:27:52 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: E:/software/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./decimation_filter_FilterSystem_run_msim_rtl_verilog.do line 15
+# E:/software/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/decimation_filter_FilterSystem_atb.vhd}"
+vcom -work work G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/dspba_library_package.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:30:04 on Feb 22,2025
+# vcom -reportprogress 300 -work work G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/dspba_library_package.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/rtl/decimation_filter/dspba_library_package.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:30:04 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# E:/software/intelFPGA/18.1/modelsim_ase/win32aloem/vcom failed.
+

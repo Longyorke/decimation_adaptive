@@ -1,0 +1,892 @@
+C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2_atb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2_atb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package dspba_sim_library_package
+-- Compiling entity decimation_filter_FilterSystem_DecimatingFIR2_atb
+-- Compiling architecture normal of decimation_filter_FilterSystem_DecimatingFIR2_atb
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/sld_virtual_jtag_basic.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/sld_virtual_jtag_basic.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sld_virtual_jtag_basic
+
+Top level modules:
+	sld_virtual_jtag_basic
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/rs_block.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/rs_block.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rs_block
+
+Top level modules:
+	rs_block
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_compare.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_compare.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lpm_compare
+
+Top level modules:
+	lpm_compare
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_counter.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lpm_counter
+
+Top level modules:
+	lpm_counter
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/work/dspba_library_package.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/12692/Desktop/modelsim_manual/work/dspba_library_package.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package dspba_library_package
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/work/dspba_library_package_sv.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/12692/Desktop/modelsim_manual/work/dspba_library_package_sv.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package dspba_library_package
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altddio_out.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altddio_out.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altddio_out
+
+Top level modules:
+	altddio_out
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_bustri.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_bustri.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lpm_bustri
+
+Top level modules:
+	lpm_bustri
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_add_sub.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_add_sub.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lpm_add_sub
+
+Top level modules:
+	lpm_add_sub
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altsqrt.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altsqrt.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altsqrt
+
+Top level modules:
+	altsqrt
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_tri_diff.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_tri_diff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alt_outbuf_tri_diff
+
+Top level modules:
+	alt_outbuf_tri_diff
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_shiftreg.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_shiftreg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lpm_shiftreg
+
+Top level modules:
+	lpm_shiftreg
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/alt3pram.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/alt3pram.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alt3pram
+
+Top level modules:
+	alt3pram
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/global.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/global.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module global
+
+Top level modules:
+	global
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/carry.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/carry.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module carry
+
+Top level modules:
+	carry
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/work/dspba_sin_dp_sv.v {0 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/work/dspba_sin_dp_sv.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dspba_sin_dp_sv
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/dspba_sin_dp_sv.v(3): near "clock": syntax error, unexpected IDENTIFIER, expecting ')'.
+
+} {4.0 5.0} {}} C:/Users/12692/Desktop/modelsim_manual/work/dspba_sqrt_dp_sv.v {0 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/work/dspba_sqrt_dp_sv.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dspba_sqrt_dp_sv
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/dspba_sqrt_dp_sv.v(3): near "clock": syntax error, unexpected IDENTIFIER, expecting ')'.
+
+} {4.0 5.0} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/alt_bidir_diff.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/alt_bidir_diff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alt_bidir_diff
+
+Top level modules:
+	alt_bidir_diff
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lcell_lut3.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lcell_lut3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lcell_lut3
+
+Top level modules:
+	lcell_lut3
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/dcfifo_mixed_widths.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/dcfifo_mixed_widths.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dcfifo_mixed_widths
+
+Top level modules:
+	dcfifo_mixed_widths
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/dcfifo.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/dcfifo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dcfifo
+
+Top level modules:
+	dcfifo
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_ff.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_ff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lpm_ff
+
+Top level modules:
+	lpm_ff
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_decode.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_decode.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lpm_decode
+
+Top level modules:
+	lpm_decode
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/dummy.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/dummy.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_clshift.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_clshift.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lpm_clshift
+
+Top level modules:
+	lpm_clshift
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/work/dspba_library_sv.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/12692/Desktop/modelsim_manual/work/dspba_library_sv.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package dspba_library_package
+-- Compiling entity dspba_delay
+-- Compiling architecture delay of dspba_delay
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altsyncram.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altsyncram.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altsyncram
+
+Top level modules:
+	altsyncram
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_atb.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\12692\Desktop\modelsim_manual\decimation_filter_FilterSystem_atb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package dspba_sim_library_package
+-- Compiling entity decimation_filter_FilterSystem_atb
+-- Compiling architecture normal of decimation_filter_FilterSystem_atb
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/altsyncram.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/altsyncram.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altsyncram
+
+Top level modules:
+	altsyncram
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/dffp.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/dffp.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling UDP dffp
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_dispatcher_dspba.v {0 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_dispatcher_dspba.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module acl_work_group_dispatcher_dspba
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_dispatcher_dspba.v(75): (vlog-2110) Illegal reference to net array "num_groups".
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_dispatcher_dspba.v(76): (vlog-2110) Illegal reference to net array "local_size".
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_dispatcher_dspba.v(83): (vlog-2110) Illegal reference to net array "group_id_out".
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_dispatcher_dspba.v(84): (vlog-2110) Illegal reference to net array "global_id_base_out".
+
+} {4.0 8.0} {}} C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3.sv {1 {vlog -work work -sv -stats=none C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decimation_filter_FilterSystem_Scale3
+
+Top level modules:
+	decimation_filter_FilterSystem_Scale3
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/mult_block.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/mult_block.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mult_block
+
+Top level modules:
+	mult_block
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altserial_flash_loader.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altserial_flash_loader.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altserial_flash_loader
+
+Top level modules:
+	altserial_flash_loader
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/alt_inbuf.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/alt_inbuf.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alt_inbuf
+
+Top level modules:
+	alt_inbuf
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_divide.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_divide.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lpm_divide
+
+Top level modules:
+	lpm_divide
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/work/dspba_library.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/12692/Desktop/modelsim_manual/work/dspba_library.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package dspba_library_package
+-- Compiling entity dspba_delay
+-- Compiling architecture delay of dspba_delay
+-- Compiling entity dspba_mux2
+-- Compiling architecture mux2 of dspba_mux2
+-- Compiling entity dspba_mux3
+-- Compiling architecture mux3 of dspba_mux3
+-- Compiling entity dspba_mux4
+-- Compiling architecture mux4 of dspba_mux4
+-- Loading package NUMERIC_STD
+-- Compiling entity dspba_intadd_u
+-- Compiling architecture intadd_u of dspba_intadd_u
+-- Compiling entity dspba_intadd_s
+-- Compiling architecture intadd_s of dspba_intadd_s
+-- Compiling entity dspba_intsub_u
+-- Compiling architecture intsub_u of dspba_intsub_u
+-- Compiling entity dspba_intsub_s
+-- Compiling architecture intsub_s of dspba_intsub_s
+-- Compiling entity dspba_intaddsub_u
+-- Compiling architecture intaddsub_u of dspba_intaddsub_u
+-- Compiling entity dspba_intaddsub_s
+-- Compiling architecture intaddsub_s of dspba_intaddsub_s
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/work/acl_dspba_buffer.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/work/acl_dspba_buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module acl_dspba_buffer
+
+Top level modules:
+	acl_dspba_buffer
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1.sv {1 {vlog -work work -sv -stats=none C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decimation_filter_FilterSystem_DecimatingFIR1
+
+Top level modules:
+	decimation_filter_FilterSystem_DecimatingFIR1
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/row_global.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/row_global.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module row_global
+
+Top level modules:
+	row_global
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2_atb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2_atb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package dspba_sim_library_package
+-- Compiling entity decimation_filter_FilterSystem_Scale2_atb
+-- Compiling architecture normal of decimation_filter_FilterSystem_Scale2_atb
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem.sv {1 {vlog -work work -sv -stats=none C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decimation_filter_FilterSystem
+
+Top level modules:
+	decimation_filter_FilterSystem
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3_atb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3_atb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package dspba_sim_library_package
+-- Compiling entity decimation_filter_FilterSystem_Scale3_atb
+-- Compiling architecture normal of decimation_filter_FilterSystem_Scale3_atb
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1_stm.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1_stm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decimation_filter_FilterSystem_DecimatingFIR1_stm
+-- Compiling architecture normal of decimation_filter_FilterSystem_DecimatingFIR1_stm
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2_stm.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2_stm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decimation_filter_FilterSystem_DecimatingFIR2_stm
+-- Compiling architecture normal of decimation_filter_FilterSystem_DecimatingFIR2_stm
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lvds_tx.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lvds_tx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lvds_tx
+
+Top level modules:
+	lvds_tx
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lut_input.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lut_input.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lut_input
+
+Top level modules:
+	lut_input
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_latch.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_latch.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module latch_blk
+-- Compiling module lpm_latch
+
+Top level modules:
+	latch_blk
+	lpm_latch
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lcell_lut4.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lcell_lut4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lcell_lut4
+
+Top level modules:
+	lcell_lut4
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/alt_inbuf_diff.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/alt_inbuf_diff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alt_inbuf_diff
+
+Top level modules:
+	alt_inbuf_diff
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/addsub_block.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/addsub_block.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module addsub_block
+
+Top level modules:
+	addsub_block
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/sld_signaltap.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/sld_signaltap.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sld_signaltap
+
+Top level modules:
+	sld_signaltap
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_inv.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_inv.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lpm_inv
+
+Top level modules:
+	lpm_inv
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/dffep.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/dffep.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling UDP dffep
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/carry_sum.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/carry_sum.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module carry_sum
+
+Top level modules:
+	carry_sum
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v {0 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module acl_printf_counter
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(48): near "clock": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(49): near "resetn": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(50): near "enable": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(51): near "i_start": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(52): near "i_init": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(53): near "i_limit": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(54): near "i_counter_reset": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(57): near "i_increment": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(59): 'logic' already declared in this scope (acl_printf_counter) with a conflicting port direction.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(59): near "o_size": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(60): 'logic' already declared in this scope (acl_printf_counter) with a conflicting port direction.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(60): near "o_resultvalid": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(61): 'logic' already declared in this scope (acl_printf_counter) with a conflicting port direction.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(61): near "o_result": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(64): 'logic' already declared in this scope (acl_printf_counter) with a conflicting port direction.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(64): near "o_full": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(66): 'logic' already declared in this scope (acl_printf_counter) with a conflicting port direction.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(66): near "o_stall": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: (vlog-13032) C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(73): near ";": Syntax error.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(21): Identifier must be declared with a port mode: enable.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(21): Identifier must be declared with a port mode: clock.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(21): Identifier must be declared with a port mode: resetn.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(22): Identifier must be declared with a port mode: i_start.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(23): Identifier must be declared with a port mode: i_init.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(24): Identifier must be declared with a port mode: i_limit.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(25): Identifier must be declared with a port mode: i_increment.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(26): Identifier must be declared with a port mode: i_counter_reset.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(27): Identifier must be declared with a port mode: o_size.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(28): Identifier must be declared with a port mode: o_resultvalid.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(29): Identifier must be declared with a port mode: o_result.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(30): Identifier must be declared with a port mode: o_full.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_printf_counter_dspba.v(31): Identifier must be declared with a port mode: o_stall.
+
+} {4.0 36.0} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/alt_bidir_buf.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/alt_bidir_buf.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alt_bidir_buf
+
+Top level modules:
+	alt_bidir_buf
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/dspba_library_ver.sv {1 {vlog -work work -sv -stats=none C:/Users/12692/Desktop/modelsim_manual/dspba_library_ver.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dspba_delay_ver
+-- Compiling module dspba_sync_reg_ver
+-- Compiling module dspba_pipe
+
+Top level modules:
+	dspba_delay_ver
+	dspba_sync_reg_ver
+	dspba_pipe
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/dffeas.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/dffeas.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dffeas
+
+Top level modules:
+	dffeas
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altpll.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altpll.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altpll
+
+Top level modules:
+	altpll
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/work/acl_id_iterator_dspba.v {0 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/work/acl_id_iterator_dspba.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module acl_id_iterator_dspba
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_id_iterator_dspba.v(106): (vlog-2110) Illegal reference to net array "group_id_in".
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_id_iterator_dspba.v(107): (vlog-2110) Illegal reference to net array "global_id_base_in".
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_id_iterator_dspba.v(110): (vlog-2110) Illegal reference to net array "local_size".
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_id_iterator_dspba.v(111): (vlog-2110) Illegal reference to net array "global_size".
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_id_iterator_dspba.v(114): (vlog-2110) Illegal reference to net array "local_id".
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_id_iterator_dspba.v(115): (vlog-2110) Illegal reference to net array "global_id".
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_id_iterator_dspba.v(116): (vlog-2110) Illegal reference to net array "group_id".
+
+} {4.0 11.0} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/scfifo.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/scfifo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module scfifo
+
+Top level modules:
+	scfifo
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_constant.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_constant.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lpm_constant
+
+Top level modules:
+	lpm_constant
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/flvds_tx.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/flvds_tx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module flvds_tx
+
+Top level modules:
+	flvds_tx
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/work/dspba_sinpi_dp_sv.v {0 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/work/dspba_sinpi_dp_sv.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dspba_sinpi_dp_sv
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/dspba_sinpi_dp_sv.v(6): near "clock": syntax error, unexpected IDENTIFIER, expecting ')'.
+
+} {4.0 5.0} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_tri.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_tri.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alt_outbuf_tri
+
+Top level modules:
+	alt_outbuf_tri
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/soft.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/soft.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module soft
+
+Top level modules:
+	soft
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/cascade.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/cascade.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cascade
+
+Top level modules:
+	cascade
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lut_output.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lut_output.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lut_output
+
+Top level modules:
+	lut_output
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altlvds_tx.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altlvds_tx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altlvds_tx
+
+Top level modules:
+	altlvds_tx
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/sld_virtual_jtag.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/sld_virtual_jtag.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sld_virtual_jtag
+
+Top level modules:
+	sld_virtual_jtag
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altshift_taps.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altshift_taps.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altshift_taps
+-- Compiling module shiftreg
+-- Compiling module dff_bus
+
+Top level modules:
+	altshift_taps
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altstratixii_oct.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altstratixii_oct.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altstratixii_oct
+
+Top level modules:
+	altstratixii_oct
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/TRI1.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/TRI1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TRI1
+
+Top level modules:
+	TRI1
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/work/dspba_sim_library_package.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/12692/Desktop/modelsim_manual/work/dspba_sim_library_package.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling package dspba_sim_library_package
+-- Compiling package body dspba_sim_library_package
+-- Loading package dspba_sim_library_package
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lvds_rx.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lvds_rx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lvds_rx
+
+Top level modules:
+	lvds_rx
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altmult_accum.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altmult_accum.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altmult_accum
+
+Top level modules:
+	altmult_accum
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/lpm_mult.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/lpm_mult.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lpm_mult
+
+Top level modules:
+	lpm_mult
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/latch.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/latch.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module latch
+
+Top level modules:
+	latch
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_stm.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_stm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decimation_filter_FilterSystem_stm
+-- Compiling architecture normal of decimation_filter_FilterSystem_stm
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/alt_iobuf_diff.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/alt_iobuf_diff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alt_iobuf_diff
+
+Top level modules:
+	alt_iobuf_diff
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_diff.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_diff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alt_outbuf_diff
+
+Top level modules:
+	alt_outbuf_diff
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/sld_mod_ram_rom.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/sld_mod_ram_rom.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sld_mod_ram_rom
+
+Top level modules:
+	sld_mod_ram_rom
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/work/acl_embedded_workgroup_issuer_dspba.v {0 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/work/acl_embedded_workgroup_issuer_dspba.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module acl_embedded_workgroup_issuer_dspba
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_embedded_workgroup_issuer_dspba.v(87): near "[": syntax error, unexpected '['.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_embedded_workgroup_issuer_dspba.v(87): (vlog-13205) Syntax error found in the scope following 'logic'. Is there a missing '::'?
+
+} {4.0 6.0} {}} C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2.sv {1 {vlog -work work -sv -stats=none C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decimation_filter_FilterSystem_DecimatingFIR2
+
+Top level modules:
+	decimation_filter_FilterSystem_DecimatingFIR2
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altddio_in.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altddio_in.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altddio_in
+
+Top level modules:
+	altddio_in
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/flvds_rx.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/flvds_rx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module flvds_rx
+
+Top level modules:
+	flvds_rx
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altparallel_flash_loader.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altparallel_flash_loader.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altparallel_flash_loader
+
+Top level modules:
+	altparallel_flash_loader
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altsquare.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altsquare.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altsquare
+
+Top level modules:
+	altsquare
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altlvds_rx.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altlvds_rx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altlvds_rx
+
+Top level modules:
+	altlvds_rx
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lcell.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lcell.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lcell
+
+Top level modules:
+	lcell
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/work/dspba_cos_dp_sv.v {0 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/work/dspba_cos_dp_sv.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dspba_cos_dp_sv
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/dspba_cos_dp_sv.v(3): near "clock": syntax error, unexpected IDENTIFIER, expecting ')'.
+
+} {4.0 5.0} {}} C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2_stm.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2_stm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decimation_filter_FilterSystem_Scale2_stm
+-- Compiling architecture normal of decimation_filter_FilterSystem_Scale2_stm
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_abs.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_abs.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lpm_abs
+
+Top level modules:
+	lpm_abs
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3_stm.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3_stm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decimation_filter_FilterSystem_Scale3_stm
+-- Compiling architecture normal of decimation_filter_FilterSystem_Scale3_stm
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v {0 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module acl_work_group_limiter_dspba
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(81): near "clock": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(82): near "resetn": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(83): near "wg_size": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(86): near "entry_valid_in": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(87): near "entry_k_wgid": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(88): 'logic' already declared in this scope (acl_work_group_limiter_dspba) with a conflicting port direction.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(88): near "entry_stall_out": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(89): 'logic' already declared in this scope (acl_work_group_limiter_dspba) with a conflicting port direction.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(89): near "entry_valid_out": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(90): 'logic' already declared in this scope (acl_work_group_limiter_dspba) with a conflicting port direction.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(90): near "entry_l_wgid": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(91): near "entry_stall_in": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(94): near "exit_valid_in": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(95): 'logic' already declared in this scope (acl_work_group_limiter_dspba) with a conflicting port direction.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(95): near "exit_stall_out": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(96): 'logic' already declared in this scope (acl_work_group_limiter_dspba) with a conflicting port direction.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(96): near "exit_valid_out": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(97): near "exit_stall_in": syntax error, unexpected IDENTIFIER, expecting ';'.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(105): (vlog-2730) Undefined variable: 'wg_size'.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(109): (vlog-2730) Undefined variable: 'entry_k_wgid'.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(126): (vlog-2730) Undefined variable: 'entry_l_wgid'.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(44): Identifier must be declared with a port mode: clock.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(45): Identifier must be declared with a port mode: resetn.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(47): Identifier must be declared with a port mode: wg_size.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(50): Identifier must be declared with a port mode: entry_valid_in.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(51): Identifier must be declared with a port mode: entry_k_wgid.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(52): Identifier must be declared with a port mode: entry_stall_out.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(53): Identifier must be declared with a port mode: entry_valid_out.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(54): Identifier must be declared with a port mode: entry_l_wgid.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(55): Identifier must be declared with a port mode: entry_stall_in.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(58): Identifier must be declared with a port mode: exit_valid_in.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(59): Identifier must be declared with a port mode: exit_stall_out.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(60): Identifier must be declared with a port mode: exit_valid_out.
+** Error: C:/Users/12692/Desktop/modelsim_manual/work/acl_work_group_limiter_dspba.v(61): Identifier must be declared with a port mode: exit_stall_in.
+
+} {4.0 38.0} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/opndrn.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/opndrn.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module opndrn
+
+Top level modules:
+	opndrn
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altsource_probe.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altsource_probe.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altsource_probe
+
+Top level modules:
+	altsource_probe
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2.sv {1 {vlog -work work -sv -stats=none C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decimation_filter_FilterSystem_Scale2
+
+Top level modules:
+	decimation_filter_FilterSystem_Scale2
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_mult.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_mult.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lpm_mult
+
+Top level modules:
+	lpm_mult
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altddio_bidir.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altddio_bidir.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altddio_bidir
+
+Top level modules:
+	altddio_bidir
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altmult_add.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altmult_add.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altmult_add
+
+Top level modules:
+	altmult_add
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/pipeline_internal_fv.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/pipeline_internal_fv.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pipeline_internal_fv
+-- Compiling module dff_bus
+
+Top level modules:
+	pipeline_internal_fv
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/exp.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/exp.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module exp
+
+Top level modules:
+	exp
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1_atb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1_atb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package dspba_sim_library_package
+-- Compiling entity decimation_filter_FilterSystem_DecimatingFIR1_atb
+-- Compiling architecture normal of decimation_filter_FilterSystem_DecimatingFIR1_atb
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/work/acl_dspba_valid_fifo_counter.v {0 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/work/acl_dspba_valid_fifo_counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module acl_dspba_valid_fifo_counter
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/acl_dspba_valid_fifo_counter.v(29): near "clock": syntax error, unexpected IDENTIFIER, expecting ')'.
+
+} {4.0 5.0} {}} C:/Users/12692/Desktop/modelsim_manual/work/dspba_cospi_dp_sv.v {0 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/work/dspba_cospi_dp_sv.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dspba_cospi_dp_sv
+** Error: (vlog-13069) C:/Users/12692/Desktop/modelsim_manual/work/dspba_cospi_dp_sv.v(6): near "clock": syntax error, unexpected IDENTIFIER, expecting ')'.
+
+} {4.0 5.0} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/alt_iobuf.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/alt_iobuf.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alt_iobuf
+
+Top level modules:
+	alt_iobuf
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alt_outbuf
+
+Top level modules:
+	alt_outbuf
+
+} {} {}} C:/Users/12692/Desktop/modelsim_manual/verilog/altaccumulate.v {1 {vlog -work work -stats=none C:/Users/12692/Desktop/modelsim_manual/verilog/altaccumulate.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altaccumulate
+
+Top level modules:
+	altaccumulate
+
+} {} {}}

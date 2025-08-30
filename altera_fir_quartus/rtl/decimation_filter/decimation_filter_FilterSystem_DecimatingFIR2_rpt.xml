@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<island simulinkPath='decimation_filter/FilterSystem/DecimatingFIR2' topLevelEntity='decimation_filter_FilterSystem_DecimatingFIR2'>
+    <port name='clk' dir='in' role='clock'/>
+    <port name='areset' dir='in' clock='clk' role='resetHigh'/>
+    <port name='h_areset' dir='in' clock='clk' role='resetHigh'/>
+    <port name='xIn_v' clock='clk' reset='areset' width='1' dir='in' role='valid' qsys_role='valid_xIn_v' stm=''/>
+    <port name='xIn_c' clock='clk' reset='areset' width='8' dir='in' role='channel' qsys_role='channel_xIn_c' stm=''/>
+    <port name='xIn_0' clock='clk' reset='areset' width='17' dir='in' role='data' qsys_role='data_xIn_0' stm=''/>
+    <port name='busIn_writedata' clock='clk' reset='h_areset' width='16' dir='in' role='busData' qsys_role='writedata' stm=''/>
+    <port name='busIn_address' clock='clk' reset='h_areset' width='11' dir='in' role='busAddress' qsys_role='address' stm=''/>
+    <port name='busIn_write' clock='clk' reset='h_areset' width='1' dir='in' role='busWriteEnable' qsys_role='write' stm=''/>
+    <port name='busIn_read' clock='clk' reset='h_areset' width='1' dir='in' role='busReadEnable' qsys_role='read' stm=''/>
+    <port name='busOut_readdatavalid' clock='clk' reset='h_areset' width='1' dir='out' role='busDataValid' qsys_role='readdatavalid' stm=''/>
+    <port name='busOut_readdata' clock='clk' reset='h_areset' width='16' dir='out' role='busData' qsys_role='readdata' stm=''/>
+    <port name='xOut_v' clock='clk' reset='areset' width='1' dir='out' role='valid' qsys_role='valid_xOut_v' stm=''/>
+    <port name='xOut_c' clock='clk' reset='areset' width='8' dir='out' role='channel' qsys_role='channel_xOut_c' stm=''/>
+    <port name='xOut_0' clock='clk' reset='areset' width='38' dir='out' role='data' qsys_role='data_xOut_0' stm=''/>
+    <file path='eda/sim_lib/altera_primitives.v' base='quartus' type='vhdl' usage='simOnly' lib='altera_ver'/>
+    <file path='eda/sim_lib/altera_mf.v' base='quartus' type='vhdl' usage='simOnly' lib='altera_mf_ver'/>
+    <file path='eda/sim_lib/220model.v' base='quartus' type='vhdl' usage='simOnly' lib='lpm_ver'/>
+    <file path='eda/sim_lib/altera_lnsim.sv' base='quartus' type='vhdl' usage='simOnly' lib='altera_lnsim'/>
+</island>

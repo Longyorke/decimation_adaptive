@@ -1,0 +1,240 @@
+-- ------------------------------------------------------------------------- 
+-- High Level Design Compiler for Intel(R) FPGAs Version 18.1 (Release Build #625)
+-- Quartus Prime development tool and MATLAB/Simulink Interface
+-- 
+-- Legal Notice: Copyright 2018 Intel Corporation.  All rights reserved.
+-- Your use of  Intel Corporation's design tools,  logic functions and other
+-- software and  tools, and its AMPP partner logic functions, and any output
+-- files any  of the foregoing (including  device programming  or simulation
+-- files), and  any associated  documentation  or information  are expressly
+-- subject  to the terms and  conditions of the  Intel FPGA Software License
+-- Agreement, Intel MegaCore Function License Agreement, or other applicable
+-- license agreement,  including,  without limitation,  that your use is for
+-- the  sole  purpose of  programming  logic devices  manufactured by  Intel
+-- and  sold by Intel  or its authorized  distributors. Please refer  to the
+-- applicable agreement for further details.
+-- ---------------------------------------------------------------------------
+
+-- VHDL created from decimation_filter_FilterSystem
+-- VHDL created on Thu Jan 23 17:48:41 2025
+
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.NUMERIC_STD.all;
+use work.dspba_sim_library_package.all;
+entity decimation_filter_FilterSystem_atb is
+end;
+
+architecture normal of decimation_filter_FilterSystem_atb is
+
+component decimation_filter_FilterSystem is
+    port (
+        busIn_writedata : in std_logic_vector(15 downto 0);  -- ufix16
+        busIn_address : in std_logic_vector(10 downto 0);  -- ufix11
+        busIn_write : in std_logic_vector(0 downto 0);  -- ufix1
+        busIn_read : in std_logic_vector(0 downto 0);  -- ufix1
+        busOut_readdatavalid : out std_logic_vector(0 downto 0);  -- ufix1
+        busOut_readdata : out std_logic_vector(15 downto 0);  -- ufix16
+        busOut_waitrequest : out std_logic_vector(0 downto 0);  -- ufix1
+        a : in std_logic_vector(16 downto 0);  -- sfix17_en16
+        av : in std_logic_vector(0 downto 0);  -- ufix1
+        ac : in std_logic_vector(7 downto 0);  -- ufix8
+        q : out std_logic_vector(16 downto 0);  -- sfix17_en16
+        qv : out std_logic_vector(0 downto 0);  -- ufix1
+        qc : out std_logic_vector(7 downto 0);  -- ufix8
+        clk : in std_logic;
+        areset : in std_logic;
+        h_areset : in std_logic
+    );
+end component;
+
+component decimation_filter_FilterSystem_stm is
+    port (
+        busIn_writedata_stm : out std_logic_vector(15 downto 0);
+        busIn_address_stm : out std_logic_vector(10 downto 0);
+        busIn_write_stm : out std_logic_vector(0 downto 0);
+        busIn_read_stm : out std_logic_vector(0 downto 0);
+        busOut_readdatavalid_stm : out std_logic_vector(0 downto 0);
+        busOut_readdata_stm : out std_logic_vector(15 downto 0);
+        busOut_waitrequest_stm : out std_logic_vector(0 downto 0);
+        a_stm : out std_logic_vector(16 downto 0);
+        av_stm : out std_logic_vector(0 downto 0);
+        ac_stm : out std_logic_vector(7 downto 0);
+        q_stm : out std_logic_vector(16 downto 0);
+        qv_stm : out std_logic_vector(0 downto 0);
+        qc_stm : out std_logic_vector(7 downto 0);
+        clk : out std_logic;
+        areset : out std_logic;
+        h_areset : out std_logic
+    );
+end component;
+
+signal busIn_writedata_stm : STD_LOGIC_VECTOR (15 downto 0);
+signal busIn_address_stm : STD_LOGIC_VECTOR (10 downto 0);
+signal busIn_write_stm : STD_LOGIC_VECTOR (0 downto 0);
+signal busIn_read_stm : STD_LOGIC_VECTOR (0 downto 0);
+signal busOut_readdatavalid_stm : STD_LOGIC_VECTOR (0 downto 0);
+signal busOut_readdata_stm : STD_LOGIC_VECTOR (15 downto 0);
+signal busOut_waitrequest_stm : STD_LOGIC_VECTOR (0 downto 0);
+signal a_stm : STD_LOGIC_VECTOR (16 downto 0);
+signal av_stm : STD_LOGIC_VECTOR (0 downto 0);
+signal ac_stm : STD_LOGIC_VECTOR (7 downto 0);
+signal q_stm : STD_LOGIC_VECTOR (16 downto 0);
+signal qv_stm : STD_LOGIC_VECTOR (0 downto 0);
+signal qc_stm : STD_LOGIC_VECTOR (7 downto 0);
+signal busIn_writedata_dut : STD_LOGIC_VECTOR (15 downto 0);
+signal busIn_address_dut : STD_LOGIC_VECTOR (10 downto 0);
+signal busIn_write_dut : STD_LOGIC_VECTOR (0 downto 0);
+signal busIn_read_dut : STD_LOGIC_VECTOR (0 downto 0);
+signal busOut_readdatavalid_dut : STD_LOGIC_VECTOR (0 downto 0);
+signal busOut_readdata_dut : STD_LOGIC_VECTOR (15 downto 0);
+signal busOut_waitrequest_dut : STD_LOGIC_VECTOR (0 downto 0);
+signal a_dut : STD_LOGIC_VECTOR (16 downto 0);
+signal av_dut : STD_LOGIC_VECTOR (0 downto 0);
+signal ac_dut : STD_LOGIC_VECTOR (7 downto 0);
+signal q_dut : STD_LOGIC_VECTOR (16 downto 0);
+signal qv_dut : STD_LOGIC_VECTOR (0 downto 0);
+signal qc_dut : STD_LOGIC_VECTOR (7 downto 0);
+        signal clk : std_logic;
+
+        signal h_areset : std_logic;
+
+signal areset : std_logic := '1';
+process
+begin
+    wait for 10 ns;
+    areset <= '0';  -- 释放复位
+    wait;
+end process;
+
+begin
+
+
+    
+-- General Purpose data in real output
+checka : process (clk, areset, a_dut, a_stm)
+begin
+END PROCESS;
+
+
+-- General Purpose data in real output
+checkav : process (clk, areset, av_dut, av_stm)
+begin
+END PROCESS;
+
+
+-- General Purpose data in real output
+checkac : process (clk, areset, ac_dut, ac_stm)
+begin
+END PROCESS;
+
+
+-- General Purpose data out check
+checkq : process (clk, areset)
+variable mismatch_q : BOOLEAN := FALSE;
+variable ok : BOOLEAN := TRUE;
+begin
+    IF (areset = '1') THEN
+        -- do nothing during reset
+    ELSIF (clk'EVENT AND clk = '0') THEN -- falling clock edge to avoid transitions
+        ok := TRUE;
+        mismatch_q := FALSE;
+        IF ( (q_dut /= q_stm) and qv_dut = "1") THEN
+            mismatch_q := TRUE;
+            report "Mismatch on device output pin q" severity Warning;
+        END IF;
+        IF (mismatch_q) THEN
+            ok := FALSE;
+        END IF;
+        assert (ok)
+        report "mismatch in device level signal." severity Failure;
+    END IF;
+END PROCESS;
+
+
+-- General Purpose data out check
+checkqv : process (clk, areset)
+variable mismatch_qv : BOOLEAN := FALSE;
+variable ok : BOOLEAN := TRUE;
+begin
+    IF (areset = '1') THEN
+        -- do nothing during reset
+    ELSIF (clk'EVENT AND clk = '0') THEN -- falling clock edge to avoid transitions
+        ok := TRUE;
+        mismatch_qv := FALSE;
+        IF ( (qv_dut /= qv_stm)) THEN
+            mismatch_qv := TRUE;
+            report "Mismatch on device output pin qv" severity Warning;
+        END IF;
+        IF (mismatch_qv) THEN
+            ok := FALSE;
+        END IF;
+        assert (ok)
+        report "mismatch in device level signal." severity Failure;
+    END IF;
+END PROCESS;
+
+
+-- General Purpose data out check
+checkqc : process (clk, areset)
+variable mismatch_qc : BOOLEAN := FALSE;
+variable ok : BOOLEAN := TRUE;
+begin
+    IF (areset = '1') THEN
+        -- do nothing during reset
+    ELSIF (clk'EVENT AND clk = '0') THEN -- falling clock edge to avoid transitions
+        ok := TRUE;
+        mismatch_qc := FALSE;
+        IF ( (qc_dut /= qc_stm) and qv_dut = "1") THEN
+            mismatch_qc := TRUE;
+            report "Mismatch on device output pin qc" severity Warning;
+        END IF;
+        IF (mismatch_qc) THEN
+            ok := FALSE;
+        END IF;
+        assert (ok)
+        report "mismatch in device level signal." severity Failure;
+    END IF;
+END PROCESS;
+
+
+dut : decimation_filter_FilterSystem port map (
+    busIn_writedata_stm,
+    busIn_address_stm,
+    busIn_write_stm,
+    busIn_read_stm,
+    busOut_readdatavalid_dut,
+    busOut_readdata_dut,
+    busOut_waitrequest_dut,
+    a_stm,
+    av_stm,
+    ac_stm,
+    q_dut,
+    qv_dut,
+    qc_dut,
+        clk,
+        areset,
+        h_areset
+);
+
+sim : decimation_filter_FilterSystem_stm port map (
+    busIn_writedata_stm,
+    busIn_address_stm,
+    busIn_write_stm,
+    busIn_read_stm,
+    busOut_readdatavalid_stm,
+    busOut_readdata_stm,
+    busOut_waitrequest_stm,
+    a_stm,
+    av_stm,
+    ac_stm,
+    q_stm,
+    qv_stm,
+    qc_stm,
+        clk,
+        areset,
+        h_areset
+);
+
+end normal;

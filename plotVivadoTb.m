@@ -338,9 +338,9 @@ elseif strcmp(styleType, 'black_white')
     labels = {
         {'Observed Signal', '(sfix24\_En13)'},
         {'Desired Signal',  '(sfix24\_En13)'},
-        {'filterOut\_out1', '(sfix35\_En20)'},
-        {'filterError\_signal1', '(sfix31\_En16)'},
-        {'Step Size', '(assumed sfix16)'}
+        {'Filter Out', '(sfix35\_En20)'},
+        {'Result', '(sfix31\_En16)'},
+        {'Step-Size', '(assumed sfix16)'}
     };
     
     for i = 1:5
@@ -370,7 +370,7 @@ elseif strcmp(styleType, 'black_white')
         'LineWidth', 1.2, ...
         'YAxisLocation','left');  % keep scientific notation left
     xlabel('Time (ns)', 'Color', 'k');
-    ylabel({'Binary Representation', 'of filterWeights\_oldCoeff', '(bit 1~22)'}, 'Color', 'k');
+    ylabel({'Filter Weights Coeff', '(bit 1~22)'}, 'Color', 'k');
     yticks(1:22);
     yticklabels(22:-1:1);
     xlim([T(1), T(end)]);

@@ -1,0 +1,6 @@
+# This is the QIP file for DSP Builder for Intel FPGAs system 'decimation_filter_FilterSystem_Scale3'
+
+set_global_assignment -name SYSTEMVERILOG_FILE G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_Scale3.sv
+set_global_assignment -name SYSTEMVERILOG_FILE G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_Scale3.sv
+set_global_assignment -name SYSTEMVERILOG_FILE G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_Scale3.sv
+set_global_assignment -name SYSTEMVERILOG_FILE G:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl/decimation_filter/decimation_filter_FilterSystem_Scale3.sv

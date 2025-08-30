@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<island simulinkPath='decimation_filter/FilterSystem/Scale2' topLevelEntity='decimation_filter_FilterSystem_Scale2'>
+    <port name='clk' dir='in' role='clock'/>
+    <port name='areset' dir='in' clock='clk' role='resetHigh'/>
+    <port name='xIn_v' clock='clk' reset='areset' width='1' dir='in' role='valid' qsys_role='valid_xIn_v' stm=''/>
+    <port name='xIn_c' clock='clk' reset='areset' width='8' dir='in' role='channel' qsys_role='channel_xIn_c' stm=''/>
+    <port name='xIn_0' clock='clk' reset='areset' width='37' dir='in' role='data' qsys_role='data_xIn_0' stm=''/>
+    <port name='gain_i' clock='clk' reset='areset' width='1' dir='in' role='data' qsys_role='data_gain_i' stm=''/>
+    <port name='qOut_v' clock='clk' reset='areset' width='1' dir='out' role='valid' qsys_role='valid_qOut_v' stm=''/>
+    <port name='qOut_c' clock='clk' reset='areset' width='8' dir='out' role='channel' qsys_role='channel_qOut_c' stm=''/>
+    <port name='qOut_0' clock='clk' reset='areset' width='17' dir='out' role='data' qsys_role='data_qOut_0' stm=''/>
+    <port name='eOut_0' clock='clk' reset='areset' width='1' dir='out' role='data' qsys_role='data_eOut_0' stm=''/>
+    <file path='eda/sim_lib/altera_primitives.v' base='quartus' type='vhdl' usage='simOnly' lib='altera_ver'/>
+    <file path='eda/sim_lib/altera_mf.v' base='quartus' type='vhdl' usage='simOnly' lib='altera_mf_ver'/>
+    <file path='eda/sim_lib/220model.v' base='quartus' type='vhdl' usage='simOnly' lib='lpm_ver'/>
+    <file path='eda/sim_lib/altera_lnsim.sv' base='quartus' type='vhdl' usage='simOnly' lib='altera_lnsim'/>
+</island>

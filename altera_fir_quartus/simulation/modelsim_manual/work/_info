@@ -1,0 +1,2794 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/software/intelFPGA/18.1
+vacl_dspba_buffer
+Z0 !s110 1740281909
+!i10b 1
+!s100 zeT@ljXab_U`>Zb=K1`P30
+IJd0Sj@?N`kW8Dg=J9a<kL3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/12692/Desktop/modelsim_manual
+w1536873081
+8C:/Users/12692/Desktop/modelsim_manual/work/acl_dspba_buffer.v
+FC:/Users/12692/Desktop/modelsim_manual/work/acl_dspba_buffer.v
+Z3 L0 22
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1740281909.000000
+!s107 C:/Users/12692/Desktop/modelsim_manual/work/acl_dspba_buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/work/acl_dspba_buffer.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vaddsub_block
+Z8 !s110 1740281919
+!i10b 1
+!s100 =iOaP4kK]7E=?JV<KZ1HQ1
+IhAEJ>K;kHC=TCeHc>K:6@0
+R1
+R2
+Z9 w1536793757
+8C:/Users/12692/Desktop/modelsim_manual/verilog/addsub_block.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/addsub_block.v
+Z10 L0 14
+R4
+r1
+!s85 0
+31
+Z11 !s108 1740281919.000000
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/addsub_block.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/addsub_block.v|
+!i113 1
+R6
+R7
+valt3pram
+Z12 !s110 1740281911
+!i10b 1
+!s100 gf9Vc7i1_7hVccW3FSgIO2
+IToQVf=T;ccMem=:g]NDGM0
+R1
+R2
+Z13 w1536793769
+8C:/Users/12692/Desktop/modelsim_manual/verilog/alt3pram.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/alt3pram.v
+R10
+R4
+r1
+!s85 0
+31
+Z14 !s108 1740281911.000000
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/alt3pram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/alt3pram.v|
+!i113 1
+R6
+R7
+valt_bidir_buf
+R8
+!i10b 1
+!s100 ^a`Oi@3?^?T9G:5]92DIJ2
+I]QT7?:ihQN`TKCkA?n>MK1
+R1
+R2
+Z15 w1536793765
+8C:/Users/12692/Desktop/modelsim_manual/verilog/alt_bidir_buf.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/alt_bidir_buf.v
+Z16 L0 19
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/alt_bidir_buf.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/alt_bidir_buf.v|
+!i113 1
+R6
+R7
+valt_bidir_diff
+R8
+!i10b 1
+!s100 O10J8GUMobFG>2_3Ja4H22
+IT0>QTj4MdkiBfkm8=C:]_3
+R1
+R2
+R15
+8C:/Users/12692/Desktop/modelsim_manual/verilog/alt_bidir_diff.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/alt_bidir_diff.v
+R16
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/alt_bidir_diff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/alt_bidir_diff.v|
+!i113 1
+R6
+R7
+valt_inbuf
+Z17 !s110 1740281910
+!i10b 1
+!s100 kJi:o:k737QSlY^i99OE12
+IElTJcFnMcE7ZeYiHZR2k11
+R1
+R2
+R15
+8C:/Users/12692/Desktop/modelsim_manual/verilog/alt_inbuf.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/alt_inbuf.v
+R16
+R4
+r1
+!s85 0
+31
+Z18 !s108 1740281910.000000
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/alt_inbuf.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/alt_inbuf.v|
+!i113 1
+R6
+R7
+valt_inbuf_diff
+R17
+!i10b 1
+!s100 0a@Pz^E^jjKT2Om;0;oUO2
+IMGgfNB1:?34i>l9eC<:>g3
+R1
+R2
+Z19 w1536793766
+8C:/Users/12692/Desktop/modelsim_manual/verilog/alt_inbuf_diff.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/alt_inbuf_diff.v
+R16
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/alt_inbuf_diff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/alt_inbuf_diff.v|
+!i113 1
+R6
+R7
+valt_iobuf
+R17
+!i10b 1
+!s100 Vzjl]Vm^nb;JUS24`>=A^3
+IOQK=NFWGK6ioih[ij[MAT3
+R1
+R2
+R19
+8C:/Users/12692/Desktop/modelsim_manual/verilog/alt_iobuf.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/alt_iobuf.v
+R16
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/alt_iobuf.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/alt_iobuf.v|
+!i113 1
+R6
+R7
+valt_iobuf_diff
+R17
+!i10b 1
+!s100 XaYze`kM46PKkXcC]bDGM0
+IA2l:Df69hWfdB:^oBVXL20
+R1
+R2
+R19
+8C:/Users/12692/Desktop/modelsim_manual/verilog/alt_iobuf_diff.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/alt_iobuf_diff.v
+R16
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/alt_iobuf_diff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/alt_iobuf_diff.v|
+!i113 1
+R6
+R7
+valt_outbuf
+R17
+!i10b 1
+!s100 9Acn`WUhzR4OXc0ojik>k3
+IkU4m[;3L7F:=K?<8ikaFo2
+R1
+R2
+R19
+8C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf.v
+R16
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf.v|
+!i113 1
+R6
+R7
+valt_outbuf_diff
+R17
+!i10b 1
+!s100 o>a65mE1_dE<J;OSn>H:U0
+IE:fc<5mz6S<QOj6nH@bK23
+R1
+R2
+R19
+8C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_diff.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_diff.v
+R16
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_diff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_diff.v|
+!i113 1
+R6
+R7
+valt_outbuf_tri
+R17
+!i10b 1
+!s100 RT[^g0aT1N;]V:GPkfV[V2
+If3``g^:k9>[=cd[Xl^`YP2
+R1
+R2
+R19
+8C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_tri.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_tri.v
+Z20 L0 20
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_tri.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_tri.v|
+!i113 1
+R6
+R7
+valt_outbuf_tri_diff
+R12
+!i10b 1
+!s100 AgB@MQoXo<nOLI;_2IlX:2
+IR_ZWc:<H1IEhMm0nj`UFS3
+R1
+R2
+Z21 w1536793767
+8C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_tri_diff.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_tri_diff.v
+R20
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_tri_diff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/alt_outbuf_tri_diff.v|
+!i113 1
+R6
+R7
+valtaccumulate
+R12
+!i10b 1
+!s100 N:bomLXJ9@oIL?S5O5?o[0
+I:khNMziWPV5ggSMiWHVKY2
+R1
+R2
+R13
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altaccumulate.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altaccumulate.v
+R10
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/altaccumulate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altaccumulate.v|
+!i113 1
+R6
+R7
+valtddio_bidir
+R12
+!i10b 1
+!s100 GkRPk4JekY5Yg^U8QJ1ZC1
+I186emEkGg4;e7BHQBJNBL2
+R1
+R2
+Z22 w1536793762
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altddio_bidir.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altddio_bidir.v
+Z23 L0 18
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/altddio_bidir.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altddio_bidir.v|
+!i113 1
+R6
+R7
+valtddio_in
+R12
+!i10b 1
+!s100 CRI_XlcJI0oi94U^E4SGf0
+IJRMoFbn:^[lAb9Q;<jM_13
+R1
+R2
+R22
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altddio_in.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altddio_in.v
+R23
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/altddio_in.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altddio_in.v|
+!i113 1
+R6
+R7
+valtddio_out
+R12
+!i10b 1
+!s100 @_Tdji<TE^55:OKmRfD;F0
+IK[@2cZG6GJm>NQGn0>QGe3
+R1
+R2
+Z24 w1536793836
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altddio_out.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altddio_out.v
+Z25 FC:\Users\12692\Desktop\modelsim_manual\verilog\altera_mf_macros.i
+R10
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:\Users\12692\Desktop\modelsim_manual\verilog\altera_mf_macros.i|C:/Users/12692/Desktop/modelsim_manual/verilog/altddio_out.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altddio_out.v|
+!i113 1
+R6
+R7
+valtlvds_rx
+R12
+!i10b 1
+!s100 BH?JOE9V87m]m3ZTNORkA0
+IFED0@<@XJfOo3IQGiU]Pb3
+R1
+R2
+R24
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altlvds_rx.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altlvds_rx.v
+R25
+R10
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:\Users\12692\Desktop\modelsim_manual\verilog\altera_mf_macros.i|C:/Users/12692/Desktop/modelsim_manual/verilog/altlvds_rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altlvds_rx.v|
+!i113 1
+R6
+R7
+valtlvds_tx
+R12
+!i10b 1
+!s100 RCKHKEa@iFBgGI>>D:IO<2
+IN[B0g>LhS9=h:EB0<DeA:3
+R1
+R2
+R24
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altlvds_tx.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altlvds_tx.v
+R25
+R10
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:\Users\12692\Desktop\modelsim_manual\verilog\altera_mf_macros.i|C:/Users/12692/Desktop/modelsim_manual/verilog/altlvds_tx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altlvds_tx.v|
+!i113 1
+R6
+R7
+valtmult_accum
+R12
+!i10b 1
+!s100 fDgnZX^lO^?;`7SBLWWaj3
+IazOzoa?InVZ:;?_HbnoG60
+R1
+R2
+Z26 w1536793761
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altmult_accum.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altmult_accum.v
+L0 41
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/altmult_accum.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altmult_accum.v|
+!i113 1
+R6
+R7
+valtmult_add
+R12
+!i10b 1
+!s100 lPQFfl3[X4l1bZfhI3XjI3
+IQ4VWbYbFo9QX8z7iW]gQG0
+R1
+R2
+R24
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altmult_add.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altmult_add.v
+R25
+Z27 L0 23
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:\Users\12692\Desktop\modelsim_manual\verilog\altera_mf_macros.i|C:/Users/12692/Desktop/modelsim_manual/verilog/altmult_add.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altmult_add.v|
+!i113 1
+R6
+R7
+valtparallel_flash_loader
+R12
+!i10b 1
+!s100 J<HOEZPORXDX0Dj1F4CgM2
+I@LNCWmi4U<M`<YfE0`D@W1
+R1
+R2
+R22
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altparallel_flash_loader.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altparallel_flash_loader.v
+R10
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/altparallel_flash_loader.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altparallel_flash_loader.v|
+!i113 1
+R6
+R7
+valtpll
+Z28 !s110 1740281912
+!i10b 1
+!s100 4gI?6:EHPGnDEhm9<dL<G1
+I[YZS5]n:;5AIh8@5R=GX31
+R1
+R2
+R24
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altpll.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altpll.v
+R25
+R16
+R4
+r1
+!s85 0
+31
+Z29 !s108 1740281912.000000
+!s107 C:\Users\12692\Desktop\modelsim_manual\verilog\altera_mf_macros.i|C:/Users/12692/Desktop/modelsim_manual/verilog/altpll.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altpll.v|
+!i113 1
+R6
+R7
+valtserial_flash_loader
+R28
+!i10b 1
+!s100 9d`?DeMliAE]3Y]N:YcXC1
+INSXSNJ`NdiUC[Gge_cFEV3
+R1
+R2
+Z30 w1536793763
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altserial_flash_loader.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altserial_flash_loader.v
+R10
+R4
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/altserial_flash_loader.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altserial_flash_loader.v|
+!i113 1
+R6
+R7
+valtshift_taps
+R28
+!i10b 1
+!s100 K`@HSAGNLz_c;0VOB]T`O1
+IMP2PgDT;FaUeS?nb;VZXz3
+R1
+R2
+Z31 w1536793771
+Z32 8C:/Users/12692/Desktop/modelsim_manual/verilog/altshift_taps.v
+Z33 FC:/Users/12692/Desktop/modelsim_manual/verilog/altshift_taps.v
+Z34 L0 17
+R4
+r1
+!s85 0
+31
+R29
+Z35 !s107 C:/Users/12692/Desktop/modelsim_manual/verilog/altshift_taps.v|
+Z36 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altshift_taps.v|
+!i113 1
+R6
+R7
+valtsource_probe
+R28
+!i10b 1
+!s100 cXZ7^?3:``mO5eYofRkDZ0
+IR10GLP>S84]A;?HY6^;_j1
+R1
+R2
+R30
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altsource_probe.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altsource_probe.v
+R10
+R4
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/altsource_probe.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altsource_probe.v|
+!i113 1
+R6
+R7
+valtsqrt
+R28
+!i10b 1
+!s100 GXb=lzS[DO[SVVST5G4>z3
+IBQ7l]GJO4HlU?HiU[RfQ41
+R1
+R2
+R31
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altsqrt.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altsqrt.v
+R10
+R4
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/altsqrt.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altsqrt.v|
+!i113 1
+R6
+R7
+valtsquare
+R28
+!i10b 1
+!s100 `J`TSzFVNfZm8SY6`ZILQ3
+I^;f3]Ef_]dSFa@H`BYQ`e2
+R1
+R2
+R31
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altsquare.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altsquare.v
+R23
+R4
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/altsquare.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altsquare.v|
+!i113 1
+R6
+R7
+valtstratixii_oct
+Z37 !s110 1740281913
+!i10b 1
+!s100 6@SBiH0CgLd^CRgH5dRQm3
+InehYPC3Ci;k9c]PLSPMK_1
+R1
+R2
+R30
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altstratixii_oct.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altstratixii_oct.v
+R10
+R4
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/altstratixii_oct.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altstratixii_oct.v|
+!i113 1
+R6
+R7
+valtsyncram
+R37
+!i10b 1
+!s100 oG:A3Aki?028R9GUnEA9H2
+I_bgT@W^VjR8@?IMCJ@73B2
+R1
+R2
+Z38 w1536793772
+8C:/Users/12692/Desktop/modelsim_manual/verilog/altsyncram.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/altsyncram.v
+R10
+R4
+r1
+!s85 0
+31
+Z39 !s108 1740281913.000000
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/altsyncram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/altsyncram.v|
+!i113 1
+R6
+R7
+vcarry
+R37
+!i10b 1
+!s100 iV0DzNOX[1EfAN:T8D4RT3
+IkS21?IPZoQnh]BOQP>ej31
+R1
+R2
+R21
+8C:/Users/12692/Desktop/modelsim_manual/verilog/carry.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/carry.v
+Z40 L0 15
+R4
+r1
+!s85 0
+31
+R39
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/carry.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/carry.v|
+!i113 1
+R6
+R7
+vcarry_sum
+R37
+!i10b 1
+!s100 kg]4h2^kS^mS<RBfGIK]T1
+IE33`O[7zWC]TP>bUohmD42
+R1
+R2
+Z41 w1536793768
+8C:/Users/12692/Desktop/modelsim_manual/verilog/carry_sum.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/carry_sum.v
+R40
+R4
+r1
+!s85 0
+31
+R39
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/carry_sum.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/carry_sum.v|
+!i113 1
+R6
+R7
+vcascade
+R37
+!i10b 1
+!s100 ^G6JVE@PYHb965bB;E7Rl1
+IAeDn2b2cf0;7zE7O2baM^1
+R1
+R2
+R21
+8C:/Users/12692/Desktop/modelsim_manual/verilog/cascade.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/cascade.v
+R40
+R4
+r1
+!s85 0
+31
+R39
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/cascade.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/cascade.v|
+!i113 1
+R6
+R7
+vdcfifo
+R37
+!i10b 1
+!s100 __jVYOQS7>00ZU:dMNX]Z0
+IhC9AQolX>OH5<a@RlWN;c0
+R1
+R2
+R31
+8C:/Users/12692/Desktop/modelsim_manual/verilog/dcfifo.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/dcfifo.v
+R10
+R4
+r1
+!s85 0
+31
+R39
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/dcfifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/dcfifo.v|
+!i113 1
+R6
+R7
+vdcfifo_mixed_widths
+R37
+!i10b 1
+!s100 VKZ19:FTGM6M?WZ:BND^S0
+I;4TVZY7NH:?PIMYFXYdBF2
+R1
+R2
+R38
+8C:/Users/12692/Desktop/modelsim_manual/verilog/dcfifo_mixed_widths.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/dcfifo_mixed_widths.v
+R34
+R4
+r1
+!s85 0
+31
+R39
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/dcfifo_mixed_widths.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/dcfifo_mixed_widths.v|
+!i113 1
+R6
+R7
+vdecimation_filter_FilterSystem
+Z42 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z43 !s110 1740281907
+!i10b 1
+!s100 ecSH00PdV^jD_2Vz56>a70
+I;6eiB0c]gzJlnXH8GV2nF3
+R1
+!s105 decimation_filter_FilterSystem_sv_unit
+S1
+R2
+Z44 w1737625722
+8C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem.sv
+FC:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem.sv
+R27
+R4
+r1
+!s85 0
+31
+Z45 !s108 1740281907.000000
+!s107 C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem.sv|
+!i113 1
+Z46 o-work work -sv
+R7
+ndecimation_filter_@filter@system
+Edecimation_filter_filtersystem_atb
+Z47 w1740282268
+Z48 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z49 DPx4 work 25 dspba_sim_library_package 0 22 WzL=@WLdbLd@K6FNf_^9H2
+Z50 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z51 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z52 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R2
+Z53 8C:\Users\12692\Desktop\modelsim_manual\decimation_filter_FilterSystem_atb.vhd
+Z54 FC:\Users\12692\Desktop\modelsim_manual\decimation_filter_FilterSystem_atb.vhd
+l0
+L26
+VoPJ4h6fS7FE=NQjMnl0cQ0
+!s100 Zbh`3@XnM[eZ^FfIUTQiK0
+Z55 OV;C;10.5b;63
+32
+Z56 !s110 1740282291
+!i10b 1
+Z57 !s108 1740282291.000000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\12692\Desktop\modelsim_manual\decimation_filter_FilterSystem_atb.vhd|
+Z59 !s107 C:\Users\12692\Desktop\modelsim_manual\decimation_filter_FilterSystem_atb.vhd|
+!i113 1
+Z60 o-work work -2002 -explicit
+Z61 tExplicit 1 CvgOpt 0
+Anormal
+R48
+R49
+R50
+R51
+R52
+Z62 DEx4 work 34 decimation_filter_filtersystem_atb 0 22 oPJ4h6fS7FE=NQjMnl0cQ0
+l103
+L29
+Z63 V:IJT:J=^`1hLfDgo?nEnI0
+Z64 !s100 ;eH5D0[aLPNAFnHk?LVI[2
+R55
+32
+R56
+!i10b 1
+R57
+R58
+R59
+!i113 1
+R60
+R61
+vdecimation_filter_FilterSystem_DecimatingFIR1
+R42
+Z65 !s110 1740281908
+!i10b 1
+!s100 hXn;iiHYS6:<BzRfM@B?N2
+IhfmgHFSmW7lgb9hG^Z7cU3
+R1
+!s105 decimation_filter_FilterSystem_DecimatingFIR1_sv_unit
+S1
+R2
+R44
+8C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1.sv
+FC:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1.sv
+R27
+R4
+r1
+!s85 0
+31
+R45
+!s107 C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1.sv|
+!i113 1
+R46
+R7
+ndecimation_filter_@filter@system_@decimating@f@i@r1
+Edecimation_filter_filtersystem_decimatingfir1_atb
+R44
+R48
+R49
+R50
+R51
+R52
+R2
+Z66 8C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1_atb.vhd
+Z67 FC:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1_atb.vhd
+l0
+L26
+V;Y:2`To4^?gkVzP1WaBZm0
+!s100 H=2:VZ^]f2B1JH>;M9Ge11
+R55
+32
+R65
+!i10b 1
+Z68 !s108 1740281908.000000
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1_atb.vhd|
+Z70 !s107 C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1_atb.vhd|
+!i113 1
+R60
+R61
+Anormal
+R48
+R49
+R50
+R51
+R52
+DEx4 work 49 decimation_filter_filtersystem_decimatingfir1_atb 0 22 ;Y:2`To4^?gkVzP1WaBZm0
+l99
+L29
+VF5DX]98T;;zSn^;TcVC?c2
+!s100 dAeRLiJcE7Zi=]`66oh4[3
+R55
+32
+R65
+!i10b 1
+R68
+R69
+R70
+!i113 1
+R60
+R61
+Edecimation_filter_filtersystem_decimatingfir1_stm
+Z71 w1737625724
+R50
+R51
+R52
+R2
+Z72 8C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1_stm.vhd
+Z73 FC:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1_stm.vhd
+l0
+L27
+VVYH5Ch1_8f^@;RiVS8LHN3
+!s100 dQ@NgRKiHU<LF;U177_9j2
+R55
+32
+R65
+!i10b 1
+R68
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1_stm.vhd|
+Z75 !s107 C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR1_stm.vhd|
+!i113 1
+R60
+R61
+Anormal
+R50
+R51
+R52
+DEx4 work 49 decimation_filter_filtersystem_decimatingfir1_stm 0 22 VYH5Ch1_8f^@;RiVS8LHN3
+l72
+L47
+V535lkNh<L2[^0QhGIRX1z1
+!s100 7QlbSohX41GOUzCVP1YBL3
+R55
+32
+R65
+!i10b 1
+R68
+R74
+R75
+!i113 1
+R60
+R61
+vdecimation_filter_FilterSystem_DecimatingFIR2
+R42
+R65
+!i10b 1
+!s100 eXPD1ilhfc77^RR82in2f0
+Ib1ZOM9D=7AMO:3V4ZTF463
+R1
+!s105 decimation_filter_FilterSystem_DecimatingFIR2_sv_unit
+S1
+R2
+R44
+8C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2.sv
+FC:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2.sv
+R27
+R4
+r1
+!s85 0
+31
+R68
+!s107 C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2.sv|
+!i113 1
+R46
+R7
+ndecimation_filter_@filter@system_@decimating@f@i@r2
+Edecimation_filter_filtersystem_decimatingfir2_atb
+R44
+R48
+R49
+R50
+R51
+R52
+R2
+Z76 8C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2_atb.vhd
+Z77 FC:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2_atb.vhd
+l0
+L26
+VYa@ZTH4HW4X_oL^hWa:0I0
+!s100 P9:S1Vdae^1SUL^gZUfCV2
+R55
+32
+R65
+!i10b 1
+R68
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2_atb.vhd|
+Z79 !s107 C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2_atb.vhd|
+!i113 1
+R60
+R61
+Anormal
+R48
+R49
+R50
+R51
+R52
+DEx4 work 49 decimation_filter_filtersystem_decimatingfir2_atb 0 22 Ya@ZTH4HW4X_oL^hWa:0I0
+l99
+L29
+VDA_3zfZinIe`FHWiXFN743
+!s100 TaB@e[[D3bJj5R2DAZnJn3
+R55
+32
+R65
+!i10b 1
+R68
+R78
+R79
+!i113 1
+R60
+R61
+Edecimation_filter_filtersystem_decimatingfir2_stm
+R71
+R50
+R51
+R52
+R2
+Z80 8C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2_stm.vhd
+Z81 FC:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2_stm.vhd
+l0
+L27
+VOJDDQIIoh4Hg6OVXG^M5M3
+!s100 R?9XPonI2YPg[Wh4?6]232
+R55
+32
+R65
+!i10b 1
+R68
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2_stm.vhd|
+Z83 !s107 C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_DecimatingFIR2_stm.vhd|
+!i113 1
+R60
+R61
+Anormal
+R50
+R51
+R52
+DEx4 work 49 decimation_filter_filtersystem_decimatingfir2_stm 0 22 OJDDQIIoh4Hg6OVXG^M5M3
+l72
+L47
+Vj=mnInG1`4FA?zZ=PRLkV3
+!s100 3FF?DbPN6QNzV6R][f;9o1
+R55
+32
+R65
+!i10b 1
+R68
+R82
+R83
+!i113 1
+R60
+R61
+vdecimation_filter_FilterSystem_Scale2
+R42
+R65
+!i10b 1
+!s100 `TD4YKIj`>_<HGEiYLlob1
+I6kJZG?=dll4fACU@7Oc=G1
+R1
+!s105 decimation_filter_FilterSystem_Scale2_sv_unit
+S1
+R2
+R44
+8C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2.sv
+FC:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2.sv
+R27
+R4
+r1
+!s85 0
+31
+R68
+!s107 C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2.sv|
+!i113 1
+R46
+R7
+ndecimation_filter_@filter@system_@scale2
+Edecimation_filter_filtersystem_scale2_atb
+R44
+R48
+R49
+R50
+R51
+R52
+R2
+Z84 8C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2_atb.vhd
+Z85 FC:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2_atb.vhd
+l0
+L26
+VLkLdbJDPYL`kMYGK^2I@h3
+!s100 :HoSQ_2fNVACn^5FTTadg0
+R55
+32
+R65
+!i10b 1
+R68
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2_atb.vhd|
+Z87 !s107 C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2_atb.vhd|
+!i113 1
+R60
+R61
+Anormal
+R48
+R49
+R50
+R51
+R52
+DEx4 work 41 decimation_filter_filtersystem_scale2_atb 0 22 LkLdbJDPYL`kMYGK^2I@h3
+l80
+L29
+VE@]PB^LSm4oc7ji>a_Q590
+!s100 hnoBhajmSLJMH`fGC;G2m0
+R55
+32
+R65
+!i10b 1
+R68
+R86
+R87
+!i113 1
+R60
+R61
+Edecimation_filter_filtersystem_scale2_stm
+R71
+R50
+R51
+R52
+R2
+Z88 8C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2_stm.vhd
+Z89 FC:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2_stm.vhd
+l0
+L27
+V2aMm74P>9_IFQfece^fW@3
+!s100 Kd2eS@<Q]^P^`M>Lg1FhV0
+R55
+32
+R65
+!i10b 1
+R68
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2_stm.vhd|
+Z91 !s107 C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale2_stm.vhd|
+!i113 1
+R60
+R61
+Anormal
+R50
+R51
+R52
+DEx4 work 41 decimation_filter_filtersystem_scale2_stm 0 22 2aMm74P>9_IFQfece^fW@3
+l64
+L42
+VXgbSXZ:@Fe`Se0TPZ>I4e3
+!s100 Bj`GBfL9YeOcRA0KgbFNh2
+R55
+32
+R65
+!i10b 1
+R68
+R90
+R91
+!i113 1
+R60
+R61
+vdecimation_filter_FilterSystem_Scale3
+R42
+R65
+!i10b 1
+!s100 HW?2fK]YZ>HDb7?dJ_N4E0
+IDcYXRmm2:m?_7z6Aj<;CU0
+R1
+!s105 decimation_filter_FilterSystem_Scale3_sv_unit
+S1
+R2
+R44
+8C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3.sv
+FC:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3.sv
+R27
+R4
+r1
+!s85 0
+31
+R68
+!s107 C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3.sv|
+!i113 1
+R46
+R7
+ndecimation_filter_@filter@system_@scale3
+Edecimation_filter_filtersystem_scale3_atb
+R44
+R48
+R49
+R50
+R51
+R52
+R2
+Z92 8C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3_atb.vhd
+Z93 FC:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3_atb.vhd
+l0
+L26
+V]5cAn5No5A^[0`WKoC05e3
+!s100 ^^TliU9z?=OWJiVA0eA@l2
+R55
+32
+R65
+!i10b 1
+R68
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3_atb.vhd|
+Z95 !s107 C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3_atb.vhd|
+!i113 1
+R60
+R61
+Anormal
+R48
+R49
+R50
+R51
+R52
+DEx4 work 41 decimation_filter_filtersystem_scale3_atb 0 22 ]5cAn5No5A^[0`WKoC05e3
+l80
+L29
+VYz3A5WXjo_T<a3[K=hL5S3
+!s100 D:GZI5Tz;iF3cTS5B5zmi0
+R55
+32
+R65
+!i10b 1
+R68
+R94
+R95
+!i113 1
+R60
+R61
+Edecimation_filter_filtersystem_scale3_stm
+R71
+R50
+R51
+R52
+R2
+Z96 8C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3_stm.vhd
+Z97 FC:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3_stm.vhd
+l0
+L27
+VG69V6aP@g_SBR5Yz5ea?^3
+!s100 Q<FGoIoia][bJ<H`G2j7N3
+R55
+32
+R65
+!i10b 1
+R68
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3_stm.vhd|
+Z99 !s107 C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_Scale3_stm.vhd|
+!i113 1
+R60
+R61
+Anormal
+R50
+R51
+R52
+DEx4 work 41 decimation_filter_filtersystem_scale3_stm 0 22 G69V6aP@g_SBR5Yz5ea?^3
+l64
+L42
+V9BT19OJcf?9fG[?<=Im:R1
+!s100 5OAQ[124UoLknl0S>1zU_1
+R55
+32
+R65
+!i10b 1
+R68
+R98
+R99
+!i113 1
+R60
+R61
+Edecimation_filter_filtersystem_stm
+R44
+R50
+R51
+R52
+R2
+Z100 8C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_stm.vhd
+Z101 FC:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_stm.vhd
+l0
+L27
+VGo]Hh[^7`FGcoSI=]C11l3
+!s100 I4RZRTjSOQ^ZL?LQ4IbXL2
+R55
+32
+R43
+!i10b 1
+R45
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_stm.vhd|
+Z103 !s107 C:/Users/12692/Desktop/modelsim_manual/decimation_filter_FilterSystem_stm.vhd|
+!i113 1
+R60
+R61
+Anormal
+R50
+R51
+R52
+DEx4 work 34 decimation_filter_filtersystem_stm 0 22 Go]Hh[^7`FGcoSI=]C11l3
+l75
+L48
+VH7Yh]zJY2?X]c^bKQi?Ro3
+!s100 fba:izc3RkYbSdEN@3>Tj1
+R55
+32
+R43
+!i10b 1
+R45
+R102
+R103
+!i113 1
+R60
+R61
+vdff_bus
+Z104 !s110 1740281917
+!i10b 1
+!s100 e[R1QaH5^eaizfFVLJh9F0
+IneXKQ[]DPcR8ZIZKCbXho1
+R1
+R2
+Z105 w1536793758
+Z106 8C:/Users/12692/Desktop/modelsim_manual/verilog/pipeline_internal_fv.v
+Z107 FC:/Users/12692/Desktop/modelsim_manual/verilog/pipeline_internal_fv.v
+L0 69
+R4
+r1
+!s85 0
+31
+Z108 !s108 1740281917.000000
+Z109 !s107 C:/Users/12692/Desktop/modelsim_manual/verilog/pipeline_internal_fv.v|
+Z110 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/pipeline_internal_fv.v|
+!i113 1
+R6
+R7
+vdffeas
+Z111 !s110 1740281914
+!i10b 1
+!s100 lKdk3Cg03odz^[4=OCMD23
+I3J@gagDeEn>7LBIXS`Bzk1
+R1
+R2
+w1536793747
+8C:/Users/12692/Desktop/modelsim_manual/verilog/dffeas.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/dffeas.v
+R16
+R4
+r1
+!s85 0
+31
+R39
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/dffeas.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/dffeas.v|
+!i113 1
+R6
+R7
+Udffep
+R111
+!i10b 1
+!s100 G^m?31ELN:0Pz=:hOS7JQ2
+Io22Mhfj<HEf=Pf=1hIB:^3
+R1
+R2
+R105
+8C:/Users/12692/Desktop/modelsim_manual/verilog/dffep.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/dffep.v
+R23
+R4
+r1
+!s85 0
+31
+Z112 !s108 1740281914.000000
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/dffep.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/dffep.v|
+!i113 1
+R6
+R7
+Udffp
+R111
+!i10b 1
+!s100 ]jC?De@ooeJ5E7i_eTjFS1
+I5Nd97<J7ImIzGgQTXV;DO1
+R1
+R2
+R105
+8C:/Users/12692/Desktop/modelsim_manual/verilog/dffp.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/dffp.v
+R40
+R4
+r1
+!s85 0
+31
+R112
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/dffp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/dffp.v|
+!i113 1
+R6
+R7
+Edspba_delay
+Z113 w1536873094
+Z114 DPx4 work 21 dspba_library_package 0 22 YhcCIEZ?1[d1O@8_]oQ<z3
+R51
+R52
+R2
+Z115 8C:/Users/12692/Desktop/modelsim_manual/work/dspba_library_sv.vhd
+Z116 FC:/Users/12692/Desktop/modelsim_manual/work/dspba_library_sv.vhd
+l0
+L17
+VFR7lM7^ZK]h`_i;T>I?nl0
+!s100 i^Azek^L>c0eQ?aS0eI2j2
+R55
+32
+R0
+!i10b 1
+R5
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/12692/Desktop/modelsim_manual/work/dspba_library_sv.vhd|
+Z118 !s107 C:/Users/12692/Desktop/modelsim_manual/work/dspba_library_sv.vhd|
+!i113 1
+R60
+R61
+Adelay
+R114
+R51
+R52
+DEx4 work 11 dspba_delay 0 22 FR7lM7^ZK]h`_i;T>I?nl0
+l35
+L32
+VoZH^Cb=icS9eNb:jd;ogV3
+!s100 c_L68k?QV:FA=fnFTj>Lo3
+R55
+32
+R0
+!i10b 1
+R5
+R117
+R118
+!i113 1
+R60
+R61
+vdspba_delay_ver
+R42
+R17
+!i10b 1
+!s100 8g>]P_jC]eBc41Ez9V:QD1
+IKN=`<cTMi1`lnm1[7N8_50
+R1
+Z119 !s105 dspba_library_ver_sv_unit
+S1
+R2
+Z120 w1536835823
+Z121 8C:/Users/12692/Desktop/modelsim_manual/dspba_library_ver.sv
+Z122 FC:/Users/12692/Desktop/modelsim_manual/dspba_library_ver.sv
+R10
+R4
+r1
+!s85 0
+31
+R18
+Z123 !s107 C:/Users/12692/Desktop/modelsim_manual/dspba_library_ver.sv|
+Z124 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/12692/Desktop/modelsim_manual/dspba_library_ver.sv|
+!i113 1
+R46
+R7
+Edspba_intadd_s
+Z125 w1536873102
+R114
+R50
+R51
+R52
+R2
+Z126 8C:/Users/12692/Desktop/modelsim_manual/work/dspba_library.vhd
+Z127 FC:/Users/12692/Desktop/modelsim_manual/work/dspba_library.vhd
+l0
+L296
+V@:G5HhD4CIBbOn^5KGPE91
+!s100 5BlgaH64RRcJ1XdCba1ze1
+R55
+32
+R0
+!i10b 1
+R68
+Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/12692/Desktop/modelsim_manual/work/dspba_library.vhd|
+Z129 !s107 C:/Users/12692/Desktop/modelsim_manual/work/dspba_library.vhd|
+!i113 1
+R60
+R61
+Aintadd_s
+R114
+R50
+R51
+R52
+DEx4 work 14 dspba_intadd_s 0 22 @:G5HhD4CIBbOn^5KGPE91
+l313
+L312
+VeX@lVaDAghY4fIZ5TP[JQ0
+!s100 Ro5FGoJ2CLZ=IiUMi0;j32
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Edspba_intadd_u
+R125
+R114
+R50
+R51
+R52
+R2
+R126
+R127
+l0
+L255
+V;cDcaaNJFVKBcgBdi?O[H2
+!s100 1JFcOR0AIG9l^6o707mc<0
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Aintadd_u
+R114
+R50
+R51
+R52
+DEx4 work 14 dspba_intadd_u 0 22 ;cDcaaNJFVKBcgBdi?O[H2
+l272
+L271
+VZglC<R24oM3UD=?C_;c2b1
+!s100 T;Xe0TTzaF8:bCI8VCz^]1
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Edspba_intaddsub_s
+R125
+R114
+R50
+R51
+R52
+R2
+R126
+R127
+l0
+L472
+V?LN`k;EO2RHXJDL[XclMP0
+!s100 HWK61EVHWMOn<6RQMS9A_0
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Aintaddsub_s
+R114
+R50
+R51
+R52
+DEx4 work 17 dspba_intaddsub_s 0 22 ?LN`k;EO2RHXJDL[XclMP0
+l490
+L489
+V2f`hzjP2fj4nBDWfV]3k<0
+!s100 Z?NM@Ud]kemh<@oFJ4^S10
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Edspba_intaddsub_u
+R125
+R114
+R50
+R51
+R52
+R2
+R126
+R127
+l0
+L419
+Vh63j`H@XnB4JiQL[SHSA;2
+!s100 >fIMAa2i0P]S:G5C`o@h43
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Aintaddsub_u
+R114
+R50
+R51
+R52
+DEx4 work 17 dspba_intaddsub_u 0 22 h63j`H@XnB4JiQL[SHSA;2
+l437
+L436
+V6zMjMzoj0Pg13BUh<hf4]1
+!s100 Xjb80[mnN7V>37QA<CjON3
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Edspba_intsub_s
+R125
+R114
+R50
+R51
+R52
+R2
+R126
+R127
+l0
+L378
+Vh3ASI77O1D@AJD`eldOKG3
+!s100 HlB:R[bWkBeQ_P;Q[dWhd2
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Aintsub_s
+R114
+R50
+R51
+R52
+DEx4 work 14 dspba_intsub_s 0 22 h3ASI77O1D@AJD`eldOKG3
+l395
+L394
+V0D9^kQcMZk1XLo>G6eMoh3
+!s100 j]@0B[6kgl2<1]o]B;iUU3
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Edspba_intsub_u
+R125
+R114
+R50
+R51
+R52
+R2
+R126
+R127
+l0
+L337
+V>3WKUoTh>`QGm?MXnZW^h2
+!s100 RU4^QZmH7i2K3SL9MNZiU1
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Aintsub_u
+R114
+R50
+R51
+R52
+DEx4 work 14 dspba_intsub_u 0 22 >3WKUoTh>`QGm?MXnZW^h2
+l354
+L353
+V;n@^F2GSlg3eM=Y=JO=KL1
+!s100 HlO>WIAb9=0zn4DU=aboN3
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Pdspba_library_package
+R51
+R52
+R113
+R2
+8C:/Users/12692/Desktop/modelsim_manual/work/dspba_library_package_sv.vhd
+FC:/Users/12692/Desktop/modelsim_manual/work/dspba_library_package_sv.vhd
+l0
+L16
+VYhcCIEZ?1[d1O@8_]oQ<z3
+!s100 a3b]K9;fJd=hPIUZnh8VH3
+R55
+32
+R0
+!i10b 1
+R5
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/12692/Desktop/modelsim_manual/work/dspba_library_package_sv.vhd|
+!s107 C:/Users/12692/Desktop/modelsim_manual/work/dspba_library_package_sv.vhd|
+!i113 1
+R60
+R61
+Edspba_mux2
+R125
+R114
+R51
+R52
+R2
+R126
+R127
+l0
+L89
+VfSCSoEQG5[cjP<ONznJ;]3
+!s100 9`o2WgHog1j?mSAmECFMW0
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Amux2
+R114
+R51
+R52
+DEx4 work 10 dspba_mux2 0 22 fSCSoEQG5[cjP<ONznJ;]3
+l107
+L106
+VAF6UB?Pac5>A@8@o_KbB63
+!s100 <KEK=3Bcz^0TEmM=PD[K90
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Edspba_mux3
+R125
+R114
+R51
+R52
+R2
+R126
+R127
+l0
+L141
+VFW`ciON[MGFRU<Gd1OH0N1
+!s100 K;d<1^hoWzOFQediKMHY^2
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Amux3
+R114
+R51
+R52
+DEx4 work 10 dspba_mux3 0 22 FW`ciON[MGFRU<Gd1OH0N1
+l160
+L159
+VO<UH@5?dG]7NU2^AUUz5e0
+!s100 1K^BQQk]lP_Ln8WAKHm;k3
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Edspba_mux4
+R125
+R114
+R51
+R52
+R2
+R126
+R127
+l0
+L196
+VZfJz6=V6:P`UkMha`TL622
+!s100 =;d?jiMgFUGI@_g;UIilN0
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+Amux4
+R114
+R51
+R52
+DEx4 work 10 dspba_mux4 0 22 ZfJz6=V6:P`UkMha`TL622
+l216
+L215
+V^9G_MVYWCQ:2UNOF?@Z?b1
+!s100 ^DU^Oo_`GeZDj8]B?[L9O0
+R55
+32
+R0
+!i10b 1
+R68
+R128
+R129
+!i113 1
+R60
+R61
+vdspba_pipe
+R42
+R17
+!i10b 1
+!s100 VM8oOz[5>ZZVflzoQ79Q50
+I2SGGoc39I3zSL1VO?4GEP3
+R1
+R119
+S1
+R2
+R120
+R121
+R122
+L0 353
+R4
+r1
+!s85 0
+31
+R18
+R123
+R124
+!i113 1
+R46
+R7
+Pdspba_sim_library_package
+R48
+R50
+R51
+R52
+Z130 w1536835824
+R2
+Z131 8C:/Users/12692/Desktop/modelsim_manual/work/dspba_sim_library_package.vhd
+Z132 FC:/Users/12692/Desktop/modelsim_manual/work/dspba_sim_library_package.vhd
+l0
+L19
+VWzL=@WLdbLd@K6FNf_^9H2
+!s100 <83ZDCzTiIjB^51lT:1>13
+R55
+32
+b1
+R0
+!i10b 1
+R5
+Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/12692/Desktop/modelsim_manual/work/dspba_sim_library_package.vhd|
+Z134 !s107 C:/Users/12692/Desktop/modelsim_manual/work/dspba_sim_library_package.vhd|
+!i113 1
+R60
+R61
+Bbody
+R49
+R48
+R50
+R51
+R52
+l0
+L52
+VQ;?H_QFabz1IPSR0R7ZT90
+!s100 zaa?6^l7NZzFgFa7Kah152
+R55
+32
+R0
+!i10b 1
+R5
+R133
+R134
+!i113 1
+R60
+R61
+vdspba_sync_reg_ver
+R42
+R17
+!i10b 1
+!s100 bJ0Pzz2kF_cnBn^AQ3=h^0
+IG7T7RZfJD9F1ic49GfJm50
+R1
+R119
+S1
+R2
+R120
+R121
+R122
+L0 100
+R4
+r1
+!s85 0
+31
+R18
+R123
+R124
+!i113 1
+R46
+R7
+vexp
+R111
+!i10b 1
+!s100 55GdgoS4B]>Jb=zEnzgm@1
+INhRT>l490GPe[B<0k8AC`2
+R1
+R2
+R41
+8C:/Users/12692/Desktop/modelsim_manual/verilog/exp.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/exp.v
+R40
+R4
+r1
+!s85 0
+31
+R112
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/exp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/exp.v|
+!i113 1
+R6
+R7
+vflvds_rx
+R111
+!i10b 1
+!s100 C@NfzgGzV69[FZib6J9@^0
+IFc25haIA:F_4>_]?27TO]2
+R1
+R2
+R24
+8C:/Users/12692/Desktop/modelsim_manual/verilog/flvds_rx.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/flvds_rx.v
+R25
+Z135 L0 16
+R4
+r1
+!s85 0
+31
+R112
+!s107 C:\Users\12692\Desktop\modelsim_manual\verilog\altera_mf_macros.i|C:/Users/12692/Desktop/modelsim_manual/verilog/flvds_rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/flvds_rx.v|
+!i113 1
+R6
+R7
+vflvds_tx
+R111
+!i10b 1
+!s100 VWW<2ACd?o4^9`n=]=kdb0
+I=AWf>EZb>5md64U8>;`Ge2
+R1
+R2
+R24
+8C:/Users/12692/Desktop/modelsim_manual/verilog/flvds_tx.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/flvds_tx.v
+R25
+R10
+R4
+r1
+!s85 0
+31
+R112
+!s107 C:\Users\12692\Desktop\modelsim_manual\verilog\altera_mf_macros.i|C:/Users/12692/Desktop/modelsim_manual/verilog/flvds_tx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/flvds_tx.v|
+!i113 1
+R6
+R7
+vglobal
+R111
+!i10b 1
+!s100 zDFoZND^VS>4h2K@:Z2Z73
+IEP[[;JDUmBNl9R0@kENT81
+R1
+R2
+R21
+8C:/Users/12692/Desktop/modelsim_manual/verilog/global.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/global.v
+R40
+R4
+r1
+!s85 0
+31
+R112
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/global.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/global.v|
+!i113 1
+R6
+R7
+vlatch
+R111
+!i10b 1
+!s100 bR^h5P;z3naez4M9?jWKR0
+I0LJKG<zBYfTbPc2hhhJAZ2
+R1
+R2
+R13
+8C:/Users/12692/Desktop/modelsim_manual/verilog/latch.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/latch.v
+R40
+R4
+r1
+!s85 0
+31
+R112
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/latch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/latch.v|
+!i113 1
+R6
+R7
+vlatch_blk
+Z136 !s110 1740281916
+!i10b 1
+!s100 8gIFU7`C8QGO]kA5kFBZ<1
+Ii6P`J8D_b[cS0@W6EWLPX0
+R1
+R2
+R26
+Z137 8C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_latch.v
+Z138 FC:/Users/12692/Desktop/modelsim_manual/verilog/lpm_latch.v
+R16
+R4
+r1
+!s85 0
+31
+Z139 !s108 1740281916.000000
+Z140 !s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_latch.v|
+Z141 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_latch.v|
+!i113 1
+R6
+R7
+vlcell
+R111
+!i10b 1
+!s100 0>:T9]oh[J^6UcQUl0C2Q3
+IjH:acnUh_Ao6BDIDAR;oi1
+R1
+R2
+R13
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lcell.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lcell.v
+R40
+R4
+r1
+!s85 0
+31
+R112
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lcell.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lcell.v|
+!i113 1
+R6
+R7
+vlcell_lut3
+R111
+!i10b 1
+!s100 @VTWXUN<^MkRzf^Uc3Ndl0
+IUT=h:8decomo`]7[Pm7Yl2
+R1
+R2
+R105
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lcell_lut3.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lcell_lut3.v
+Z142 L0 21
+R4
+r1
+!s85 0
+31
+R112
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lcell_lut3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lcell_lut3.v|
+!i113 1
+R6
+R7
+vlcell_lut4
+R111
+!i10b 1
+!s100 GPkR[@nbPbYLc<zR61fJ40
+Ic<jeKab8g<;8PfAoI9JW?1
+R1
+R2
+R105
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lcell_lut4.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lcell_lut4.v
+R142
+R4
+r1
+!s85 0
+31
+R112
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lcell_lut4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lcell_lut4.v|
+!i113 1
+R6
+R7
+vlpm_abs
+R111
+!i10b 1
+!s100 TX=nMU=9`Q1<jiDUCnB>d0
+INnN2T]:AKzIV:7j0PRc3E2
+R1
+R2
+Z143 w1536793759
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_abs.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lpm_abs.v
+R23
+R4
+r1
+!s85 0
+31
+R112
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_abs.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_abs.v|
+!i113 1
+R6
+R7
+vlpm_add_sub
+Z144 !s110 1740281915
+!i10b 1
+!s100 379oe89m2=heO0K[0RJKK3
+I0zW@T?Xb>_Bc2bhHf9ZO]3
+R1
+R2
+Z145 w1536793760
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_add_sub.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lpm_add_sub.v
+R23
+R4
+r1
+!s85 0
+31
+Z146 !s108 1740281915.000000
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_add_sub.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_add_sub.v|
+!i113 1
+R6
+R7
+vlpm_bustri
+R144
+!i10b 1
+!s100 0@h>@Q>ozGL=5R[8:R<1E1
+I7SWR@7ZY;RHL]J01YNILe1
+R1
+R2
+R143
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_bustri.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lpm_bustri.v
+R23
+R4
+r1
+!s85 0
+31
+R146
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_bustri.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_bustri.v|
+!i113 1
+R6
+R7
+vlpm_clshift
+R144
+!i10b 1
+!s100 [eEoC2W?[P[DzHYZ>=H@W0
+I6B4:Xlz1:j3O8hOk`jNB81
+R1
+R2
+R145
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_clshift.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lpm_clshift.v
+R3
+R4
+r1
+!s85 0
+31
+R146
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_clshift.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_clshift.v|
+!i113 1
+R6
+R7
+vlpm_compare
+R144
+!i10b 1
+!s100 i:92@bY6o0hj1860BPLDc0
+IjALJCQUYo7PITlcJ?D<7S0
+R1
+R2
+R145
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_compare.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lpm_compare.v
+R23
+R4
+r1
+!s85 0
+31
+R146
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_compare.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_compare.v|
+!i113 1
+R6
+R7
+vlpm_constant
+R144
+!i10b 1
+!s100 1D;10T_R:e::?LQQe237f0
+Ing76aNek`D3BeVVOIOKYB0
+R1
+R2
+R143
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_constant.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lpm_constant.v
+R23
+R4
+r1
+!s85 0
+31
+R146
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_constant.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_constant.v|
+!i113 1
+R6
+R7
+vlpm_counter
+R144
+!i10b 1
+!s100 6FbXAf_]8PX^zDaHC]RnL1
+IbBaZMYY^?@m2]O2oabl^n0
+R1
+R2
+R26
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_counter.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lpm_counter.v
+R23
+R4
+r1
+!s85 0
+31
+R146
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_counter.v|
+!i113 1
+R6
+R7
+vlpm_decode
+R144
+!i10b 1
+!s100 AT8XQET0n@TPD1ML[<ag20
+Ikm7zz`:E?K4ldPADdR`W10
+R1
+R2
+R145
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_decode.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lpm_decode.v
+R23
+R4
+r1
+!s85 0
+31
+R146
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_decode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_decode.v|
+!i113 1
+R6
+R7
+vlpm_divide
+R144
+!i10b 1
+!s100 QXo]cfzQdgD]=1ncKG^Xz0
+IR2BIo_H^X83Po`0H^:iBG1
+R1
+R2
+Z147 w1536793773
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_divide.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lpm_divide.v
+R10
+R4
+r1
+!s85 0
+31
+R146
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_divide.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_divide.v|
+!i113 1
+R6
+R7
+vlpm_ff
+R136
+!i10b 1
+!s100 c=Xcm6Ok3^HhlUaNGTDm[2
+IeTgdnZ:?S5BQc3GlVNdlk0
+R1
+R2
+R147
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_ff.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lpm_ff.v
+R16
+R4
+r1
+!s85 0
+31
+R146
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_ff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_ff.v|
+!i113 1
+R6
+R7
+vlpm_inv
+R136
+!i10b 1
+!s100 Vo:=?S:L0Sa7dmigTRSoX3
+I1o`1?zVO]2UUli97VfTfP1
+R1
+R2
+R143
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_inv.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lpm_inv.v
+R23
+R4
+r1
+!s85 0
+31
+R139
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_inv.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_inv.v|
+!i113 1
+R6
+R7
+vlpm_latch
+R136
+!i10b 1
+!s100 jSf[G]6HX=2G16jV6KiDc2
+I[3^kRI>RjEWCd18Zmh>@G2
+R1
+R2
+R26
+R137
+R138
+L0 60
+R4
+r1
+!s85 0
+31
+R139
+R140
+R141
+!i113 1
+R6
+R7
+vlpm_mult
+R136
+!i10b 1
+!s100 cFe1;LnKczSH2Eg>5k_1@1
+IfOMAFMcGL9MMBCaYkUe^b3
+R1
+R2
+R145
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_mult.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lpm_mult.v
+R23
+R4
+r1
+!s85 0
+31
+R139
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_mult.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_mult.v|
+!i113 1
+R6
+R7
+vlpm_shiftreg
+R136
+!i10b 1
+!s100 dYWEV=5@zH[3JcNahRLkQ2
+I89ND=d31F[ehj]<9B<:LV2
+R1
+R2
+R26
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_shiftreg.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lpm_shiftreg.v
+R16
+R4
+r1
+!s85 0
+31
+R139
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_shiftreg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lpm_shiftreg.v|
+!i113 1
+R6
+R7
+vlut_input
+R136
+!i10b 1
+!s100 =RkfDiDLj?QVTZREfbhRK1
+Ih]>^M_>AF_8EOLam[KbbN2
+R1
+R2
+R21
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lut_input.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lut_input.v
+R40
+R4
+r1
+!s85 0
+31
+R139
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lut_input.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lut_input.v|
+!i113 1
+R6
+R7
+vlut_output
+R136
+!i10b 1
+!s100 HAD3^Gh@oiRN^HBSNGohQ3
+IL7:;_kQg4KDBTgQYW`e>43
+R1
+R2
+R13
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lut_output.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lut_output.v
+R40
+R4
+r1
+!s85 0
+31
+R139
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/lut_output.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lut_output.v|
+!i113 1
+R6
+R7
+vlvds_rx
+R136
+!i10b 1
+!s100 ^RKE0Zg_dQomGLSn3YL421
+I@[HBg1j@b4bOeXhJBVbDb2
+R1
+R2
+R24
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lvds_rx.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lvds_rx.v
+R25
+R40
+R4
+r1
+!s85 0
+31
+R139
+!s107 C:\Users\12692\Desktop\modelsim_manual\verilog\altera_mf_macros.i|C:/Users/12692/Desktop/modelsim_manual/verilog/lvds_rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lvds_rx.v|
+!i113 1
+R6
+R7
+vlvds_tx
+R136
+!i10b 1
+!s100 V=?@BJ;9c;oezT>Da=k`H1
+I:GZhPZ>>X5c3ko>I7U4^d2
+R1
+R2
+R24
+8C:/Users/12692/Desktop/modelsim_manual/verilog/lvds_tx.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/lvds_tx.v
+R25
+R135
+R4
+r1
+!s85 0
+31
+R139
+!s107 C:\Users\12692\Desktop\modelsim_manual\verilog\altera_mf_macros.i|C:/Users/12692/Desktop/modelsim_manual/verilog/lvds_tx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/lvds_tx.v|
+!i113 1
+R6
+R7
+vmult_block
+R136
+!i10b 1
+!s100 oGVVY=VDfWC?1ZD@MeUhU2
+I37MCb^Z=NW5FWYH]QX9P>3
+R1
+R2
+R9
+8C:/Users/12692/Desktop/modelsim_manual/verilog/mult_block.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/mult_block.v
+R10
+R4
+r1
+!s85 0
+31
+R139
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/mult_block.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/mult_block.v|
+!i113 1
+R6
+R7
+vopndrn
+R136
+!i10b 1
+!s100 H8PL57IGAi?Ymk=65ClXG1
+IoNeD;MHa>gY1ijbCf]QG:3
+R1
+R2
+R41
+8C:/Users/12692/Desktop/modelsim_manual/verilog/opndrn.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/opndrn.v
+R40
+R4
+r1
+!s85 0
+31
+R139
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/opndrn.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/opndrn.v|
+!i113 1
+R6
+R7
+vpipeline_internal_fv
+R104
+!i10b 1
+!s100 ell;[_3`jcDcS@WFbfflf2
+Io=deoMDXY2M_:U3<YJJ`42
+R1
+R2
+R105
+R106
+R107
+R20
+R4
+r1
+!s85 0
+31
+R108
+R109
+R110
+!i113 1
+R6
+R7
+vrow_global
+R104
+!i10b 1
+!s100 Bdj?MoRazAhOIN[?4Q`LD1
+ICi6D<?_Y8EZnIeIAYGM;T2
+R1
+R2
+R13
+8C:/Users/12692/Desktop/modelsim_manual/verilog/row_global.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/row_global.v
+R40
+R4
+r1
+!s85 0
+31
+R108
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/row_global.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/row_global.v|
+!i113 1
+R6
+R7
+vrs_block
+Z148 !s110 1740281918
+!i10b 1
+!s100 QM;HmP5[;3@=2Co4<[PH<2
+IY`naB=GnOMUaP2O<^L1Ag2
+R1
+R2
+R24
+8C:/Users/12692/Desktop/modelsim_manual/verilog/rs_block.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/rs_block.v
+R25
+R34
+R4
+r1
+!s85 0
+31
+R108
+!s107 C:\Users\12692\Desktop\modelsim_manual\verilog\altera_mf_macros.i|C:/Users/12692/Desktop/modelsim_manual/verilog/rs_block.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/rs_block.v|
+!i113 1
+R6
+R7
+vscfifo
+R148
+!i10b 1
+!s100 W9T6e[;86E>fa;?kM[fZ?2
+Ic4VKPczDDR0U9R3c@Dc^Y1
+R1
+R2
+R38
+8C:/Users/12692/Desktop/modelsim_manual/verilog/scfifo.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/scfifo.v
+R10
+R4
+r1
+!s85 0
+31
+Z149 !s108 1740281918.000000
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/scfifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/scfifo.v|
+!i113 1
+R6
+R7
+vshiftreg
+R28
+!i10b 1
+!s100 dRVDmjDQ^Z@=iU2j^Rlg^2
+I@k2o2G=deX2nJ_[Om^RUh3
+R1
+R2
+R31
+R32
+R33
+L0 78
+R4
+r1
+!s85 0
+31
+R29
+R35
+R36
+!i113 1
+R6
+R7
+vsld_mod_ram_rom
+R148
+!i10b 1
+!s100 32B=W=HoBcBRfE;8g?Pmg0
+I@_^jce4nkLF3FJ=b__c:M1
+R1
+R2
+R147
+8C:/Users/12692/Desktop/modelsim_manual/verilog/sld_mod_ram_rom.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/sld_mod_ram_rom.v
+R10
+R4
+r1
+!s85 0
+31
+R149
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/sld_mod_ram_rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/sld_mod_ram_rom.v|
+!i113 1
+R6
+R7
+vsld_signaltap
+R148
+!i10b 1
+!s100 H<7dbgfWg3@J;Zbc0j4m92
+ITn?Y0DoSNcNP84dPNhRP[1
+R1
+R2
+R38
+8C:/Users/12692/Desktop/modelsim_manual/verilog/sld_signaltap.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/sld_signaltap.v
+R40
+R4
+r1
+!s85 0
+31
+R149
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/sld_signaltap.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/sld_signaltap.v|
+!i113 1
+R6
+R7
+vsld_virtual_jtag
+R8
+!i10b 1
+!s100 Z3HY8R1A02oAW5JdH1?f12
+IFXg?QME`R;fk=T3BoPM`C0
+R1
+R2
+R38
+8C:/Users/12692/Desktop/modelsim_manual/verilog/sld_virtual_jtag.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/sld_virtual_jtag.v
+R16
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/sld_virtual_jtag.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/sld_virtual_jtag.v|
+!i113 1
+R6
+R7
+vsld_virtual_jtag_basic
+R8
+!i10b 1
+!s100 2hR_O6;lVccl<^?SZWVST0
+IE_J7eZTkX_8GFeA4Rddbf2
+R1
+R2
+R147
+8C:/Users/12692/Desktop/modelsim_manual/verilog/sld_virtual_jtag_basic.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/sld_virtual_jtag_basic.v
+R16
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/sld_virtual_jtag_basic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/sld_virtual_jtag_basic.v|
+!i113 1
+R6
+R7
+vsoft
+R8
+!i10b 1
+!s100 WK52<GFo:V`Z1BU[JOLG02
+I8k>TlJ4eD4iJe^DeM[<:<0
+R1
+R2
+R41
+8C:/Users/12692/Desktop/modelsim_manual/verilog/soft.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/soft.v
+R40
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/soft.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/soft.v|
+!i113 1
+R6
+R7
+vTRI1
+R8
+!i10b 1
+!s100 b93VbNQF3XHWQF[QKE_f[1
+I1LCoo3H^cA_548>YPL]?G2
+R1
+R2
+R24
+8C:/Users/12692/Desktop/modelsim_manual/verilog/TRI1.v
+FC:/Users/12692/Desktop/modelsim_manual/verilog/TRI1.v
+R10
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/12692/Desktop/modelsim_manual/verilog/TRI1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/12692/Desktop/modelsim_manual/verilog/TRI1.v|
+!i113 1
+R6
+R7
+n@t@r@i1

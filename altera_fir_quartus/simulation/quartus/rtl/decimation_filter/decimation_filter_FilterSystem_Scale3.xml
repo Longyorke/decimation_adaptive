@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="file:///E:/software/intelFPGA/18.1/quartus/dspba/Blocksets/BaseBlocks/modelip.xsl"?>
+<MODEL>
+<NAME>decimation_filter/FilterSystem/Scale3</NAME>
+<BUILD_YEAR>2018</BUILD_YEAR>
+<LATENCY block='lastTStep'>1</LATENCY>
+<DOCPATH>file:///E:/software/intelFPGA/18.1/quartus/dspba/Docs/Help/</DOCPATH>
+<DESCRIPTION>
+This help page relates to the specific instance 'decimation_filter_FilterSystem_Scale3' of the SCALE block
+</DESCRIPTION>
+<HELP>file:///E:/software/intelFPGA/18.1/quartus/dspba/Docs/Help/SCALE_help.html</HELP>
+<BLOCKTYPE>SCALE</BLOCKTYPE>
+<INFO>
+ <TEXT>Created using DSP Builder for Intel(R) FPGAs - Advanced Blockset software</TEXT>
+</INFO>
+<INFO>
+ <TEXT>Written on Thu Jan 23 17:48:41 2025
+</TEXT>
+</INFO>
+<INFO>
+ <TEXT>Number of physical buses: 1</TEXT>
+</INFO>
+<INFO>
+ <TEXT>Calculated Bitwidth of output stage: 17</TEXT>
+</INFO>
+<INFO>
+ <TEXT>Rounding Mode : UNBIASED : How to treat discarded lsbs</TEXT>
+</INFO>
+<INFO>
+ <TEXT>Saturation Mode : SYMMETRIC : How to treat discarded msbs</TEXT>
+</INFO>
+<PORTS>
+<PORT>
+ <NAME>xIn_v</NAME>
+ <WIDTH>1</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Qualifying signal to indicate validity of data signals</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>xIn_c</NAME>
+ <WIDTH>8</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Qualifying signal to indicate channel of data signals</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>xIn_0</NAME>
+ <WIDTH>38</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Data signal</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>gain_i</NAME>
+ <WIDTH>1</WIDTH>
+ <DIRECTION>in</DIRECTION>
+ <DESCRIPTION>Data signal</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>qOut_v</NAME>
+ <WIDTH>1</WIDTH>
+ <DIRECTION>out</DIRECTION>
+ <DESCRIPTION>Qualifying signal to indicate validity of data signals</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>qOut_c</NAME>
+ <WIDTH>8</WIDTH>
+ <DIRECTION>out</DIRECTION>
+ <DESCRIPTION>Qualifying signal to indicate channel of data signals</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>qOut_0</NAME>
+ <WIDTH>17</WIDTH>
+ <DIRECTION>out</DIRECTION>
+ <DESCRIPTION>Data signal</DESCRIPTION>
+</PORT>
+<PORT>
+ <NAME>eOut_0</NAME>
+ <WIDTH>1</WIDTH>
+ <DIRECTION>out</DIRECTION>
+ <DESCRIPTION>Data signal</DESCRIPTION>
+</PORT>
+</PORTS>
+
+<TIMING>
+ <WAVEFORM>
+  <NAME>Overview</NAME>
+  <PATH>./cic.svg</PATH>
+ </WAVEFORM>
+</TIMING>
+<RESOURCES>
+<TOTAL>
+ <LUT4>127</LUT4>
+ <MULT>0</MULT>
+ <BITS>0</BITS>
+ <BLOCKS>0</BLOCKS>
+</TOTAL>
+</RESOURCES>
+
+</MODEL>

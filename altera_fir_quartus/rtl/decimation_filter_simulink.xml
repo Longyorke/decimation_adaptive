@@ -1,0 +1,185 @@
+
+<dsp-builder xmlns="http://www.altera.com/ns/2011/dsp-builder">
+
+  <design version="1.2">
+    <param name="designGenerator">"DSP Builder 18.1std b625 "</param>
+    <param name="generateAbsoluteOutputPath">"F:\\EM_LAB\\EM_Instrument\\TEMR-3S\\Num01_code\\Filter\\altera_fir/F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl"</param>
+    <param name="generateLanguage">SystemVerilog</param>
+    <param name="generateOutputPath">"F:/EM_LAB/EM_Instrument/TEMR-3S/Num01_code/Filter/altera_fir/./rtl"</param>
+    <param name="generateSubPath">decimation_filter</param>
+    <model name="decimation_filter_FilterSystem">
+      <param name="avalonMMInterfaceName">bus</param>
+      <param name="generateHwTcl">true</param>
+      <param name="simulinkHasDeviceBlock">true</param>
+      <param name="simulinkPath">"decimation_filter/FilterSystem"</param>
+      <param name="synthATBChannelMismatch">synthATBModeError</param>
+      <param name="synthATBFloatThreshold">0</param>
+      <param name="synthATBFloatZeroThreshold">0</param>
+      <param name="synthATBGPIOMismatch">synthATBModeWarning</param>
+      <param name="synthBusAddrWidth">11</param>
+      <param name="synthBusClockMode">synthBusClockSys</param>
+      <param name="synthBusDataWidth">16</param>
+      <param name="synthBusEndianMode">synthBusEndianBig</param>
+      <param name="synthBusFreq">0x4.189374bc6a7fp-8</param>
+      <param name="synthCircuitTimed">true</param>
+      <param name="synthClockFreq">0x4.189374bc6a7fp-8</param>
+      <param name="synthClockName">clk</param>
+      <param name="synthCycleAccurate">false</param>
+      <param name="synthDeviceFamily">"MAX 10"</param>
+      <param name="synthDeviceInitialiseMemories">false</param>
+      <param name="synthDevicePart">"10M40DCF256A7G"</param>
+      <param name="synthDeviceSpeedGrade">"7"</param>
+      <param name="synthDeviceSubFamily">""</param>
+      <param name="synthGenerateATB">true</param>
+      <param name="synthOutputMode">synthOutputHDLRoot</param>
+      <param name="synthResetActiveMode">synthResetActiveHigh</param>
+      <param name="synthResetName">areset</param>
+      <block name="(pin (1 a))">
+        <param name="0">[/decimation_filter_FilterSystem/inputBlock/(1 a)]</param>
+        <param name="blockType">typePinBlock</param>
+        <param name="typePinType">(typeSFixed 1 16)</param>
+      </block>
+      <block name="(pin (1 q))">
+        <param name="0">[/decimation_filter_FilterSystem/Scale3/scaleWireData]</param>
+        <param name="blockType">typePinBlock</param>
+        <param name="metadataTuple">()</param>
+        <param name="typePinType">(typeSFixed 1 16)</param>
+      </block>
+      <block name="(pin (2 av))">
+        <param name="0">[/decimation_filter_FilterSystem/inputBlock/(2 av)]</param>
+        <param name="blockType">typePinBlock</param>
+        <param name="hasBooleanType">true</param>
+        <param name="typePinType">(typeUFixed 1 0)</param>
+      </block>
+      <block name="(pin (2 qv))">
+        <param name="0">[/decimation_filter_FilterSystem/Scale3/wireValid]</param>
+        <param name="blockType">typePinBlock</param>
+        <param name="hasBooleanType">true</param>
+        <param name="metadataTuple">()</param>
+        <param name="typePinType">(typeUFixed 1 0)</param>
+      </block>
+      <block name="(pin (3 ac))">
+        <param name="0">[/decimation_filter_FilterSystem/inputBlock/(3 ac)]</param>
+        <param name="blockType">typePinBlock</param>
+        <param name="typePinType">(typeUFixed 8 0)</param>
+      </block>
+      <block name="(pin (3 qc))">
+        <param name="0">[/decimation_filter_FilterSystem/Scale3/wireChannel]</param>
+        <param name="blockType">typePinBlock</param>
+        <param name="metadataTuple">()</param>
+        <param name="typePinType">(typeUFixed 8 0)</param>
+      </block>
+      <block name="Const1">
+        <param name="blockType">constBlock</param>
+        <param name="constType">(typeUFixed 1 0)</param>
+        <param name="constValue">0</param>
+        <param name="simulinkExtraCacheKeys">((1 1 0 ^4))</param>
+        <wire name="primWireOut"/>
+      </block>
+      <block name="Const3">
+        <param name="blockType">constBlock</param>
+        <param name="constType">(typeUFixed 1 0)</param>
+        <param name="constValue">0</param>
+        <param name="simulinkExtraCacheKeys">((1 1 0 ^4))</param>
+        <wire name="primWireOut"/>
+      </block>
+      <block name="DecimatingFIR1">
+        <param name="blockType">firBlock</param>
+        <param name="busAccessMode">busAccessReadWrite</param>
+        <param name="busBaseAddr">0</param>
+        <param name="busUsePipelinedReads">true</param>
+        <param name="firBandCount">1</param>
+        <param name="firChannelCount">1</param>
+        <param name="firCoefs">((0x1.92p-8 0 -0xC.b8p-8 0 0x4.b24p-4 0x8p-4 0x4.b24p-4 0 -0xC.b8p-8 0 0x1.92p-8))</param>
+        <param name="firCoefsType">(typeSFixed 1 15)</param>
+        <param name="firDecimFactor">4</param>
+        <param name="firInputRate">0x4.189374bc6a7fp-8</param>
+        <param name="firInterpFactor">1</param>
+        <param name="firMM">((0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15))</param>
+        <param name="firPortData">[/decimation_filter_FilterSystem/inputBlock/(1 a)]</param>
+        <param name="firShapeType">firShapeSymmetrical</param>
+        <param name="portChannel">[/decimation_filter_FilterSystem/inputBlock/(3 ac)]</param>
+        <param name="portValid">[/decimation_filter_FilterSystem/inputBlock/(2 av)]</param>
+        <param name="simulinkExtraCacheKeys">((1 17 16 0 1 0) (1 1 0 ^4) (1 8 0 ^4) (1 37 31 0 1 0) (1 1 0 ^4) (1 8 0 ^4))</param>
+        <param name="simulinkPath">"decimation_filter/FilterSystem/DecimatingFIR1"</param>
+        <wire name="firWireData"/>
+        <wire name="wireChannel"/>
+        <wire name="wireValid"/>
+      </block>
+      <block name="DecimatingFIR2">
+        <param name="blockType">firBlock</param>
+        <param name="busAccessMode">busAccessReadWrite</param>
+        <param name="busBaseAddr">6</param>
+        <param name="busUsePipelinedReads">true</param>
+        <param name="firBandCount">1</param>
+        <param name="firChannelCount">1</param>
+        <param name="firCoefs">((0x8p-16 0 -0x3.ap-12 0 0x1.06p-8 0 -0x3.4ap-8 0 0x8.b4p-8 0 -0x1.5c2p-4 0 0x4.f86p-4 0x8p-4 0x4.f86p-4 0 -0x1.5c2p-4 0 0x8.b4p-8 0 -0x3.4ap-8 0 0x1.06p-8 0 -0x3.ap-12 0 0x8p-16))</param>
+        <param name="firCoefsType">(typeSFixed 1 15)</param>
+        <param name="firDecimFactor">4</param>
+        <param name="firInputRate">0x4.189374bc6a7fp-8</param>
+        <param name="firInterpFactor">1</param>
+        <param name="firMM">((0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15))</param>
+        <param name="firPortData">[/decimation_filter_FilterSystem/Scale2/scaleWireData]</param>
+        <param name="firShapeType">firShapeSymmetrical</param>
+        <param name="portChannel">[/decimation_filter_FilterSystem/Scale2/wireChannel]</param>
+        <param name="portValid">[/decimation_filter_FilterSystem/Scale2/wireValid]</param>
+        <param name="simulinkExtraCacheKeys">((1 17 16 0 1 0) (1 1 0 ^4) (1 8 0 ^4) (1 38 31 0 1 0) (1 1 0 ^4) (1 8 0 ^4))</param>
+        <param name="simulinkPath">"decimation_filter/FilterSystem/DecimatingFIR2"</param>
+        <wire name="firWireData"/>
+        <wire name="wireChannel"/>
+        <wire name="wireValid"/>
+      </block>
+      <block name="Scale2">
+        <param name="blockType">scaleBlock</param>
+        <param name="portChannel">[/decimation_filter_FilterSystem/DecimatingFIR1/wireChannel]</param>
+        <param name="portValid">[/decimation_filter_FilterSystem/DecimatingFIR1/wireValid]</param>
+        <param name="scaleOutputType">(typeSFixed 1 16)</param>
+        <param name="scalePortData">[/decimation_filter_FilterSystem/DecimatingFIR1/firWireData]</param>
+        <param name="scalePortShift">[/decimation_filter_FilterSystem/Const1/primWireOut]</param>
+        <param name="scaleRoundingMode">roundingUnbiased</param>
+        <param name="scaleSaturateMode">saturateSymmetric</param>
+        <param name="scaleShiftVector">(0)</param>
+        <param name="simulinkExtraCacheKeys">((1 37 31 0 1 0) (1 1 0 ^4) (1 8 0 ^4) (1 1 0 ^4) (1 17 16 0 1 0) (1 1 0 ^4) (1 8 0 ^4) (1 1 0 ^4))</param>
+        <param name="simulinkPath">"decimation_filter/FilterSystem/Scale2"</param>
+        <param name="synthBitAccurate">false</param>
+        <wire name="scaleWireData"/>
+        <wire name="scaleWireOverflow"/>
+        <wire name="wireChannel"/>
+        <wire name="wireValid"/>
+      </block>
+      <block name="Scale3">
+        <param name="blockType">scaleBlock</param>
+        <param name="portChannel">[/decimation_filter_FilterSystem/DecimatingFIR2/wireChannel]</param>
+        <param name="portValid">[/decimation_filter_FilterSystem/DecimatingFIR2/wireValid]</param>
+        <param name="scaleOutputType">(typeSFixed 1 16)</param>
+        <param name="scalePortData">[/decimation_filter_FilterSystem/DecimatingFIR2/firWireData]</param>
+        <param name="scalePortShift">[/decimation_filter_FilterSystem/Const3/primWireOut]</param>
+        <param name="scaleRoundingMode">roundingUnbiased</param>
+        <param name="scaleSaturateMode">saturateSymmetric</param>
+        <param name="scaleShiftVector">(0)</param>
+        <param name="simulinkExtraCacheKeys">((1 38 31 0 1 0) (1 1 0 ^4) (1 8 0 ^4) (1 1 0 ^4) (1 17 16 0 1 0) (1 1 0 ^4) (1 8 0 ^4) (1 1 0 ^4))</param>
+        <param name="simulinkPath">"decimation_filter/FilterSystem/Scale3"</param>
+        <param name="synthBitAccurate">false</param>
+        <wire name="scaleWireData"/>
+        <wire name="scaleWireOverflow"/>
+        <wire name="wireChannel"/>
+        <wire name="wireValid"/>
+      </block>
+      <block name="inputBlock">
+        <param name="blockType">inputBlock</param>
+        <param name="simulinkExtraCacheKeys">((1 17 16 0 1 0) (1 1 0 ^4) (1 8 0 ^4))</param>
+        <wire name="(1 a)"/>
+        <wire name="(2 av)"/>
+        <wire name="(3 ac)"/>
+      </block>
+      <block name="outputBlock">
+        <param name="(1 q)">[/decimation_filter_FilterSystem/Scale3/scaleWireData]</param>
+        <param name="(2 qv)">[/decimation_filter_FilterSystem/Scale3/wireValid]</param>
+        <param name="(3 qc)">[/decimation_filter_FilterSystem/Scale3/wireChannel]</param>
+        <param name="blockType">outputBlock</param>
+        <param name="metadataTuple">()</param>
+      </block>
+    </model>
+  </design>
+
+</dsp-builder>
